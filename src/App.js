@@ -14,7 +14,6 @@ import ICODevelopment from "./Pages/ICODevelopment";
 import NFTTokenomics from "./Pages/NFTTokenomics";
 import UIDesign from "./Pages/UIDesign";
 import DigitalMarketing from "./Pages/DigitalMarketing";
-
 import HashLoader from "react-spinners/HashLoader";
 import Banner from "./Components/Home/Banner/Banner";
 import Portfolio from "./Pages/Portfolio";
@@ -27,7 +26,6 @@ function App() {
       setloading(false);
     }, 2000);
   }, []);
-// test comment
   return (
     <div className="App">
       {loading ? (

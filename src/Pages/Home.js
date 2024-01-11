@@ -7,7 +7,6 @@ import Chose from "../Components/Home/Chose/Chose";
 import OurClient from "../Components/Home/OurClient/OurClient";
 import Testimonials from "../Components/Home/Testimonials/Testimonials";
 import Life from "../Components/Home/Life/Life";
-import Team from "../Components/Home/Team/Team";
 import Faq from "../Components/Home/Faq/Faq";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
 import AboutUs from "../Components/Home/AboutUs/AboutUs";
@@ -38,7 +37,6 @@ export default function Home() {
 
       {/* <Life /> */}
       <BookApointment />
-      <Team />
       <Faq />
     </Layout>
   )
