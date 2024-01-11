@@ -1,0 +1,21 @@
+/* .our_apps_card{
+} */
+
+.our_apps_card_img{
+    border-radius: 15px;
+    cursor: pointer;
+
+
+}
+.our_apps_card_heading{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+.our_apps_card{
+    padding: 0 30px 0 30px;
+
+}
+}

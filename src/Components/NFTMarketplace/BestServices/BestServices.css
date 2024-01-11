@@ -1,0 +1,34 @@
+.marketplace_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    padding: 30px;
+}
+.marketplace_para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.marketplace_card{
+    background-color: #FE9D50;
+    padding: 20px;
+    border-radius: 10px;
+}
+.marketplace_best_img{
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .best_services_cards_padding{
+        padding: 40px !important;
+    }
+    .adjust_center_cards{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+}

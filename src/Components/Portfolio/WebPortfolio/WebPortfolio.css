@@ -1,0 +1,14 @@
+.web_potfolio_img{
+    padding: 20px;
+}
+.web_p_para{
+    padding: 20px;
+    color: white;
+}
+.web_portfolio{
+    background-color: var(--primary-color);
+    padding: 50px 0 30px 0;
+}
+.web_p_head{
+    color: white;
+}

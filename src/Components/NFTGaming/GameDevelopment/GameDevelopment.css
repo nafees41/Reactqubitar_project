@@ -1,0 +1,47 @@
+.game_dev_head{
+    color: var(--secondary-color);
+}
+.game_dev_para{
+    padding: 20px;
+    Line-height:30px;
+
+}
+.game_dev_card_head{
+    padding-left: 20px;
+}
+.game_card_para{
+    padding-left: 20px;
+}
+.game_dev_card{
+    background-color: #F4F3F1;
+    padding: 10px;
+}
+.game_dev_card{
+    padding: 10px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.game_dev_card:hover{
+    -webkit-box-shadow: 10px 10px 16px 0px var(--primary-color);
+    transform: translateY(-13px);    
+}
+
+.game_dev_cardth{
+    padding: 10px;
+}
+@media (max-width:768px) {
+    .game_dev_card{
+        padding: 30px;
+    }
+    .game_dev_cardth{
+        padding: 30px;
+    }
+    .game_dev_head{
+        padding-left: 30px;
+    }
+    .game_dev_para{
+        padding: 30px;
+      
+    
+    }
+    
+}

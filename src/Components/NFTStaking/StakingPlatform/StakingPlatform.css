@@ -1,0 +1,90 @@
+.staking_platform_heading{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    align-items: center;
+}
+@media (max-width:768px) {
+    .staking_platform_heading{
+        padding: 25px;
+    }
+    .staking_platform_left{
+        padding-left: 60px;
+    }
+    .ntf_card_bottom{
+        padding-left: 30px;
+    }
+    .staking_platform_coin{
+       display: none !important;
+    }
+    img.ntf_card_top {
+     
+         
+        padding-left: 67px;
+    
+    }
+    .platform_para{
+        padding: 30px;
+    }
+    .Unique_Agile{
+        margin-top:40px !important;
+    }
+    .platform_lines_row{
+        padding: 0 30px 0 30px;
+    }
+ 
+
+    
+}
+.staking_platform_left{
+    display: flex;
+    flex-direction: row;
+}
+
+.staking_platform_coin{
+   display: flex;
+   justify-content: end !important;
+   
+}
+.platform_lines{
+    background-color: #F4F3F1;
+    margin-top: 20px;
+    
+border-radius: 5px;    
+padding: 20px;
+box-shadow: 7px 5px 11px -1px rgba(0,0,0,0.31);
+-webkit-box-shadow: 7px 5px 11px -1px rgba(0,0,0,0.31);
+-moz-box-shadow: 7px 5px 11px -1px rgba(0,0,0,0.31); 
+}
+.platform_lines_para{
+    margin-top: 20px;
+    padding-left:30px;
+
+    cursor: pointer;
+   
+}
+/* .ntf_card_top{
+    transition: all 0.5s ease-in-out 0s;
+} */
+/* .ntf_card_top:hover{
+    transition: all 0.5s ease-in-out 0s;
+    transform: translateY(40px);
+    
+} */
+
+
+img.ntf_card_top {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+     
+
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-40px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-40px); }
+}

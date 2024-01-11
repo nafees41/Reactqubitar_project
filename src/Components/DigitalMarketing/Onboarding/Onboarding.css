@@ -1,0 +1,22 @@
+.on_card{
+    background-color: #f5f5f5;
+  
+    transition: all 0.5s ease-in-out 0s;
+    padding: 25px;
+    border-radius: 100% 0% 100% 0% / 0% 75% 25% 100% ;
+    border-bottom: 5px solid #FC7E13;
+    margin-top: 4%;
+padding: 20px;
+}
+.onboard_head{
+    color: var(--secondary-color);
+}
+.on_card_content{
+    display: flex;
+
+    flex-direction: row;
+}
+.on_card_num{
+    color: var(--primary-color);
+    padding-right: 10px;
+}

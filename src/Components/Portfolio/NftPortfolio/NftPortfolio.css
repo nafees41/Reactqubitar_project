@@ -1,0 +1,15 @@
+.nft_potfolio_img{
+    padding: 20px;
+}
+.nft_p_para{
+    padding: 20px;
+    color: white;
+}
+.nft_portfolio{
+    background-color: var(--secondary-color);
+    padding: 50px 0 30px 0;
+
+}
+.nft_p_head{
+    color: white;
+}

@@ -1,0 +1,67 @@
+.angular_side{
+    background:var(--secondary-color);
+    color: white;
+        border-radius: 20px 0 0 20px;
+}
+
+.angular-img{
+    background: var(--primary-color);
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.angular-heading{
+    color: var(--secondary-color);
+    padding: 25px;
+}
+.cutom_box_b{
+    transition: all 0.5s ease-in-out 0s;
+}
+.cutom_box_b{
+    box-shadow: 10px 10px 16px 0px var(--primary-color);
+        -webkit-box-shadow: 5px 5px 16px 0px var(--secondary-color);
+        -moz-box-shadow: 10px 10px 16px 0px var(--primary-color);
+    
+        /* transform: translateX(13px); */
+}
+.custom_box_a {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.custom_box_a {
+    box-shadow: 10px 10px 16px 0px var(--secondary-color);
+    -webkit-box-shadow: 10px 10px 16px 0px var(--primary-color);
+    -moz-box-shadow: 10px 10px 16px 0px var(--secondary-color);
+
+    /* transform: translateX(-13px); */
+}
+    
+.underpara{
+    padding: 20px;
+}
+@media (max-width:768px) {
+    
+    .angular_side{
+        flex: 0 0 100% !important;
+            max-width: 100% !important;
+            padding: 0 20px 0 30px !important;
+           
+    }
+        .angular_side {
+           
+            border-radius: 0;
+        }
+                .angular-img {
+                    
+                    border-radius:0;
+                   
+                }
+}
+.angular-para{
+    padding: 0 30px 0 30px;
+}
+.nft_img{
+    max-width: 55% !important;
+    margin-top: 10px;
+}

@@ -1,0 +1,15 @@
+.tokenization_head{
+    color: var(--secondary-color);
+}
+
+@media (max-width:768px) {
+    .tokenization_head{
+        padding: 20px;
+    }
+    .tokenization_para{
+        padding: 30px;
+    }
+    .tokenization_img{
+        padding: 20px;
+    }
+}

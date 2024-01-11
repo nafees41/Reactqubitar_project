@@ -1,0 +1,25 @@
+.future_scope{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,39,79,1) 50%, rgba(12,146,173,1) 100%);
+    background-image: var("../../../images/NFTGaming/bg.png") !important;
+}
+.future_scope_head{
+    color: white;
+    padding: 20px 20px 10px 20px;
+}
+.gaming_space{
+    color: var(--primary-color);
+}
+.future_scope_para{
+    padding: 20px;
+    color: white;
+}
+.robot{
+    padding: 30px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.robot:hover{
+    filter: drop-shadow(8px 8px 4px var(--primary-color));
+    transition: all 0.5s ease-in-out 0s;
+    
+}

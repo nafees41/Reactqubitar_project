@@ -1,0 +1,23 @@
+.wordpress_right{
+    transition: 0.5s ease-out;
+    }
+    .wordpress_right:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.5s ease-out;
+        }
+        .nft_feature_img{
+            padding: 0 25px 25px 25px;
+        }
+
+/*        
+  .item-group {
+    --xyz-rotate-x: 90deg;
+    --xyz-rotate-z: -180deg;
+    --xyz-origin: -200%;
+    --xyz-stagger: 0.1s;
+    --xyz-duration: 0.75s;
+    --xyz-perspective: 100px;
+    --xyz-translate-z: 100px;
+    --xyz-translate-y: 10vh;
+  } */

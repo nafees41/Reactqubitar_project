@@ -1,0 +1,9 @@
+.navarrow{
+    margin-left: 16%;
+}
+.navarrow_list{
+   color: black;
+}
+.navarrow_list:hover{
+   display: block;
+}

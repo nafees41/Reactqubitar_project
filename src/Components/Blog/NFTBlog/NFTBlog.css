@@ -1,0 +1,60 @@
+.nft_blog_cards{
+    background: #f5f5f5;
+    padding: 30px;
+}
+.nft_card_desk{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+padding: 0 30px 0 30px;
+
+}
+.nft_card_para{
+    padding: 0 30px 0 30px;
+
+}
+.blog_img{
+    display: flex;
+    justify-content: center;
+}
+.read_now{
+    width: 60%;
+    margin-left: 30px;
+
+}
+.read_now:hover {
+    width: 60%;
+    background-color: var(--secondary-color);
+}
+
+.nft_button_img{
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .nft_blog_cards {
+      
+        padding: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.wordpress_heading {
+    color: var(--secondary-color);
+    padding: 25px;
+}
+.wordpress_para{
+    padding: 20px;
+}
+.wordpress_right{
+    padding: 20px;
+    font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: start;
+    
+}
+.heath_care{
+    padding-left: 20px;
+}
+.main_wordpress_right{
+display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+/* .w_banner_line{
+    width: 40rem;
+} */

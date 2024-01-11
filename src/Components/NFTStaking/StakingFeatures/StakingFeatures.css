@@ -1,0 +1,11 @@
+.wordpress_right{
+    transition: 0.5s ease-out;
+    }
+    .wordpress_right:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.5s ease-out;
+        }
+        .nft_feature_img{
+            padding: 0 25px 25px 25px;
+        }

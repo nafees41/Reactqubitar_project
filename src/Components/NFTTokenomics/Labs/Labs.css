@@ -1,0 +1,27 @@
+.labs_card{
+    background-color: white;
+    box-shadow: 0px 4px 17px rgb(0 0 0 / 5%);
+    border-radius: 13px;
+    padding: 20px;
+}
+.lab_head{
+    color: var(--secondary-color);
+}
+.lab_req{
+    color: var(--secondary-color);
+}
+.labs_para{
+    padding: 20px;
+}
+@media (max-width:768px) {
+    .lab_head{
+        padding: 0 30px 0 30px;
+    }
+    .labs_para{
+        padding: 0 30px 0 30px;
+
+    }
+    .labs_card_align{
+        padding: 30px;
+    }
+}

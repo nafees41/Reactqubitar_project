@@ -1,0 +1,139 @@
+
+
+.client-card {
+  background: #FFFFFF;
+  border-radius: 5px;
+  /* padding-bottom: 100px; */
+  padding: 30px;
+  height: 320px;
+  border: 3px solid #F5F5F5;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* @media screen and (max-width:768) {
+
+  .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+    left: 35% !important;
+  }
+} */
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 42%;
+  right: auto;
+  top: auto;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+
+
+
+
+/* 
+  @media (max-width: 992px) {
+    left: 40%;
+  } */
+
+  @media (max-width: 768px) {
+    left: 35%;
+  }
+
+  /* @media (max-width: 575px) {
+    left: 28%;
+  } */
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 42%;
+  left: auto;
+  top: auto;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--primary-color);
+
+  bottom: 0;
+    background: var(--primary-color);
+
+  /* @media (max-width: 992px) {
+    right: 40%;
+  } */
+
+  /* @media (max-width: 767.98px) {
+    right: 35%;
+  } */
+
+  /* @media (max-width: 575px) {
+    right: 28%;
+  } */
+}
+
+@media (max-width: 767px) {
+  .client-card {
+    padding: 0.5rem !important;
+
+  }
+
+  .testimonials-feed-back {
+    width: 160%;
+  }
+}
+
+.testi-heading {
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #123054;
+}
+@media (max-width: 768px) {
+  
+.testi-heading {
+      padding: 0px 2px 0 30px !important;
+      font-size: 31px;
+  }
+  .client-card-desc{
+    padding: 0 20px 0 30px;
+  }
+  .testi-para{
+    padding: 0 20px 0 30px;
+  }
+  .client-card-heading{
+    padding: 0 20px 0 30px;
+  }
+  .client-img{
+        padding: 0 20px 0 30px;
+
+  }
+  .client-card{
+        padding: 0 20px 0 30px;
+  }
+  }
+
+
+.client-card-heading {
+  font-family: CocoSharp Trial;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FF7A00;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 15px;
+  color: #f3d74c;
+}

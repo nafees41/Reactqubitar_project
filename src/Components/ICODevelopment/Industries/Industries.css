@@ -1,0 +1,53 @@
+.industries_bg{
+    background-color: var(--secondary-color);
+    padding: 50px 50px 150px 50px;
+}
+.industries_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 2%;
+}
+.indus_container{
+    background-color: white;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-top: -7%;
+}
+.indus_head{
+color: var(--primary-color);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+.indus_para{
+    padding: 10px 30px 10px 30px ;
+}
+.indus_number{
+    color: var(--primary-color);
+
+    padding-left: 20px;
+}
+.indus_card_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .indus_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+@media (max-width:768px) {
+    .indus_icons_row{
+        display: none !important;
+    }
+    .indus_cards_align{
+        padding-left: 100px !important;
+    }
+}
+
