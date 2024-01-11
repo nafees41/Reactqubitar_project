@@ -13,6 +13,7 @@ import linkedin from "../../../images/linkedin.png";
 import navarrow from "../../../images/navarrow.png";
 
 import "./Navbar.css";
+import ChatApp from '../../Chatapp/chatpage'
 
 
 
@@ -358,7 +359,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-
+<ChatApp/>
 
     </Wrapper>
   );
