@@ -17,6 +17,7 @@ import DigitalMarketing from "./Pages/DigitalMarketing";
 import HashLoader from "react-spinners/HashLoader";
 import Banner from "./Components/Home/Banner/Banner";
 import Portfolio from "./Pages/Portfolio";
+import { Error } from "./Components/Errorpage/Error";
 
 function App() {
   const [loading, setloading] = useState(false);
@@ -38,7 +39,7 @@ function App() {
         </div>
       ) : (
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/nft" element={<NftDev />} />
           <Route path="/nft_staking" element={<NFTStaking />} />
           <Route path="/nft_gaming" element={<NFTGaming />} />
@@ -57,6 +58,7 @@ function App() {
           <Route path="/digital_marketing" element={<DigitalMarketing />} />
 
           <Route path="*" element={<Home />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       )}
     </div>
