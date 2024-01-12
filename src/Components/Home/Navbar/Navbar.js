@@ -101,14 +101,14 @@ function Navbar() {
         <div className="row">
           <div className="col-md-12 ">
             <div className="nav-logo ">
-              <NavHashLink to="/">
+              <Link to="/">
                 <img src={Logo} className="img-fluid " alt="logo" />
-              </NavHashLink>
+              </Link>
             </div>{" "}
             <div className="nav-link-container">
               <ul className="menu">
                 <li className="navLink">
-                  <NavHashLink
+                  <Link
                     to="/"
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
@@ -116,10 +116,10 @@ function Navbar() {
                     }}
                   >
                     Home
-                  </NavHashLink>{" "}
+                  </Link>{" "}
                 </li>
                 <li className="navLink">
-                  <NavHashLink>
+                  <Link>
                     <ul class="menu">
                       <li class="dropdown dropdown-5">
                         <div className="iconDrop">
@@ -131,25 +131,25 @@ function Navbar() {
                           </div>
                         </div>
                         <ul class="dropdown_menu dropdown_menu-5">
-                          <NavHashLink to="/web_development">
+                          <Link to="/web_development">
                             <li class="dropdown_item-1">Web Development</li>
-                          </NavHashLink>
-                          <NavHashLink to="/mobile_dev">
+                          </Link>
+                          <Link to="/mobile_dev">
                             <li class="dropdown_item-2">Mobile Development</li>
-                          </NavHashLink>
-                          <NavHashLink to="/ui_ux_design">
+                          </Link>
+                          <Link to="/ui_ux_design">
                             <li class="dropdown_item-3">UI/UX Design</li>
-                          </NavHashLink>
-                          <NavHashLink to="/digital_marketing">
+                          </Link>
+                          <Link to="/digital_marketing">
                             <li class="dropdown_item-4">Digital Marketing</li>
-                          </NavHashLink>
+                          </Link>
                         </ul>
                       </li>
                     </ul>
-                  </NavHashLink>
+                  </Link>
                 </li>
                 <li className="navLink">
-                  <NavHashLink>
+                  <Link>
                     <ul class="menu">
                       <li class="dropdown dropdown-5">
                         <div className="iconDrop">
@@ -162,28 +162,28 @@ function Navbar() {
                           </div>
                         </div>
                         <ul class="dropdown_menu dropdown_menu-5 ">
-                          <NavHashLink to="/nft">
+                          <Link to="/nft">
                             <li class=" dropdown_item-1 ">NFT Development</li>
-                          </NavHashLink>
-                          <NavHashLink to="/nft_staking">
+                          </Link>
+                          <Link to="/nft_staking">
                             <li class="dropdown_item-1">
                               Staking Platform Development
                             </li>
-                          </NavHashLink>
-                          <NavHashLink to="/nft_marketplace">
+                          </Link>
+                          <Link to="/nft_marketplace">
                             <li class="dropdown_item-2">NFT Marketplace</li>
-                          </NavHashLink>
+                          </Link>
 
-                          <NavHashLink to="/nft_gaming">
+                          <Link to="/nft_gaming">
                             <li class="dropdown_item-3">
                               NFT Game Development
                             </li>
-                          </NavHashLink>
-                          <NavHashLink to="/real_estate_development">
+                          </Link>
+                          <Link to="/real_estate_development">
                             <li class="dropdown_item-4">
                               Real Estate Tokenization
                             </li>
-                          </NavHashLink>
+                          </Link>
                           {/* <NavHashLink to='/token_development'>
                             <li class="dropdown_item-5">
 
@@ -192,17 +192,17 @@ function Navbar() {
 
                             </li>
                           </NavHashLink> */}
-                          <NavHashLink to="/ico_development">
+                          <Link to="/ico_development">
                             <li class="dropdown_item-6">ICO Development</li>
-                          </NavHashLink>
+                          </Link>
                         </ul>
                       </li>
                     </ul>
-                  </NavHashLink>
+                  </Link>
                 </li>
 
                 <li className="navLink">
-                  <NavHashLink
+                  <Link
                     to="/portfolio"
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
@@ -210,7 +210,7 @@ function Navbar() {
                     }}
                   >
                     Portfolio
-                  </NavHashLink>
+                  </Link>
                 </li>
 
                 {/* <li className="navLink">
@@ -225,7 +225,7 @@ function Navbar() {
                 </li> */}
 
                 <li className="navLink">
-                  <NavHashLink
+                  <Link
                     to="/blog"
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
@@ -233,11 +233,11 @@ function Navbar() {
                     }}
                   >
                     Blogs
-                  </NavHashLink>
+                  </Link>
                 </li>
                 <li className="nav-button">
                   <li>
-                    <NavHashLink
+                    <Link
                       to="/#bookappointment"
                       smooth
                       scroll={(el) => scrollWithOffset(el)}
@@ -256,7 +256,7 @@ function Navbar() {
                         </span>
                         <span data-attr="US">US</span>
                       </div>
-                    </NavHashLink>
+                    </Link>
                   </li>
                 </li>
               </ul>{" "}

@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react'
 import { NavLink } from "react-router-dom";
-export const Error = () => {
+
+
+const Error = () => {
   return (
-    <>
-      <div className="d-flex align-items-center justify-content-center vh-100">
+    <div>
+        <div className="d-flex align-items-center justify-content-center vh-100">
         <div className="text-center row">
           <div className=" col-md-6">
             <img
@@ -24,6 +26,9 @@ export const Error = () => {
           </div>
         </div>
       </div>
-    </>
-  );
-};
+    </div>
+  )
+}
+
+export default Error
+

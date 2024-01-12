@@ -17,7 +17,7 @@ import DigitalMarketing from "./Pages/DigitalMarketing";
 import HashLoader from "react-spinners/HashLoader";
 import Banner from "./Components/Home/Banner/Banner";
 import Portfolio from "./Pages/Portfolio";
-import { Error } from "./Components/Errorpage/Error";
+import  Error  from "./Components/Errorpage/Error";
 
 function App() {
   const [loading, setloading] = useState(false);
@@ -39,7 +39,7 @@ function App() {
         </div>
       ) : (
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home />} />
           <Route path="/nft" element={<NftDev />} />
           <Route path="/nft_staking" element={<NFTStaking />} />
           <Route path="/nft_gaming" element={<NFTGaming />} />
@@ -48,24 +48,19 @@ function App() {
           <Route path="/mobile_dev" element={<MobileDev />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/token_development" element={<NFTToken />} />
-          <Route path="/portfolio" element={<Portfolio/>} />
-
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/real_estate_development" element={<NFTRealEstate />} />
           <Route path="/ico_development" element={<ICODevelopment />} />
           <Route path="/nft_tokenomics" element={<NFTTokenomics />} />
           <Route path="/ui_ux_design" element={<UIDesign />} />
-
           <Route path="/digital_marketing" element={<DigitalMarketing />} />
-
-          <Route path="*" element={<Home />} />
           <Route path="*" element={<Error />} />
         </Routes>
       )}
     </div>
   );
 }
-
-function NotFound() {
+ function NotFound() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/", { replace: true });
