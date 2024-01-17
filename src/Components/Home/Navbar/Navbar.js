@@ -1,17 +1,14 @@
 /** @format */
-
 import React, { useEffect, useState } from "react";
 import Wrapper from "./Navbar.styled";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import Logo from "../../../images/Logo.png";
-
 import whatsapp from "../../../images/whatsapp.png";
 import skyp from "../../../images/skyp.png";
 import linkedin from "../../../images/linkedin.png";
 import navarrow from "../../../images/navarrow.png";
-
 import "./Navbar.css";
 import ChatApp from "../../Chatapp/chatpage";
 
@@ -113,11 +110,10 @@ function Navbar() {
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
                       setMobileMenu(false);
-                    }}
-                  >
-                    Home
-                  </Link>{" "}
+                    }}>Home
+                  </Link>
                 </li>
+
                 <li className="navLink">
                   <Link>
                     <ul class="menu">
@@ -127,7 +123,8 @@ function Navbar() {
                           <div className="icon">
                             <Icon
                               icon="bxs:down-arrow"
-                              style={{ marginBottom: "4px" }}/>
+                              style={{marginBottom:"4px"}}
+                            />
                           </div>
                         </div>
                         <ul class="dropdown_menu dropdown_menu-5">
@@ -140,6 +137,37 @@ function Navbar() {
                           <Link to="/ui_ux_design">
                             <li class="dropdown_item-3">UI/UX Design</li>
                           </Link>
+                          <li className="dropdown_item-5">
+                            <div className="dropText">Web 3.0</div>
+
+                            <ul class="dropdown_menu dropdown_menu-5 drop-left">
+                              <Link to="/nft">
+                                <li class="dropdown_item-1">NFT Development</li>
+                              </Link>
+                              <Link to="/nft_staking">
+                                <li class="dropdown_item-1">
+                                  Staking Platform Development
+                                </li>
+                              </Link>
+                              <Link to="/nft_marketplace">
+                                <li class="dropdown_item-2">NFT Marketplace</li>
+                              </Link>
+
+                              <Link to="/nft_gaming">
+                                <li class="dropdown_item-3">
+                                  NFT Game Development
+                                </li>
+                              </Link>
+                              <Link to="/real_estate_development">
+                                <li class="dropdown_item-4">
+                                  Real Estate Tokenization
+                                </li>
+                              </Link>
+                              <Link to="/ico_development">
+                                <li class="dropdown_item-6">ICO Development</li>
+                              </Link>
+                            </ul>
+                          </li>
                           <Link to="/digital_marketing">
                             <li class="dropdown_item-4">Digital Marketing</li>
                           </Link>
@@ -148,12 +176,13 @@ function Navbar() {
                     </ul>
                   </Link>
                 </li>
-                <li className="navLink">
+
+                {/* <li className="navLink">
                   <Link>
                     <ul class="menu">
                       <li class="dropdown dropdown-5">
                         <div className="iconDrop">
-                          <div className="dropText"> Web 3.0</div>
+                          <div className="dropText">Web 3.0</div>
                           <div className="icon">
                             <Icon
                               icon="bxs:down-arrow"
@@ -163,7 +192,7 @@ function Navbar() {
                         </div>
                         <ul class="dropdown_menu dropdown_menu-5 ">
                           <Link to="/nft">
-                            <li class=" dropdown_item-1 ">NFT Development</li>
+                            <li class="dropdown_item-1">NFT Development</li>
                           </Link>
                           <Link to="/nft_staking">
                             <li class="dropdown_item-1">
@@ -184,14 +213,6 @@ function Navbar() {
                               Real Estate Tokenization
                             </li>
                           </Link>
-                          {/* <NavHashLink to='/token_development'>
-                            <li class="dropdown_item-5">
-
-                            Tokenomics Development
-
-
-                            </li>
-                          </NavHashLink> */}
                           <Link to="/ico_development">
                             <li class="dropdown_item-6">ICO Development</li>
                           </Link>
@@ -199,7 +220,7 @@ function Navbar() {
                       </li>
                     </ul>
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="navLink">
                   <Link
@@ -234,6 +255,9 @@ function Navbar() {
                   >
                     Blogs
                   </Link>
+                </li>
+                <li className="navLink">
+                  <Link to="/">Career</Link>
                 </li>
                 <li className="nav-button">
                   <li>

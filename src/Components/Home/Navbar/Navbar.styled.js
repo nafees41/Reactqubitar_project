@@ -324,8 +324,7 @@ const Wrapper = styled.nav`
   .dropdown_menu {
     position: absolute;
     top: 100%;
-    left: 0px;
-    width: 330px;
+    width: 220px;
     perspective: 1000px;
     /* z-index: -1; */
 
