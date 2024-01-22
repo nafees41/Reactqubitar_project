@@ -19,15 +19,13 @@ export default function WebDev() {
 
     <WebBanner/>
     <CustomWeb/>
+    <JavaDev/>
+    <WordpressDev/>
+    <BookApointment/>
     <AngularJs/>
     <NodeJs/>
-    <WordpressDev/>
     {/* <Ecommerce/> */}
-    <BookApointment/>
-    <JavaDev/>
-
-
-</Layout>
+   </Layout>
   )
 }
 

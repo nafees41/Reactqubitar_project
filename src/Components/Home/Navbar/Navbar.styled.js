@@ -1,7 +1,4 @@
-/** @format */
-
 import styled from "styled-components";
-
 import HeaderBg from "../../../images/header.png";
 
 const Wrapper = styled.nav`

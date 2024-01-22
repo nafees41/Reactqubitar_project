@@ -1,16 +1,21 @@
 /** @format */
+
 import React, { useEffect, useState } from "react";
 import Wrapper from "./Navbar.styled";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import Logo from "../../../images/Logo.png";
+
 import whatsapp from "../../../images/whatsapp.png";
 import skyp from "../../../images/skyp.png";
 import linkedin from "../../../images/linkedin.png";
 import navarrow from "../../../images/navarrow.png";
-import "./Navbar.css";
 import ChatApp from "../../Chatapp/chatpage";
+
+import "./Navbar.css";
+
+
 
 function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -68,55 +73,67 @@ function Navbar() {
     window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
   };
 
+
+
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
 
+
     // const mediaQuery = window.matchMedia('(max-width: 768px)');
 
     if (window.innerWidth < 768 && prevScrollpos < 50) {
-      document.getElementById("navWaper").style.top = "-10px";
-    } else {
-      document.getElementById("navWaper").style.top = "-95px";
-      document.getElementById("navWaper").style.transition = " all 1s ease";
+      document.getElementById("navWaper").style.top = '-10px';
+    }
+    else {
+      document.getElementById("navWaper").style.top = '-95px';
+      document.getElementById("navWaper").style.transition = ' all 1s ease';
 
       prevScrollpos = currentScrollPos;
+
     }
 
     if (prevScrollpos < 50) {
-      document.getElementById("navWaper").style.top = "-10px";
+      document.getElementById("navWaper").style.top = '-10px';
     } else {
-      document.getElementById("navWaper").style.top = "-75px";
-      document.getElementById("navWaper").style.transition = " all 1s ease";
+
+
+      document.getElementById("navWaper").style.top = '-75px';
+      document.getElementById("navWaper").style.transition = ' all 1s ease';
     }
     prevScrollpos = currentScrollPos;
-  };
+  }
+
 
   return (
     <Wrapper id="navWaper">
-      <div className="container ">
+
+      <div className="container-fluid" >
+
+
         <div className="row">
           <div className="col-md-12 ">
             <div className="nav-logo ">
-              <Link to="/">
+              <NavHashLink to="/">
                 <img src={Logo} className="img-fluid " alt="logo" />
-              </Link>
+              </NavHashLink>
             </div>{" "}
             <div className="nav-link-container">
               <ul className="menu">
                 <li className="navLink">
-                  <Link
+                  <NavHashLink
                     to="/"
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
                       setMobileMenu(false);
-                    }}>Home
-                  </Link>
+                    }}>
+                    Home
+                  </NavHashLink>{" "}
                 </li>
-
                 <li className="navLink">
-                  <Link>
-                    <ul class="menu">
+                  <NavHashLink
+                  >
+                   <ul class="menu">
                       <li class="dropdown dropdown-5">
                         <div className="iconDrop">
                           <div className="dropText"> Services</div>
@@ -174,64 +191,100 @@ function Navbar() {
                         </ul>
                       </li>
                     </ul>
-                  </Link>
+                  </NavHashLink>
                 </li>
-
                 {/* <li className="navLink">
-                  <Link>
+                  <NavHashLink
+                  >
                     <ul class="menu">
                       <li class="dropdown dropdown-5">
                         <div className="iconDrop">
-                          <div className="dropText">Web 3.0</div>
+                          <div className="dropText"> Web 3.0</div>
                           <div className="icon">
-                            <Icon
-                              icon="bxs:down-arrow"
-                              style={{ marginBottom: "4px" }}
-                            />
+                            <Icon icon="bxs:down-arrow" style={{ marginBottom: '4px' }} />
                           </div>
                         </div>
                         <ul class="dropdown_menu dropdown_menu-5 ">
-                          <Link to="/nft">
-                            <li class="dropdown_item-1">NFT Development</li>
-                          </Link>
-                          <Link to="/nft_staking">
-                            <li class="dropdown_item-1">
-                              Staking Platform Development
-                            </li>
-                          </Link>
-                          <Link to="/nft_marketplace">
-                            <li class="dropdown_item-2">NFT Marketplace</li>
-                          </Link>
 
-                          <Link to="/nft_gaming">
+                          <NavHashLink to='/nft'>
+                            <li class=" dropdown_item-1 ">
+
+
+
+                              NFT Development
+
+
+                            </li>
+                          </NavHashLink>
+                          <NavHashLink to='/nft_staking'>
+                            <li class="dropdown_item-1">
+
+                            Staking Platform Development
+
+                            </li>
+                          </NavHashLink>
+                          <NavHashLink to='/nft_marketplace'>
+                            <li class="dropdown_item-2">
+
+                              NFT Marketplace
+
+                            </li>
+                          </NavHashLink>
+
+                          <NavHashLink to='/nft_gaming'>
                             <li class="dropdown_item-3">
-                              NFT Game Development
+
+                            NFT Game Development
+
                             </li>
-                          </Link>
-                          <Link to="/real_estate_development">
+                          </NavHashLink>
+                          <NavHashLink to='/real_estate_development'>
                             <li class="dropdown_item-4">
-                              Real Estate Tokenization
+
+                            Real Estate Tokenization
+
+
                             </li>
-                          </Link>
-                          <Link to="/ico_development">
-                            <li class="dropdown_item-6">ICO Development</li>
-                          </Link>
+                          </NavHashLink>
+                          {/* <NavHashLink to='/token_development'>
+                            <li class="dropdown_item-5">
+
+                            Tokenomics Development
+
+
+                            </li>
+                          </NavHashLink> */}
+                          {/* <NavHashLink to='/ico_development'>
+                            <li class="dropdown_item-6">
+
+                              ICO Development
+
+                            </li>
+                          </NavHashLink>
+                         
+
+
                         </ul>
                       </li>
                     </ul>
-                  </Link>
-                </li> */}
+                  </NavHashLink>
+                </li> */} 
+
+
+
+
+
 
                 <li className="navLink">
-                  <Link
-                    to="/portfolio"
+                  <NavHashLink
+                    to='/portfolio'
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
                       setMobileMenu(false);
-                    }}
-                  >
+                    }}>
                     Portfolio
-                  </Link>
+
+                  </NavHashLink>
                 </li>
 
                 {/* <li className="navLink">
@@ -246,41 +299,31 @@ function Navbar() {
                 </li> */}
 
                 <li className="navLink">
-                  <Link
-                    to="/blog"
+                  <NavHashLink
+                    to='/blog'
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
                       setMobileMenu(false);
-                    }}
-                  >
+                    }}>
                     Blogs
-                  </Link>
-                </li>
-                <li className="navLink">
-                  <Link to="/">Career</Link>
+                  </NavHashLink>
                 </li>
                 <li className="nav-button">
                   <li>
-                    <Link
+                    <NavHashLink
                       to="/#bookappointment"
                       smooth
                       scroll={(el) => scrollWithOffset(el)}
                       onClick={() => {
                         setMobileMenu(false);
-                      }}
-                    >
+                      }}>
                       {/* Contact Us */}
 
                       <div class="center">
-                        <span
-                          data-attr="CONTACT "
-                          style={{ paddingRight: "30px" }}
-                        >
-                          Contact
-                        </span>
+                        <span data-attr="CONTACT " style={{paddingRight:'30px'}}>Contact</span>
                         <span data-attr="US">US</span>
                       </div>
-                    </Link>
+                    </NavHashLink>
                   </li>
                 </li>
               </ul>{" "}
@@ -289,8 +332,7 @@ function Navbar() {
               <button
                 onClick={() => {
                   setMobileMenu(!mobileMenu);
-                }}
-              >
+                }}>
                 {" "}
                 {mobileMenu ? (
                   <Icon icon="akar-icons:cross" />
@@ -303,47 +345,32 @@ function Navbar() {
         </div>
         <div className="container-fluid" id="home">
           <div className="sm-icons ">
-            <a
-              href="https://api.whatsapp.com/send?phone=+923026469153&amp;text=%20%20Hi%20there!"
-              target="_blank"
-              class="whatsapp-icon"
-              rel="nofollow noopener"
-            >
-              {" "}
-              <img
-                src={whatsapp}
-                className="img-fluid"
-                alt="switch"
-                loading="lazy"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://join.skype.com/invite/vSZo0hqcXPdn "
-            >
-              {" "}
-              <img
-                src={skyp}
-                className="img-fluid"
-                alt="switch"
-                loading="lazy"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/qubitars/"
-            >
+            <a  href="https://api.whatsapp.com/send?phone=+923026469153&amp;text=%20%20Hi%20there!" target="_blank" class="whatsapp-icon" rel="nofollow noopener"> <img
+              src={whatsapp}
+
+            
+              className="img-fluid"
+              alt="switch"
+              loading="lazy"
+            /></a>
+            <a target='_blank' href="https://join.skype.com/invite/vSZo0hqcXPdn "> <img
+              src={skyp}
+              className="img-fluid"
+              alt="switch"
+              loading="lazy"
+            /></a>
+            <a target='_blank' href="https://www.linkedin.com/company/qubitars/">
               <img
                 src={linkedin}
                 className="img-fluid"
                 alt="switch"
                 loading="lazy"
-              />
-            </a>
+              /></a>
           </div>
         </div>
       </div>
-      <ChatApp />
+
+
     </Wrapper>
   );
 }
