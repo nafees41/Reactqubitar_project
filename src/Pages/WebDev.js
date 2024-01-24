@@ -16,8 +16,7 @@ export default function WebDev() {
 
   return (
     <Layout>
-
-    <WebBanner/>
+     <WebBanner/>
     <CustomWeb/>
     <JavaDev/>
     <WordpressDev/>
@@ -30,7 +29,6 @@ export default function WebDev() {
 }
 
 
-/** @format */
 
 
 

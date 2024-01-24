@@ -8,7 +8,7 @@ AOS.init();
 function CustomWeb() {
   return (
     <section className="custom_web" id="">
-      <div className="container  mb-5">
+      <div className="container mb-5">
         <center>
           <h1
             className="custom_heading"
@@ -25,9 +25,9 @@ function CustomWeb() {
           </div>
         </center>
         <div className="container">
-         <div className="row    custom_web_cards">
-          <div className="col-md-4  custom_box">
-            <h3 className="third_party mt-4 ">Planning and Analysis </h3>
+         <div className="row custom_web_cards">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 custom_box">
+            <h3 className="third_party mt-4">Planning and Analysis </h3>
             <div className="dot-line">
               <img
                 src={dotLine}
@@ -42,7 +42,7 @@ function CustomWeb() {
               foundation for the entire project
             </p>
           </div>
-          <div className="col-md-4 custom_box">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
             <h3 className="third_party mt-4 "> Design and Development</h3>
             <div className="dot-line">
               <img
@@ -58,7 +58,7 @@ function CustomWeb() {
               functionality, and integrating necessary third-party services.
             </p>
           </div>
-          <div className="col-md-3 custom_box">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 custom_box">
             <h3 className="third_party mt-4">Testing and Launch</h3>
             <div className="dot-line">
               <img
@@ -76,7 +76,6 @@ function CustomWeb() {
             </p>
           </div>
         </div>
-            
         </div>
       </div>
     </section>

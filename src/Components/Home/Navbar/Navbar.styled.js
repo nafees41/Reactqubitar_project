@@ -430,11 +430,9 @@ const Wrapper = styled.nav`
       .sm-icons {
           margin-left: -32px;
               margin-top: 20%;
+}
 
-      }
-
-
-  }
+ }
   
   
   

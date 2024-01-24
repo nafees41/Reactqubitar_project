@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* min-width: 100%; */
 }
 .angular-heading {
   color: var(--secondary-color);
@@ -22,7 +23,6 @@
   box-shadow: 10px 10px 16px 0px var(--primary-color);
   -webkit-box-shadow: 5px 5px 16px 0px var(--secondary-color);
   -moz-box-shadow: 10px 10px 16px 0px var(--primary-color);
-
   /* transform: translateX(13px); */
 }
 .custom_box_a {
@@ -30,11 +30,10 @@
 }
 
 .custom_box_a {
-  box-shadow: 10px 10px 16px 0px var(--secondary-color);
+   box-shadow: 10px 10px 16px 0px var(--secondary-color);
   -webkit-box-shadow: 10px 10px 16px 0px var(--primary-color);
   -moz-box-shadow: 10px 10px 16px 0px var(--secondary-color);
-
-  /* transform: translateX(-13px); */
+   /* transform: translateX(-13px); */
 }
 
 .underpara {
@@ -58,10 +57,12 @@
 }
 
 .slick-prev {
+  position: absolute;
   z-index: 100;
   left: 20px !important;
 }
 .slick-next {
+  position: absolute;
   z-index: 100;
   right: 20px !important;
 }

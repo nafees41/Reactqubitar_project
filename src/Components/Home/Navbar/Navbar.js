@@ -1,18 +1,14 @@
-/** @format */
-
 import React, { useEffect, useState } from "react";
 import Wrapper from "./Navbar.styled";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import Logo from "../../../images/Logo.png";
-
 import whatsapp from "../../../images/whatsapp.png";
 import skyp from "../../../images/skyp.png";
 import linkedin from "../../../images/linkedin.png";
 import navarrow from "../../../images/navarrow.png";
 import ChatApp from "../../Chatapp/chatpage";
-
 import "./Navbar.css";
 
 
@@ -107,13 +103,10 @@ function Navbar() {
 
   return (
     <Wrapper id="navWaper">
-
-      <div className="container-fluid" >
-
-
+     <div className="container-fluid" >
         <div className="row">
-          <div className="col-md-12 ">
-            <div className="nav-logo ">
+          <div className="col-md-12">
+            <div className="nav-logo">
               <NavHashLink to="/">
                 <img src={Logo} className="img-fluid " alt="logo" />
               </NavHashLink>
@@ -193,89 +186,7 @@ function Navbar() {
                     </ul>
                   </NavHashLink>
                 </li>
-                {/* <li className="navLink">
-                  <NavHashLink
-                  >
-                    <ul class="menu">
-                      <li class="dropdown dropdown-5">
-                        <div className="iconDrop">
-                          <div className="dropText"> Web 3.0</div>
-                          <div className="icon">
-                            <Icon icon="bxs:down-arrow" style={{ marginBottom: '4px' }} />
-                          </div>
-                        </div>
-                        <ul class="dropdown_menu dropdown_menu-5 ">
-
-                          <NavHashLink to='/nft'>
-                            <li class=" dropdown_item-1 ">
-
-
-
-                              NFT Development
-
-
-                            </li>
-                          </NavHashLink>
-                          <NavHashLink to='/nft_staking'>
-                            <li class="dropdown_item-1">
-
-                            Staking Platform Development
-
-                            </li>
-                          </NavHashLink>
-                          <NavHashLink to='/nft_marketplace'>
-                            <li class="dropdown_item-2">
-
-                              NFT Marketplace
-
-                            </li>
-                          </NavHashLink>
-
-                          <NavHashLink to='/nft_gaming'>
-                            <li class="dropdown_item-3">
-
-                            NFT Game Development
-
-                            </li>
-                          </NavHashLink>
-                          <NavHashLink to='/real_estate_development'>
-                            <li class="dropdown_item-4">
-
-                            Real Estate Tokenization
-
-
-                            </li>
-                          </NavHashLink>
-                          {/* <NavHashLink to='/token_development'>
-                            <li class="dropdown_item-5">
-
-                            Tokenomics Development
-
-
-                            </li>
-                          </NavHashLink> */}
-                          {/* <NavHashLink to='/ico_development'>
-                            <li class="dropdown_item-6">
-
-                              ICO Development
-
-                            </li>
-                          </NavHashLink>
-                         
-
-
-                        </ul>
-                      </li>
-                    </ul>
-                  </NavHashLink>
-                </li> */} 
-
-
-
-
-
-
-                <li className="navLink">
+               <li className="navLink">
                   <NavHashLink
                     to='/portfolio'
                     scroll={(el) => scrollWithOffset(el)}
@@ -343,12 +254,10 @@ function Navbar() {
             </div>{" "}
           </div>
         </div>
-        <div className="container-fluid" id="home">
-          <div className="sm-icons ">
+        <div className="container" id="home">
+          <div className="sm-icons">
             <a  href="https://api.whatsapp.com/send?phone=+923026469153&amp;text=%20%20Hi%20there!" target="_blank" class="whatsapp-icon" rel="nofollow noopener"> <img
               src={whatsapp}
-
-            
               className="img-fluid"
               alt="switch"
               loading="lazy"

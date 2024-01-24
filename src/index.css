@@ -7,22 +7,22 @@
   font-family: "Inter", sans-serif;
   /* overflow-x: hidden; */
 }
-.preloader{
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin-top: 10%; */
+.preloader {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 10%; */
 }
-.cliploader{
+.cliploader {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20%;
 }
-:root{
-  --primary-color:#FC7E13;
-  --secondary-color:#1F274F;
+:root {
+  --primary-color: #fc7e13;
+  --secondary-color: #1f274f;
 }
 
 body {
@@ -31,19 +31,15 @@ body {
   font-family: "Inter", sans-serif;
   /* overflow-x: hidden; */
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0.5rem;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: rgb(238, 229, 229);
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #fc7e13;
-
 }
-
-
-
 a {
   text-decoration: none;
 }
@@ -73,11 +69,10 @@ a:hover {
     max-width: 540px;
   }
 }
-@media (min-width: 1280px){
-
-.container {
+@media (min-width: 1280px) {
+  .container {
     max-width: 73rem;
-}
+  }
 }
 
 @media (min-width: 768px) {
@@ -93,16 +88,11 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
-  .container { 
+  .container {
     /* on my pc */
-    max-width: 90rem;  
-
+    max-width: 90rem;
   }
 }
-
-
-
-
 
 .row {
   display: -ms-flexbox;
@@ -130,21 +120,13 @@ a:hover {
   height: auto;
 }
 
-/* .col-md-4 {
+.col-md-4 {
   -ms-flex: 0 0 33.333333%;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
-} */
-
-
-.col-md-12 {
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-  padding: 0px 15px;
-  /* not change the padding 0 15px */
-      padding-top: 5px;
 }
+
+
 
 .col-md-8 {
   -ms-flex: 0 0 66.666667%;
@@ -187,12 +169,9 @@ a:hover {
     font-size: 14px;
   }
 }
-
-
-.cliploader{
+.cliploader {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 22%;
 }
-
