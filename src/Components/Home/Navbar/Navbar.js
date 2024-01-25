@@ -94,7 +94,7 @@ function Navbar() {
     } else {
 
 
-      document.getElementById("navWaper").style.top = '-75px';
+      document.getElementById("navWaper").style.top = '-50px';
       document.getElementById("navWaper").style.transition = ' all 1s ease';
     }
     prevScrollpos = currentScrollPos;

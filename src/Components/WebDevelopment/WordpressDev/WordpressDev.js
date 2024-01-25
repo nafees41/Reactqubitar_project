@@ -1,6 +1,7 @@
 import React from "react";
 import "./WordpressDev.css";
 import crm4 from "../../../images/crm4.png";
+import Financeandbank from "../../../images/finance.jpg";
 import bank from "../../../images/WebDevelopment/bank.png";
 import healthcare from "../../../images/WebDevelopment/healthcare.png";
 import ecommerce from "../../../images/WebDevelopment/ecommerce.png";
@@ -37,10 +38,10 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{ borderRadius: "20%" }}>
+              <div className="wordpress_img" style={{borderRadius: "20%" }}>
                 <img
                   src={crm4}
-                  style={{ borderRadius: "2%" }}
+                  style={{ borderRadius:"2%"}}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -54,14 +55,23 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-profile-tab"
               tabindex="0"
             >
-              <h2>Finance and Banking Services</h2>
-              <p>
+              <h2 className="wordpress_heading">Finance and Banking Services</h2>
+              <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
                 data migration, API integrations, and plugin development. For
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
+              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+                <img
+                  src={crm4}
+                  style={{ borderRadius:"2%",height:"100%"}}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -70,14 +80,23 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-Retail-tab"
               tabindex="0"
             >
-              <h2>Retail and E-commerce Services</h2>
-              <p>
+              <h2 className="wordpress_heading">Retail and E-commerce Services</h2>
+              <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
                 data migration, API integrations, and plugin development. For
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
+              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+                <img
+                  src={crm4}
+                  style={{ borderRadius:"2%"}}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -86,14 +105,23 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-messages-tab"
               tabindex="0"
             >
-              <h2>Education and E-learning Services</h2>
-              <p>
+              <h2 className="wordpress_heading">Education and E-learning Services</h2>
+              <p className="wordpress_para" >
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
                 data migration, API integrations, and plugin development. For
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
+              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+                <img
+                  src={crm4}
+                  style={{ borderRadius:"2%"}}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -102,14 +130,23 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-settings-tab"
               tabindex="0"
             >
-              <h2>Real Estate Services</h2>
-              <p>
+              <h2 className="wordpress_heading" >Real Estate Services</h2>
+              <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
                 data migration, API integrations, and plugin development. For
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
+              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+                <img
+                  src={crm4}
+                  style={{ borderRadius:"2%"}}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>

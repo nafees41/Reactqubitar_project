@@ -14,7 +14,7 @@ const Wrapper = styled.nav`
   background: url(${HeaderBg});
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 70px;
+  margin-top: 50px;
   @media (max-width: 992px) {
     position: fixed;
     justify-content: space-between;
@@ -184,16 +184,6 @@ const Wrapper = styled.nav`
     transition: 0.5s;
     position: relative;
   }
-
-
-
-
-
-
-
-
-  
-
   a span:nth-child(1) {
     color: #fff;
     // background: #262626;

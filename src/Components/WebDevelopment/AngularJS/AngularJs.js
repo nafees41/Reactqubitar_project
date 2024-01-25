@@ -99,7 +99,7 @@ const CustomArrows = () => {
           </div>
         </div>
          <div className="container">
-            <div className="row">
+            <div className="row" style={{marginBottom:"40px"}}>
               <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12  angular_side">
                 <h4 className="underpara mt-3">Abhishek Gupta</h4>
                 <div className="container">

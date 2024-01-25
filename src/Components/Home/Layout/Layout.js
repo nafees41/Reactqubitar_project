@@ -10,10 +10,10 @@ function Layout({ children }) {
     <div>
       <main>{children}</main>
       <Topbar>
-        <TopBar />
+        <TopBar/>
         </Topbar>
       <header>
-        <Navbar />
+        <Navbar/>
       </header>
       <footer><Footer1/></footer>
     </div>

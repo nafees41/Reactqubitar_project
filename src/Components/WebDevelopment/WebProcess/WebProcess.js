@@ -29,7 +29,7 @@ function JavaDev() {
         <div class="steps">
           <div class="steps-container">
             <div class="content">
-              <div className="java_card ">
+              <div className="java_card">
                 <div className="card_logo">
                   <img
                     src={planning}

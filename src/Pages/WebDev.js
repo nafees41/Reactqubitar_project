@@ -22,7 +22,7 @@ export default function WebDev() {
     <WordpressDev/>
     <BookApointment/>
     <AngularJs/>
-    <NodeJs/>
+    {/* <NodeJs/> */}
     {/* <Ecommerce/> */}
    </Layout>
   )

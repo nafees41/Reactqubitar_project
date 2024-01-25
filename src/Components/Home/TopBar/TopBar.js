@@ -8,8 +8,8 @@ function TopBar() {
   const GridBox = styled.div``;
   const Atag = styled.a``;
   const GridImage = styled.div`
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     background: var(--primary-color);
     display: flex;
     align-items: center;
@@ -24,8 +24,6 @@ function TopBar() {
       margin-top: 10px;
     }
   `;
-
-  
   return (
     <Wrapper id="ma">
       <div className="container" id="top_bar">
@@ -36,7 +34,6 @@ function TopBar() {
               {/* contact start here */}
               <div className="topBarContact">
                 <a href="mailto:info@qubitars.com" target="_blank" >
-                  {" "}
                   <span>
                     <Icon icon="entypo:mail" />
                   </span>{" "}

@@ -42,7 +42,7 @@ function CustomWeb() {
               foundation for the entire project
             </p>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 custom_box">
             <h3 className="third_party mt-4 "> Design and Development</h3>
             <div className="dot-line">
               <img
@@ -58,7 +58,7 @@ function CustomWeb() {
               functionality, and integrating necessary third-party services.
             </p>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 custom_box">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
             <h3 className="third_party mt-4">Testing and Launch</h3>
             <div className="dot-line">
               <img

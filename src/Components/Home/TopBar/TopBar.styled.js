@@ -1,11 +1,8 @@
-/** @format */
-
 import styled from "styled-components";
-
 import HeaderBg from "../../../images/topBar.png";
 
 const Wrapper = styled.nav`
-  padding: 11px 0px;
+  padding: 7px 0px;
   background: url(${HeaderBg});
   z-index:100;
   background-size: cover;
