@@ -153,9 +153,9 @@ const Wrapper = styled.div`
 
     padding: 0 120px 0 30px;
   }
-  .web_banner_btn {
-    padding: 1em;
-  }
+  // .web_banner_btn {
+  //   padding: 1em;
+  // }
   .cube {
     margin-right: 55px;
   }

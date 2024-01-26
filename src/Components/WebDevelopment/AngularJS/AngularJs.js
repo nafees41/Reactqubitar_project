@@ -50,7 +50,7 @@ const CustomArrows = () => {
 
   return (
     <section id="angularjs">
-      <div className="container mt-5 mb-5">
+      <div className="container mt-5 mb-5 mx-4">
         <h1
           className="angular-heading"
           data-aos="fade-up"
@@ -64,74 +64,81 @@ const CustomArrows = () => {
           their problems.
         </p>
       </div>
-      <Slider {...settings}>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 angular_side">
-            <h4 className="underpara mt-3">Jonh Almeda</h4>
-              <div className="container">
-                <div style={{ display: "flex" }}>
-                  <StarRatingComponent
-                    name="rateMe4"
-                    starCount={5}
-                    value={rating}
-                    onStarClick={onStarClick}
-                    starColor="#ffb400"
-                    emptyStarColor="#CCCCCC"
-                  />
-                  <span>(5.0) </span>
-                </div>
-              </div>
-              <p className="underpara">
-                Proin sed libero enim sed faucibus turpis. At imperdiet dui
-                accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla
-                pharetra diam sit amet nisl.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 angular-img">
-              <img
-                src={angular_side}
-                className="img-fluid "
-                alt="switch"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-         <div className="container">
-            <div className="row" style={{marginBottom:"40px"}}>
-              <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12  angular_side">
-                <h4 className="underpara mt-3">Abhishek Gupta</h4>
-                <div className="container">
-                  <div style={{ display: "flex" }}>
-                    <StarRatingComponent
-                      name="rateMe4"
-                      starCount={5}
-                      value={rating}
-                      onStarClick={onStarClick}
-                      starColor="#ffb400"
-                      emptyStarColor="#CCCCCC"
+      <div className="container mx-4 ">
+        <div className="row">
+          <div className="col-lg-11 col-md-12 col-sm-12 col-xs-12">
+            <Slider {...settings}>
+              <div className="container px-4">
+                <div className="row">
+                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 angular_side">
+                    <h4 className="underpara mt-3">Jonh Almeda</h4>
+                    <div className="container">
+                      <div style={{ display: "flex" }}>
+                        <StarRatingComponent
+                          name="rateMe4"
+                          starCount={5}
+                          value={rating}
+                          onStarClick={onStarClick}
+                          starColor="#ffb400"
+                          emptyStarColor="#ffd27d"
+                        />
+                        <span>(5.0)</span>
+                      </div>
+                    </div>
+                    <p className="underpara">
+                      Proin sed libero enim sed faucibus turpis. At imperdiet
+                      dui accumsan sit amet nulla facilisi morbi tempus. Ut sem
+                      nulla pharetra diam sit amet nisl.
+                    </p>
+                  </div>
+                  <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 angular-img">
+                    <img
+                      src={angular_side}
+                      className="img-fluid rounded-circle"
+                      alt="switch"
+                      loading="lazy"
+
                     />
-                    <span>(3.0) </span>
                   </div>
                 </div>
-                <p className="underpara">
-                  Proin sed libero enim sed faucibus turpis. At imperdiet dui
-                  accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla
-                  pharetra diam sit amet nisl.
-                </p>
               </div>
-              <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 angular-img">
-                <img
-                  src={angular_side}
-                  className="img-fluid"
-                  alt="switch"
-                  loading="lazy"
-                />
+              <div className="container mx-4 mb-5">
+                <div className="row">
+                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12  angular_side">
+                    <h4 className="underpara mt-3">Abhishek Gupta</h4>
+                    <div className="container">
+                      <div style={{ display: "flex" }}>
+                        <StarRatingComponent
+                          name="rateMe4"
+                          starCount={5}
+                          value={rating}
+                          onStarClick={onStarClick}
+                          starColor="#ffb400"
+                          emptyStarColor="#ffd27d"
+                        />
+                        <span>(3.0) </span>
+                      </div>
+                    </div>
+                    <p className="underpara">
+                      Proin sed libero enim sed faucibus turpis. At imperdiet
+                      dui accumsan sit amet nulla facilisi morbi tempus. Ut sem
+                      nulla pharetra diam sit amet nisl.
+                    </p>
+                  </div>
+                  <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 angular-img">
+                    <img
+                      src={angular_side}
+                      className="img-fluid rounded-circle"
+                      alt="switch"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
+            </Slider>
           </div>
-      </Slider>
+        </div>
+      </div>
     </section>
   );
 };

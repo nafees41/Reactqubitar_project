@@ -16,7 +16,7 @@ function CustomWeb() {
             data-aos-duration="1000">
             Custom Web Development
           </h1>
-        <div className="custom_para">
+          <div className="custom_para">
             <p>
               It involves creating a website tailored to specific goals and
               functions, rather than using pre-designed templates or
@@ -25,57 +25,57 @@ function CustomWeb() {
           </div>
         </center>
         <div className="container">
-         <div className="row custom_web_cards">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 custom_box">
-            <h3 className="third_party mt-4">Planning and Analysis </h3>
-            <div className="dot-line">
-              <img
-                src={dotLine}
-                className="img-fluid "
-                alt="switch"
-                loading="lazy"
-              />
+          <div className="row d-flex justify-content-center custom_web_cards">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3  custom_box">
+              <h3 className="third_party mt-4">Planning and Analysis </h3>
+              <div className="dot-line">
+                <img
+                  src={dotLine}
+                  className="img-fluid"
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
+              <p className="customWeb_para">
+                The initial phase of custom web development where the project
+                requirements and objectives are discussed and defined, laying
+                the foundation for the entire project
+              </p>
             </div>
-            <p className="customWeb_para">
-              The initial phase of custom web development where the project
-              requirements and objectives are discussed and defined, laying the
-              foundation for the entire project
-            </p>
-          </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 custom_box">
-            <h3 className="third_party mt-4 "> Design and Development</h3>
-            <div className="dot-line">
-              <img
-                src={dotLine}
-                className="img-fluid "
-                alt="switch"
-                loading="lazy"
-              />
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
+              <h3 className="third_party mt-4">Design and Development</h3>
+              <div className="dot-line">
+                <img
+                  src={dotLine}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
+              <p className="customWeb_para">
+                The phase where the website is built, including creating the
+                layout, designing the user interface, developing the website's
+                functionality, and integrating necessary third-party services.
+              </p>
             </div>
-            <p className="customWeb_para">
-              The phase where the website is built, including creating the
-              layout, designing the user interface, developing the website's
-              functionality, and integrating necessary third-party services.
-            </p>
-          </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
-            <h3 className="third_party mt-4">Testing and Launch</h3>
-            <div className="dot-line">
-              <img
-                src={dotLine}
-                className="img-fluid "
-                alt="switch"
-                loading="lazy"
-              />
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
+              <h3 className="third_party mt-4">Testing and Launch</h3>
+              <div className="dot-line">
+                <img
+                  src={dotLine}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
+              <p className="customWeb_para">
+                The final phase where the website is tested thoroughly to ensure
+                it meets project requirements, including user testing, browser
+                testing, and quality assurance testing, before launching the
+                website for public access.
+              </p>
             </div>
-            <p className="customWeb_para">
-              The final phase where the website is tested thoroughly to ensure
-              it meets project requirements, including user testing, browser
-              testing, and quality assurance testing, before launching the
-              website for public access.
-            </p>
           </div>
-        </div>
         </div>
       </div>
     </section>

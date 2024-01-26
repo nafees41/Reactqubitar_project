@@ -97,8 +97,9 @@ function WebBanner() {
               help clients establish a strong online presence and achieve their
               business objectives with expertly crafted websites.
             </p>
-            <ButtonGroup className="web_banner_btn">
-              <button class="item button-rainbow">
+            <ButtonGroup className="web_banner_btn ">
+               <NavHashLink to="/#bookappointment">
+              <button class="item button-rainbow mx-4">
                 Schedule a Call{" "}
                 <span>
                   <svg
@@ -116,13 +117,14 @@ function WebBanner() {
                   </svg>
                 </span>{" "}
               </button>
+              </NavHashLink>
 
-              {/* <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink> */}
+              {/* <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink> */}
               {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
-            </ButtonGroup>
+            </ButtonGroup> 
           </div>
           <div className="col-md-4 col-sm-4 col-4">
-            <div className="cube">
+            <div>
               <img
                 src={mission}
                 className="img-fluid"
@@ -131,12 +133,12 @@ function WebBanner() {
               />
             </div>
             <Ellipse>
-              <Circle
+              {/* <Circle
                 src={threebars}
                 className="img-fluid mt-2"
                 loading="lazy"
                 alt=""
-              ></Circle>
+              ></Circle> */}
             </Ellipse>
           </div>
         </div>

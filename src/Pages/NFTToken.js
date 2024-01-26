@@ -1,7 +1,5 @@
-/** @format */
 import React, { useEffect } from "react";
 import Layout from "../Components/Home/Layout/Layout";
-
 import Portfolio from "../Components/Home/Portfolio/Portfolio";
 import Testimonials from "../Components/Home/Testimonials/Testimonials";
 import StakingBanner from "../Components/NFTStaking/StakingBanner/StakingBanner";
