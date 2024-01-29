@@ -17,9 +17,9 @@ export default function WebDev() {
   return (
     <Layout>
      <WebBanner/>
-    <CustomWeb/>
+     <WordpressDev/>
     <JavaDev/>
-    <WordpressDev/>
+    <CustomWeb/>
     <BookApointment/>
     <AngularJs/>
     {/* <NodeJs/> */}

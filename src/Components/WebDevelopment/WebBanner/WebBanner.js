@@ -86,7 +86,7 @@ function WebBanner() {
   `;
   return (
     <Wrapper>
-      <div className="container ">
+      <div className="container px-4">
         <div className="row">
           <div className="col-md-8  col-sm-8 col-8 ">
             <h1 className="web_banner_heading">Custom Development</h1>
@@ -100,7 +100,7 @@ function WebBanner() {
             <ButtonGroup className="web_banner_btn ">
                <NavHashLink to="/#bookappointment">
               <button class="item button-rainbow mx-4">
-                Schedule a Call{" "}
+                Schedule a Call
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ function WebBanner() {
             </ButtonGroup> 
           </div>
           <div className="col-md-4 col-sm-4 col-4">
-            <div>
+            <div className="cube">
               <img
                 src={mission}
                 className="img-fluid"

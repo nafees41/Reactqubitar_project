@@ -45,7 +45,21 @@
   .custom_heading {
     font-size: 30px;
   }
+
 }
 .custom_para {
   padding: 20px;
 }
+.card-responsive {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .card-responsive {
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .card-responsive {
+    margin: auto;
+  }
+ }

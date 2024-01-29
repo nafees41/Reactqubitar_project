@@ -157,7 +157,7 @@ const Wrapper = styled.div`
   //   padding: 1em;
   // }
   .cube {
-    margin-right: 55px;
+    margin-right: 0;
   }
   @media (max-width: 768px) {
     .cube {

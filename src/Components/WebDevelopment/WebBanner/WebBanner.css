@@ -1,5 +1,5 @@
 .button-rainbow {
-	animation: rainbow 2s infinite, heartbeat 0.9s infinite;
+	animation: rainbow 1s infinite, heartbeat 3.8s infinite;
 	background: #1f274f;
     color: white;
 	padding:1em;

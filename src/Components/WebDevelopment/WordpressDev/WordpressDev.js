@@ -15,7 +15,7 @@ export default function WordpressDev() {
     // data-aos="flip-down"
     <div className="container mt-5 mb-5">
       <div className="row d-flex align-items-start">
-        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4">
           <div class="tab-content" id="v-pills-tabContent">
             <div
               class="tab-pane fade show active"
@@ -38,10 +38,10 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+              <div className="wordpress_img px-3" style={{ borderRadius: "20%" }}>
                 <img
                   src={crm4}
-                  style={{ borderRadius:"2%"}}
+                  style={{ borderRadius: "2%"}}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -49,13 +49,15 @@ export default function WordpressDev() {
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              class="tab-pane fade px-4"
               id="v-pills-profile"
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading">Finance and Banking Services</h2>
+              <h2 className="wordpress_heading">
+                Finance and Banking Services
+              </h2>
               <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
@@ -63,10 +65,10 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+              <div className="wordpress_img px-3" style={{borderRadius: "20%"}}>
                 <img
                   src={crm4}
-                  style={{ borderRadius:"2%",height:"100%"}}
+                  style={{ borderRadius: "2%", height: "100%"}}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -74,13 +76,15 @@ export default function WordpressDev() {
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              class="tab-pane fade px-4"
               id="v-pills-Retail"
               role="tabpanel"
               aria-labelledby="v-pills-Retail-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading">Retail and E-commerce Services</h2>
+              <h2 className="wordpress_heading">
+                Retail and E-commerce Services
+              </h2>
               <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
@@ -88,10 +92,10 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+              <div className="wordpress_img" style={{borderRadius: "20%"}}>
                 <img
                   src={crm4}
-                  style={{ borderRadius:"2%"}}
+                  style={{borderRadius:"2%"}}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -99,38 +103,15 @@ export default function WordpressDev() {
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              class="tab-pane fade px-4"
               id="v-pills-messages"
               role="tabpanel"
               aria-labelledby="v-pills-messages-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading">Education and E-learning Services</h2>
-              <p className="wordpress_para" >
-                We are a leading web development company that crafts digital
-                solutions with dexterity, from conceptualization to deployment,
-                data migration, API integrations, and plugin development. For
-                clients who want better business results, we create high
-                performing and easy to manage webApps.
-              </p>
-              <div className="wordpress_img" style={{borderRadius: "20%" }}>
-                <img
-                  src={crm4}
-                  style={{ borderRadius:"2%"}}
-                  className="img-fluid "
-                  alt="switch"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-            <div
-              class="tab-pane fade"
-              id="v-pills-settings"
-              role="tabpanel"
-              aria-labelledby="v-pills-settings-tab"
-              tabindex="0"
-            >
-              <h2 className="wordpress_heading" >Real Estate Services</h2>
+              <h2 className="wordpress_heading">
+                Education and E-learning Services
+              </h2>
               <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
@@ -138,10 +119,35 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius: "20%" }}>
+              <div className="wordpress_img" style={{ borderRadius: "20%" }}>
                 <img
                   src={crm4}
-                  style={{ borderRadius:"2%"}}
+                  style={{ borderRadius: "2%" }}
+                  className="img-fluid "
+                  alt="switch"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div
+              class="tab-pane fade px-3"
+              id="v-pills-settings"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+              tabindex="0"
+            >
+              <h2 className="wordpress_heading">Real Estate Services</h2>
+              <p className="wordpress_para">
+                We are a leading web development company that crafts digital
+                solutions with dexterity, from conceptualization to deployment,
+                data migration, API integrations, and plugin development. For
+                clients who want better business results, we create high
+                performing and easy to manage webApps.
+              </p>
+              <div className="wordpress_img px-3" style={{ borderRadius: "20%" }}>
+                <img
+                  src={crm4}
+                  style={{ borderRadius: "2%" }}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -150,15 +156,18 @@ export default function WordpressDev() {
             </div>
           </div>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6" style={{marginTop: "9rem"}}>
+        <div
+          className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4"
+          style={{ marginTop: "9rem" }}
+        >
           <div
-            class="nav flex-column nav-pills me-3"
+            class="nav flex-column nav-pills"
             id="v-pills-tab"
             role="tablist"
             aria-orientation="vertical"
           >
             <button
-              class="nav-link active"
+              class="nav-link mb-5 active"
               id="v-pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-home"
@@ -183,7 +192,7 @@ export default function WordpressDev() {
               </div>
             </button>
             <button
-              class="nav-link"
+              class="nav-link mb-4"
               id="v-pills-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-profile"
@@ -195,7 +204,7 @@ export default function WordpressDev() {
               <div className="wordpress_right">
                 <img
                   src={bank}
-                  className="img-fluid "
+                  className="img-fluid"
                   alt="switch"
                   loading="lazy"
                 />
@@ -205,7 +214,7 @@ export default function WordpressDev() {
             </button>
 
             <button
-              class="nav-link"
+              class="nav-link mb-4"
               id="v-pills-Retail-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-Retail"
@@ -228,7 +237,7 @@ export default function WordpressDev() {
               </div>
             </button>
             <button
-              class="nav-link"
+              class="nav-link mb-4"
               id="v-pills-messages-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-messages"
@@ -251,7 +260,7 @@ export default function WordpressDev() {
               </div>
             </button>
             <button
-              class="nav-link"
+              class="nav-link mb-4"
               id="v-pills-settings-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-settings"

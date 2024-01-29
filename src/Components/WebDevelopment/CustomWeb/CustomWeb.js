@@ -25,7 +25,7 @@ function CustomWeb() {
           </div>
         </center>
         <div className="container">
-          <div className="row d-flex justify-content-center custom_web_cards">
+          <div className="row card-responsive  d-flex justify-content-center  custom_web_cards">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3  custom_box">
               <h3 className="third_party mt-4">Planning and Analysis </h3>
               <div className="dot-line">
@@ -43,11 +43,13 @@ function CustomWeb() {
               </p>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 custom_box">
-              <h3 className="third_party mt-4">Design and Development</h3>
+              <h3 className="third_party text-xs-center mt-4">
+                Design and Development
+              </h3>
               <div className="dot-line">
                 <img
                   src={dotLine}
-                  className="img-fluid "
+                  className="img-fluid"
                   alt="switch"
                   loading="lazy"
                 />

@@ -50,7 +50,7 @@ const CustomArrows = () => {
 
   return (
     <section id="angularjs">
-      <div className="container mt-5 mb-5 mx-4">
+      <div className="container mt-5 mb-5 px-5">
         <h1
           className="angular-heading"
           data-aos="fade-up"
@@ -64,16 +64,16 @@ const CustomArrows = () => {
           their problems.
         </p>
       </div>
-      <div className="container mx-4 ">
+      <div className="container">
         <div className="row">
-          <div className="col-lg-11 col-md-12 col-sm-12 col-xs-12">
+          <div className="col-lg-11 col-md-12 col-sm-12 col-xs-12 m-auto">
             <Slider {...settings}>
               <div className="container px-4">
                 <div className="row">
-                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 angular_side">
+                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 px-5 angular_side">
                     <h4 className="underpara mt-3">Jonh Almeda</h4>
                     <div className="container">
-                      <div style={{ display: "flex" }}>
+                      <div style={{display:"flex"}}>
                         <StarRatingComponent
                           name="rateMe4"
                           starCount={5}
@@ -97,17 +97,16 @@ const CustomArrows = () => {
                       className="img-fluid rounded-circle"
                       alt="switch"
                       loading="lazy"
-
                     />
                   </div>
                 </div>
               </div>
-              <div className="container mx-4 mb-5">
+              <div className="container mb-5">
                 <div className="row">
-                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12  angular_side">
+                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 px-5 angular_side">
                     <h4 className="underpara mt-3">Abhishek Gupta</h4>
                     <div className="container">
-                      <div style={{ display: "flex" }}>
+                      <div style={{display:"flex"}}>
                         <StarRatingComponent
                           name="rateMe4"
                           starCount={5}
@@ -116,7 +115,7 @@ const CustomArrows = () => {
                           starColor="#ffb400"
                           emptyStarColor="#ffd27d"
                         />
-                        <span>(3.0) </span>
+                        <span>(3.0)</span>
                       </div>
                     </div>
                     <p className="underpara">
