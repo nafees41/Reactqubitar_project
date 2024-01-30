@@ -11,27 +11,22 @@ import BookApointment from "../Components/Home/BookAppointment/BookApointment";
 
 // import Wrapper from "../Components/Home/Banner/Banner.styled";
 
-
 function MobileDev() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-       
-      },[]);
-    return (
-        <Layout>
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <Layout>
+      <MobileBanner />
+      <CustomApp />
+      <Categories />
+      <AppServices />
+      <OurApps />
+      <BookApointment />
 
-             <MobileBanner/>
-             <CustomApp/>
-            <Categories/>
-             <AppServices/>
-             <OurApps/>
-             <BookApointment/>
-    
-     <Testimonials/>
-
-
-        </Layout>
-    );
+      <Testimonials />
+    </Layout>
+  );
 }
 
 export default MobileDev;

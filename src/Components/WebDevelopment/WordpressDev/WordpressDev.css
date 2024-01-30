@@ -1,6 +1,5 @@
 .wordpress_heading {
   color: var(--secondary-color);
-  padding: 25px;
 }
 
 .wordpress_para {
@@ -22,6 +21,10 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+}
+.wordpress_right img{
+  width: 7%;
+  height: 7%;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

@@ -10,37 +10,31 @@ import Life from "../Components/Home/Life/Life";
 import Faq from "../Components/Home/Faq/Faq";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
 import AboutUs from "../Components/Home/AboutUs/AboutUs";
+import AngularJs from "../Components/WebDevelopment/AngularJS/AngularJs";
 
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
-   
-  },[]);
-  var num=window.scrollTo(0, 0);
-  console.log("the num is"+num)
+  }, []);
+  var num = window.scrollTo(0, 0);
+  console.log("the num is" + num);
 
-  const backTOtop=()=>{
+  const backTOtop = () => {
     window.scrollTo(0, 0);
-  }
+  };
   return (
     <Layout>
       <Banner />
       <Project />
-
-      <AboutUs />
-
+       <AboutUs />
       <Services />
-
       <Chose />
       <OurClient />
       <Testimonials />
-
-      {/* <Life /> */}
+       {/* <Life /> */}
       <BookApointment />
       <Faq />
+      <AngularJs />
     </Layout>
-  )
+  );
 }
-
-
-

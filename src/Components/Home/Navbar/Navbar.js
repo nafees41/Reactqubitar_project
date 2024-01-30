@@ -219,6 +219,11 @@ function Navbar() {
                     Blogs
                   </NavHashLink>
                 </li>
+                <li className="navLink">
+                  <NavHashLink>
+                    Career
+                  </NavHashLink>
+                </li>
                 <li className="nav-button">
                   <li>
                     <NavHashLink
@@ -279,8 +284,8 @@ function Navbar() {
         </div>
       </div>
 
-
-    </Wrapper>
+<ChatApp/>
+  </Wrapper>
   );
 }
 

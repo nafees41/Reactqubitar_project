@@ -9,6 +9,10 @@ import WebBanner from "../Components/WebDevelopment/WebBanner/WebBanner";
 import WordpressDev from "../Components/WebDevelopment/WordpressDev/WordpressDev";
 import { useEffect } from "react";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
+import Services from "../Components/Home/Services/Services";
+import OurApps from "../Components/MobileDevelopment/OurApps/OurApps";
+
+
 export default function WebDev() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -20,8 +24,11 @@ export default function WebDev() {
      <WordpressDev/>
     <JavaDev/>
     <CustomWeb/>
+    <OurApps/>
     <BookApointment/>
     <AngularJs/>
+    < Services/>
+
     {/* <NodeJs/> */}
     {/* <Ecommerce/> */}
    </Layout>

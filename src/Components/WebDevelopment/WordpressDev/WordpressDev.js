@@ -24,7 +24,7 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-home-tab"
               tabindex="0"
             >
-              <h1 className="wordpress_heading">
+              <h1 className="wordpress_heading p-0">
                 Services we provide for Website Development
               </h1>
               <p
@@ -38,10 +38,13 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img px-3" style={{ borderRadius: "20%" }}>
+              <div
+                className="wordpress_img px-3"
+                style={{ borderRadius: "20%" }}
+              >
                 <img
                   src={crm4}
-                  style={{ borderRadius: "2%"}}
+                  style={{ borderRadius: "2%" }}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -65,10 +68,13 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img px-3" style={{borderRadius: "20%"}}>
+              <div
+                className="wordpress_img px-3"
+                style={{ borderRadius: "20%" }}
+              >
                 <img
                   src={crm4}
-                  style={{ borderRadius: "2%", height: "100%"}}
+                  style={{ borderRadius: "2%", height: "100%" }}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -92,10 +98,10 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius: "20%"}}>
+              <div className="wordpress_img" style={{ borderRadius: "20%" }}>
                 <img
                   src={crm4}
-                  style={{borderRadius:"2%"}}
+                  style={{ borderRadius: "2%" }}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -144,10 +150,13 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img px-3" style={{ borderRadius: "20%" }}>
+              <div
+                className="wordpress_img px-3"
+                style={{ borderRadius: "20%" }}
+              >
                 <img
                   src={crm4}
-                  style={{ borderRadius: "2%" }}
+                  style={{borderRadius:"2%"}}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -158,7 +167,7 @@ export default function WordpressDev() {
         </div>
         <div
           className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4"
-          style={{ marginTop: "9rem" }}
+          style={{ marginTop: "8rem" }}
         >
           <div
             class="nav flex-column nav-pills"
@@ -167,7 +176,7 @@ export default function WordpressDev() {
             aria-orientation="vertical"
           >
             <button
-              class="nav-link mb-5 active"
+              class="nav-link mb-3 active p-0"
               id="v-pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-home"
@@ -192,7 +201,7 @@ export default function WordpressDev() {
               </div>
             </button>
             <button
-              class="nav-link mb-4"
+              class="nav-link mb-4 p-0"
               id="v-pills-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-profile"
@@ -214,7 +223,7 @@ export default function WordpressDev() {
             </button>
 
             <button
-              class="nav-link mb-4"
+              class="nav-link mb-3 p-0"
               id="v-pills-Retail-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-Retail"
@@ -237,7 +246,7 @@ export default function WordpressDev() {
               </div>
             </button>
             <button
-              class="nav-link mb-4"
+              class="nav-link mb-3 p-0"
               id="v-pills-messages-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-messages"
@@ -260,7 +269,7 @@ export default function WordpressDev() {
               </div>
             </button>
             <button
-              class="nav-link mb-4"
+              class="nav-link mb-3 p-0"
               id="v-pills-settings-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-settings"
