@@ -49,8 +49,7 @@ const Wrapper = styled.nav`
     @media (max-width: 992px) {
       position: fixed;
       left: 0%;
-
-      top: 0%;
+       top: 0%;
       width: 100%;
       height: 0;
       overflow: hidden;
@@ -143,7 +142,6 @@ const Wrapper = styled.nav`
       }
     }
   }
-
   .mobile-menu {
     display: none;
     @media (max-width: 992px) {

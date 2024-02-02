@@ -18,6 +18,8 @@ import HashLoader from "react-spinners/HashLoader";
 import Banner from "./Components/Home/Banner/Banner";
 import Portfolio from "./Pages/Portfolio";
 import  Error  from "./Components/Errorpage/Error";
+import OtherServices from "./Components/Otherservices/OtherServices";
+import Servicespaage from '../src/Pages/Services'
 
 function App() {
   const [loading, setloading] = useState(false);
@@ -33,7 +35,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 cliploader">
-              <HashLoader color={"#F37A24"} loading={loading} size={100} />
+              <HashLoader color={"#F37A24"} loading={loading} size={100}/>
             </div>
           </div>
         </div>
@@ -54,6 +56,7 @@ function App() {
           <Route path="/nft_tokenomics" element={<NFTTokenomics />} />
           <Route path="/ui_ux_design" element={<UIDesign />} />
           <Route path="/digital_marketing" element={<DigitalMarketing />} />
+          <Route path="/Servicespaage" element={<Servicespaage/>} />
           <Route path="*" element={<Error />} />
         </Routes>
       )}

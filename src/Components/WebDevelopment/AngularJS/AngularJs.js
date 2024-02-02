@@ -54,8 +54,7 @@ const CustomArrows = () => {
         <h1
           className="angular-heading"
           data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+          data-aos-duration="1000">
           Testimonial
         </h1>
         <p className="angular-para">
@@ -106,7 +105,7 @@ const CustomArrows = () => {
                   <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 px-5 angular_side">
                     <h4 className="underpara mt-3">Abhishek Gupta</h4>
                     <div className="container">
-                      <div style={{display:"flex"}}>
+                      <div style={{ display: "flex" }}>
                         <StarRatingComponent
                           name="rateMe4"
                           starCount={5}

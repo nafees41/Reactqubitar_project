@@ -37,7 +37,7 @@ const Wrapper = styled.nav`
     align-items: center;
   }
   .topBarContact a span {
-    margin-top: 4px;
+    font-size:22px;
     margin-right: 5px;
   }
 `;

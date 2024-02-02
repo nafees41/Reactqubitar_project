@@ -33,20 +33,20 @@ function TopBar() {
             <div className="topBarSingle_item">
               {/* contact start here */}
               <div className="topBarContact">
-                <a href="mailto:info@qubitars.com" target="_blank" >
+                <a href="mailto:info@qubitars.com" target="_blank">
                   <span>
                     <Icon icon="entypo:mail" />
                   </span>{" "}
                   info@qubitars.com
                 </a>
-
+{/* 
                 <a href="tel:+923026469153" target="_blank">
                   {" "}
                   <span>
                     <Icon icon="fluent:call-28-filled" />
                   </span>{" "}
                   +92 302 6469153
-                </a>
+                </a> */}
               </div>
               {/* contact end here */}
 

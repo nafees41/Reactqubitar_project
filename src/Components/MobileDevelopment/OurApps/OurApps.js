@@ -15,7 +15,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Pagination } from "swiper";
+import { Pagination,Autoplay } from "swiper";
 //import { Autoplay } from "swiper";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Icon } from "@iconify/react";
@@ -30,16 +30,13 @@ export default function OurApps() {
             <p>Our successful apps are a testament to our innovative solutions, customized approach, user-centered design, and comprehensive app development services.</p>
         </div></center>
           <div className='swipp  justify-content-cneter mt-5'>  
-
               <Swiper
-                  autoplay={{
-                      delay: 2500,
-                      disableOnInteraction: false,
-                  }}
+                  autoplay={{ delay: 2000, disableOnInteraction: false }}
                   pagination={{
                       clickable: true,
                   }}
-                  modules={[Pagination]}
+                  loop={true}
+                  modules={[Pagination,Autoplay]}
                 // modules={[Autoplay]}
 
                  

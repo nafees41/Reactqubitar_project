@@ -75,24 +75,20 @@ const Wrapper = styled.div`
   }
  
  
-  .growthe{
-  animation: rotation 8s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
+  .growthe {
+    transform: rotate(180deg);
   }
-  to {
-    transform: rotate(359deg);
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
-
-
-    
-
-
-  .sm-icons img{
+ .sm-icons img{
     
     animation: myAnim 2s ease 0s infinite normal forwards;
   } 

@@ -6,16 +6,18 @@ import node from "../../../images/WebDevelopment/node.png";
 import java from "../../../images/WebDevelopment/java.png";
 import angular from "../../../images/WebDevelopment/angular.png";
 import customWeb from "../../../images/WebDevelopment/customWeb.png";
-import Reactjs from "../../../images/WebDevelopment/react.png";
-import Nextjs from "../../../images/WebDevelopment/nextjs.png";
-import Sql from "../../../images/WebDevelopment/dql.jpg";
-import python from "../../../images/WebDevelopment/python.png";
-import Devopps from "../../../images/WebDevelopment/devopps.png";
-import Firebase from "../../../images/WebDevelopment/Firebase.png";
+import Nextjs from "../../../images/WebDevelopment/next-js.svg";
+import mangodb from "../../../images/WebDevelopment/mangicon.png";
+import Devoppicon from "../../../images/WebDevelopment/Devicon.png";
+// import Sql from "../../../images/WebDevelopment/mango.svg";
+import Firebase from "../../../images/WebDevelopment/mangicon.png";
 import { NavHashLink } from "react-router-hash-link";
 import Wrapper from "./WebBanner.styled";
 import "./WebBanner.css";
 import mission from "../../../images/mission.png";
+import { MDBIcon } from 'mdbreact';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
 function WebBanner() {
   const BannerItem = styled.div`
@@ -108,8 +110,7 @@ function WebBanner() {
                     height="16"
                     fill="currentColor"
                     class="bi bi-arrow-right"
-                    viewBox="0 0 16 16"
-                  >
+                    viewBox="0 0 16 16" >
                     <path
                       fill-rule="evenodd"
                       d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
@@ -118,8 +119,7 @@ function WebBanner() {
                 </span>{" "}
               </button>
               </NavHashLink>
-
-              {/* <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink> */}
+             {/* <LinkButton   style={{ color: 'white',backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink> */}
               {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup> 
           </div>
@@ -171,13 +171,8 @@ function WebBanner() {
                 </div>
               </li>
               <li className="slider__slide">
-                <div className="slider__content">
-                  <img
-                    src={node}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
+                <div className="slider__content d-flex">
+                  <i class="fab fa-node"></i>
                   <span className="slider_span_para">Node JS Development</span>
                 </div>
               </li>
@@ -189,73 +184,51 @@ function WebBanner() {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="slider_span_para"> Java Development</span>
+                  <span className="slider_span_para">Java Development</span>
                 </div>
               </li>
               <li className="slider__slide">
-                <div className="slider__content">
-                  <img
-                    src={customWeb}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
+                <div className="slider__content d-flex">
+                <MDBIcon fab icon="react"  size="2x"  />
 
                   <span className="slider_span_para">
-                    {" "}
                     React js Development
                   </span>
                 </div>
               </li>
-
               <li className="slider__slide">
                 <div className="slider__content">
                   <img
-                    src={node}
+                    src={Nextjs}
                     className="img-fluid "
                     alt="switch"
-                    loading="lazy"
-                  />
-                  <span className="slider_span_para">Node JS Development</span>
+                    loading="lazy"/>
+                    <i class="cib-next-js"></i>
+                  <span className="slider_span_para">Next JS Development</span>
                 </div>
               </li>
               <li className="slider__slide">
-                <div className="slider__content">
-                  <img
-                    src={java}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
-                  <span className="slider_span_para"> Next JS Development</span>
-                </div>
-              </li>
-              <li className="slider__slide">
-                <div className="slider__content">
-                  <img
-                    src={customWeb}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
+                <div className="slider__content d-flex">
+                <MDBIcon fab icon="python"  size="2x"  />
                   <span className="slider_span_para"> Python Development</span>
                 </div>
               </li>
               <li className="slider__slide">
                 <div className="slider__content">
                   <img
-                    src={angular}
+                    src={Devoppicon}
                     className="img-fluid "
                     alt="switch"
                     loading="lazy"
                   />
+                  
                   <span className="slider_span_para">Dev Opp Development</span>
                 </div>
               </li>
               <li className="slider__slide">
                 <div className="slider__content">
                   <img
-                    src={node}
+                    src={Firebase}
                     className="img-fluid "
                     alt="switch"
                     loading="lazy"
@@ -265,12 +238,7 @@ function WebBanner() {
               </li>
               <li className="slider__slide">
                 <div className="slider__content">
-                  <img
-                    src={java}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
+                <i class="fab fa-aws" ></i>
                   <span className="slider_span_para">
                     {" "}
                     AWS cloud Development
@@ -279,14 +247,11 @@ function WebBanner() {
               </li>
               <li className="slider__slide">
                 <div className="slider__content">
-                  <img
-                    src={java}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
+                <i class="fa fa-database" aria-hidden="true"></i>
                   <span className="slider_span_para">
-                    {" "}
+           
+
+                    
                     Mango db Development
                   </span>
                 </div>

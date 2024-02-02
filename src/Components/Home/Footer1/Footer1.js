@@ -25,19 +25,18 @@ function Footer1() {
               style={{
                 backgroundColor: "var(--primary-color)",
                 borderRadius: "20px",
-              }}
-            >
+              }}>
               <div className="row text-white p-4 mt-4">
-                <div className="col-md-6">
+                <div className="col-md-7">
                   <h5>NewsLetter</h5>
                   <p>
                     Be the first one to know about discounts, offers and events
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <div className="input-group mt-3">
+                <div className="col-md-5">
+                  <div className="input-group">
                     <input
-                      style={{ backgroundColor: "#E7B183" }}
+                      style={{backgroundColor:"#E7B183"}}
                       type="text"
                       className="form-control"
                       placeholder="Enter Email"
@@ -46,10 +45,9 @@ function Footer1() {
                     />
                     <div class="input-group-append">
                       <button
-                        className="btn btn-outline-secondary"
+                        className="btn m-0 p-3"
                         type="button"
-                        style={{ backgroundColor: "#1F274F", color: "white" }}
-                      >
+                        style={{ backgroundColor:"#1f274f",color:"white"}}>
                         Submit
                       </button>
                     </div>
@@ -129,7 +127,7 @@ function Footer1() {
         <div className="row">
           <div className="col-md-6 mt-3">
             <div className="copy-right dd_desk">
-              Copyright © 2023 Qubitars. All rights reserved 
+              Copyright © 2024 Qubitars. All rights reserved 
             </div>
           </div>
           <div className="col-md-6  ">
