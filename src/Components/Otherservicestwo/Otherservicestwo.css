@@ -1,41 +1,35 @@
-#services {
-  background-color: var(--secondary-color);
-}
-.services_card {
+
+
+.services_card-page {
   padding: 30px;
   background-color: aliceblue;
   border-top: 15px solid #fc7e13;
   height: 430px;
   border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%;
 }
-NavHashLink:hover {
-  color: var(--primary-color);
-}
-.services_card:hover {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+.services_card-page:hover {
+  background-color: rgba(31, 39, 79, 0.6) !important;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: white;
   border-radius: 16px;
   border-bottom: 15px solid #fc7e13;
-
   cursor: pointer;
 }
-.services_head {
-  color: white;
+.services_head-page {
+  color:  #1f274f;
   margin-top: 3%;
   padding-top: 20px;
 }
-.services_para {
-  color: white;
+.services_para-page {
+  color:  #1f274f;
 }
 @media screen and (max-width: 768px) {
-  .swipp {
+  .swipp-page {
     padding: 30px !important;
   }
-  .services_para {
+  .services_para-page {
     padding: 0 20px 0 20px;
   }
 }

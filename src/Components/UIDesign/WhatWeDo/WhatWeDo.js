@@ -42,27 +42,27 @@ function WhatWeDo() {
         </center>
         <div className="row">
           <div className="col-md-4">
-            <div className="accordion-container ">
-              <button className="accordion-item" onClick={handleAccordion}>
+            <div className="accordion-container">
+              <div className="accordion-item">
                 <img
-                  style={{ paddingRight: "10px" }}
+                  style={{paddingRight:"10px"}}
                   src={u1}
-                  className="img-fluid  "
+                  className="img-fluid"
                   alt="switch"
                   loading="lazy"
                 />
                 User Research
-              </button>
-              <div className="panel">
+              </div>
+              {/* <div className="panel">
                 <p>
                   We conduct thorough user research to understand your target
                   audience and their needs. This helps us create designs that
                   are tailored to your users&#39; preferences and expectations.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="accordion-container">
-              <button className="accordion-item" onClick={handleAccordion}>
+              <div className="accordion-item">
                 <img
                   style={{ paddingRight: "10px" }}
                   src={u2}
@@ -71,18 +71,18 @@ function WhatWeDo() {
                   loading="lazy"
                 />
                 Information Architecture
-              </button>
-              <div className="panel">
+              </div>
+              {/* <div className="panel">
                 <p>
                   We organize information in a logical and intuitive manner,
                   ensuring that users can easily find what they are looking for.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-4">
             <div className="accordion-container">
-              <button className="accordion-item" onClick={handleAccordion}>
+              <div className="accordion-item">
                 <img
                   style={{ paddingRight: "10px" }}
                   src={u3}
@@ -91,17 +91,17 @@ function WhatWeDo() {
                   loading="lazy"
                 />
                 Wireframing
-              </button>
-              <div className="panel">
+              </div>
+              {/* <div className="panel">
                 <p>
                   We create wireframes, which are blueprints of your design, to
                   visualize the layout and user flow before moving onto the
                   actual design phase.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="accordion-container">
-              <button className="accordion-item" onClick={handleAccordion}>
+              <div className="accordion-item">
                 <img
                   style={{ paddingRight: "10px" }}
                   src={u4}
@@ -110,38 +110,38 @@ function WhatWeDo() {
                   loading="lazy"
                 />
                 Visual Design
-              </button>
-              <div className="panel">
+              </div>
+              {/* <div className="panel">
                 <p>
                   We design visually appealing interfaces that reflect your
                   brand&#39;s personality and values while ensuring usability
                   and accessibility.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-md-4">
             <div className="accordion-container">
-              <button className="accordion-item" onClick={handleAccordion}>
+              <div className="accordion-item">
                 <img
-                  style={{ paddingRight: "10px" }}
+                  style={{paddingRight:"10px"}}
                   src={u2}
-                  className="img-fluid  "
+                  className="img-fluid"
                   alt="switch"
                   loading="lazy"
                 />
-                Interaction Design
-              </button>
-              <div className="panel">
+                  Interaction Design
+              </div>
+              {/* <div className="panel">
                 <p>
                   We design interactions that are intuitive and natural, making
                   it easy for users to accomplish their goals and engage with
                   your product or service.
                 </p>
-              </div>
+              </div> */}
             </div>
             <div className="accordion-container">
-              <button className="accordion-item" onClick={handleAccordion}>
+              <div className="accordion-item">
                 <img
                   style={{ paddingRight: "10px" }}
                   src={u6}
@@ -150,14 +150,14 @@ function WhatWeDo() {
                   loading="lazy"
                 />
                 Usability Testing
-              </button>
-              <div className="panel">
+              </div>
+              {/* <div className="panel">
                 <p>
                   We conduct usability testing to identify and address any
                   usability issues, ensuring that your design meets the needs of
                   your users and achieves your business objectives.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

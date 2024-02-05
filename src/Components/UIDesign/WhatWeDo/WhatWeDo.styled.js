@@ -89,7 +89,7 @@ const Wrapper = styled.div`
       border: none;
       text-align: left;
       outline: none;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       transition: 0.4s;
       padding: 35px 0;
@@ -106,9 +106,7 @@ const Wrapper = styled.div`
         top: 50%;
         right: 0;
         transform: translateY(-50%);
-        background: url("https://api.iconify.design/akar-icons/plus.svg?color=orange")
           no-repeat center center / contain;
-           border: 2px solid orange;
       }
     }
     .active {

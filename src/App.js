@@ -57,7 +57,7 @@ function App() {
           <Route path="/ui_ux_design" element={<UIDesign />} />
           <Route path="/digital_marketing" element={<DigitalMarketing />} />
           <Route path="/Servicespaage" element={<Servicespaage/>} />
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<Home/>} />
         </Routes>
       )}
     </div>

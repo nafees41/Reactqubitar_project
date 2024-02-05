@@ -1,10 +1,10 @@
-import "./Services.css";
-import nft from "../../../images/nft.png";
-import web from "../../../images/web.png";
-import mobile from "../../../images/mobile.png";
-import uiux from "../../../images/uiux.png";
-import digital from "../../../images/digital.png";
-import Arrow from "../../../images/arrow.png";
+import "./Otherservicestwo.css";
+import nft from "../../images/nft.png";
+import web from "../../images/web.png";
+import mobile from "../../images/mobile.png";
+import uiux from "../../images/uiux.png";
+import digital from "../../images/digital.png";
+import Arrow from "../../images/arrow.png";
 import Tilt from "react-parallax-tilt";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,14 +17,14 @@ AOS.init();
 
 function Services() {
   return (
-    <section id="services">
+    <section>
       <div className="conatiner-fluid">
-        <div className="container ">
+        <div className="container">
           <center>
-            <div className="services_head">
-              <h1>Our Services</h1>
+            <div className="services_head-page">
+              <h1>Other Services</h1>
             </div>
-            <div className="services_para">
+            <div className="services_para-page">
               <p>
                 We offer innovative and customized software solutions tailored
                 to meet your business needs and drive growth.
@@ -32,7 +32,7 @@ function Services() {
             </div>
           </center>
 
-          <div className="swipp">
+          <div className="swipp-page">
             <Swiper
               slidesPerView={5}
               spaceBetween={30}
@@ -42,7 +42,7 @@ function Services() {
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
-              className="mySwiper "
+              className="mySwiper"
               style={{
                 paddingBottom: "44px",
                 paddingTop: "25px",
@@ -72,17 +72,16 @@ function Services() {
             >
               <SwiperSlide>
                 <Tilt>
-                  <div className="services_card">
+                  <div className="services_card-page">
                     <div className="services_cards_logo">
-                      <img src={nft} className="img-fluid " alt="slider" />
-                      <div className="services_card_head mt-3">
+                      <img src={nft} className="img-fluid" alt="slider"/>
+                      <div className="services_card_head-page mt-3">
                         <h3>NFT Devlopment</h3>
                       </div>
                       <div
-                        className="services_card_para"
+                        className="services_card_para-page"
                         data-aos="zoom-out-down"
-                        data-aos-duration="1000"
-                      >
+                        data-aos-duration="1000">
                         <p>
                           NFT development is the process of creating unique,
                           non-fungible digital assets using blockchain
@@ -96,21 +95,21 @@ function Services() {
                       <NavHashLink to="nft">More Detail</NavHashLink>
                     </div>
                     <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
+                      <img src={Arrow} className="img-fluid" alt="slider" />
                     </div>
                   </div>
                 </Tilt>
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                  <div className="services_card">
+                  <div className="services_card-page">
                     <div className="services_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
-                      <div className="services_card_head mt-3">
+                      <div className="services_card_head-page mt-3">
                         <h3>Web Devlopment</h3>
                       </div>
                       <div
-                        className="services_card_para"
+                        className="services_card_para-page"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
@@ -122,7 +121,7 @@ function Services() {
                         </p>
                       </div>
                     </div>
-                    <div className="services_card_more">
+                    <div className="services_card_more-page">
                       <NavHashLink to="web_development">
                         More Detail
                       </NavHashLink>
@@ -135,14 +134,14 @@ function Services() {
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                  <div className="services_card">
+                  <div className="services_card-page">
                     <div className="services_cards_logo">
-                      <img src={mobile} className="img-fluid " alt="slider" />
-                      <div className="services_card_head mt-3">
+                      <img src={mobile} className="img-fluid" alt="slider" />
+                      <div className="services_card_head-page mt-3">
                         <h3>Mobile Development</h3>
                       </div>
                       <div
-                        className="services_card_para"
+                        className="services_card_para-page"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
@@ -164,14 +163,14 @@ function Services() {
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                  <div className="services_card">
+                  <div className="services_card-page">
                     <div className="services_cards_logo">
                       <img src={digital} className="img-fluid " alt="slider" />
-                      <div className="services_card_head mt-3">
+                      <div className="services_card_head-page mt-3">
                         <h3>Digital Marketing</h3>
                       </div>
                       <div
-                        className="services_card_para"
+                        className="services_card_para-page"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
@@ -196,14 +195,14 @@ function Services() {
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                  <div className="services_card">
+                  <div className="services_card-page">
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
-                      <div className="services_card_head mt-3">
+                      <div className="services_card_head-page mt-3">
                         <h3>UI/UX Design</h3>
                       </div>
                       <div
-                        className="services_card_para"
+                        className="services_card_para-page"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >

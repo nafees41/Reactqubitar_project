@@ -1,4 +1,3 @@
-/** @format */
 import React, { useEffect } from "react";
 import Layout from "../Components/Home/Layout/Layout";
 import AppServices from "../Components/MobileDevelopment/AppServices/AppServices";
@@ -11,7 +10,6 @@ import BookApointment from "../Components/Home/BookAppointment/BookApointment";
 import OtherServices from "../Components/Otherservices/OtherServices";
 import Serviceshero from "../Components/Serviceshero/Serviceshero";
 
-// import Wrapper from "../Components/Home/Banner/Banner.styled";
 
 function Services() {
   useEffect(() => {
@@ -21,8 +19,8 @@ function Services() {
     <Layout>
       <Serviceshero/>
       <OtherServices/>
-       <OurApps/>
       <BookApointment/>
+       <OurApps/>
        </Layout>
   );
 }
