@@ -22,7 +22,7 @@ function OtherServices() {
         <div className="container">
           <center>
             <div className="otherservices_head">
-              <h1>Other Services</h1>
+              <h1 className="card_head">Other Services</h1>
             </div>
             <div className="otherservices_para">
               <p>
@@ -32,9 +32,9 @@ function OtherServices() {
             </div>
           </center>
           <div>
-            <div className="container p-0">
-              <div className="row d-flex justify-content-center">
-                <div className="col-md-3">
+            <div className="container">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
@@ -63,8 +63,7 @@ function OtherServices() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-3">
+             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <img src={mobile} className="img-fluid" alt="slider" />
@@ -93,7 +92,7 @@ function OtherServices() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
@@ -127,7 +126,7 @@ function OtherServices() {
             <br />
             <div className="container">
               <div className="row d-flex justify-content-center">
-                <div className="col-md-3">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
@@ -154,7 +153,7 @@ function OtherServices() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
@@ -181,7 +180,7 @@ function OtherServices() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
@@ -211,9 +210,9 @@ function OtherServices() {
               </div>
             </div>
             <br/>
-            <div className="container m-0 p-0">
+            <div className="container">
               <div className="row">
-                <div className="offset-md-2 col-md-3">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
@@ -222,8 +221,7 @@ function OtherServices() {
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
-                        data-aos-duration="1000"
-                      >
+                        data-aos-duration="1000">
                         <p>
                           UI/UX design is the process of creating visually
                           appealing and intuitive interfaces for websites and

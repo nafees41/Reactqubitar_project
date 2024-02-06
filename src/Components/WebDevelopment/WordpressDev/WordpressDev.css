@@ -21,10 +21,11 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  padding: 12px;
 }
-.wordpress_right img{
+.wordpress_right img {
   width: 7%;
-  height: 7%;
+  height: 10%;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -61,4 +62,3 @@
   border-radius: 25px;
   transition: all 0.5s ease-in-out 0s;
 }
-

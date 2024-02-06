@@ -109,7 +109,8 @@ function Navbar() {
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
                       setMobileMenu(false);
-                    }}>
+                    }}
+                  >
                     Home
                   </NavHashLink>
                 </li>
@@ -126,7 +127,6 @@ function Navbar() {
                         <div className="iconDrop">
                           <div className="dropText">Services</div>
                         </div>
-
                       </li>
                     </ul>
                   </NavHashLink>
@@ -179,12 +179,10 @@ function Navbar() {
                       }}
                     >
                       {/* Contact Us */}
-
                       <div class="center">
                         <span
-                          data-attr="CONTACT "
-                          style={{ paddingRight: "30px" }}
-                        >
+                          data-attr="CONTACT"
+                          style={{paddingRight:"30px"}}>
                           Contact
                         </span>
                         <span data-attr="US">US</span>
@@ -192,22 +190,21 @@ function Navbar() {
                     </NavHashLink>
                   </li>
                 </li>
-              </ul>{" "}
-            </div>{" "}
+              </ul>
+            </div>
             <div className="mobile-menu">
               <button
                 onClick={() => {
                   setMobileMenu(!mobileMenu);
-                }}
-              >
-                {" "}
+                }}>
+                
                 {mobileMenu ? (
                   <Icon icon="akar-icons:cross" />
                 ) : (
                   <Icon icon="uim:bars" />
-                )}{" "}
-              </button>{" "}
-            </div>{" "}
+                )}
+              </button>
+            </div>
           </div>
         </div>
         <div className="container" id="home">
@@ -218,7 +215,6 @@ function Navbar() {
               class="whatsapp-icon"
               rel="nofollow noopener"
             >
-              {" "}
               <img
                 src={whatsapp}
                 className="img-fluid"
@@ -228,9 +224,8 @@ function Navbar() {
             </a>
             <a
               target="_blank"
-              href="https://join.skype.com/invite/vSZo0hqcXPdn "
-            >
-              {" "}
+              href="https://join.skype.com/invite/vSZo0hqcXPdn" >
+     
               <img
                 src={skyp}
                 className="img-fluid"
@@ -240,8 +235,7 @@ function Navbar() {
             </a>
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/qubitars/"
-            >
+              href="https://www.linkedin.com/company/qubitars/">
               <img
                 src={linkedin}
                 className="img-fluid"

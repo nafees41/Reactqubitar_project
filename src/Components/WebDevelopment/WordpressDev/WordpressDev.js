@@ -38,7 +38,7 @@ export default function WordpressDev() {
               </p>
               <div
                 className="wordpress_img px-3"
-                style={{borderRadius: "20%"}}
+                style={{borderRadius:"20%"}}
               >
                 <img
                   src={crm4}
@@ -71,8 +71,8 @@ export default function WordpressDev() {
                 style={{borderRadius: "20%"}}>
                 <img
                   src={crm4}
-                  style={{borderRadius: "2%",height: "100%"}}
-                  className="img-fluid "
+                  style={{borderRadius:"2%",height:"100%"}}
+                  className="img-fluid"
                   alt="switch"
                   loading="lazy"
                 />
@@ -83,8 +83,7 @@ export default function WordpressDev() {
               id="v-pills-Retail"
               role="tabpanel"
               aria-labelledby="v-pills-Retail-tab"
-              tabindex="0"
-            >
+              tabindex="0">
               <h2 className="wordpress_heading">
                 Retail and E-commerce Services
               </h2>
@@ -98,7 +97,7 @@ export default function WordpressDev() {
               <div className="wordpress_img" style={{borderRadius:"20%"}}>
                 <img
                   src={crm4}
-                  style={{ borderRadius: "2%" }}
+                  style={{borderRadius:"2%"}}
                   className="img-fluid "
                   alt="switch"
                   loading="lazy"
@@ -122,11 +121,11 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{ borderRadius: "20%" }}>
+              <div className="wordpress_img" style={{borderRadius:"20%"}}>
                 <img
                   src={crm4}
-                  style={{ borderRadius: "2%" }}
-                  className="img-fluid "
+                  style={{borderRadius:"2%"}}
+                  className="img-fluid"
                   alt="switch"
                   loading="lazy"
                 />
@@ -148,7 +147,7 @@ export default function WordpressDev() {
               </p>
               <div
                 className="wordpress_img px-3"
-                style={{borderRadius: "20%"}}
+                style={{borderRadius:"20%"}}
               >
                 <img
                   src={crm4}
@@ -168,7 +167,7 @@ export default function WordpressDev() {
             class="nav flex-column nav-pills"
             id="v-pills-tab"
             role="tablist"
-            aria-orientation="vertical" >
+            aria-orientation="vertical">
             <button
               class="nav-link mb-3 active p-0"
               id="v-pills-home-tab"
