@@ -1,14 +1,9 @@
 import "./Otherservices.css";
-import nft from "../../images/nft.png";
 import web from "../../images/web.png";
 import mobile from "../../images/mobile.png";
 import uiux from "../../images/uiux.png";
-import digital from "../../images/digital.png";
 import Arrow from "../../images/arrow.png";
-import Tilt from "react-parallax-tilt";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 import "swiper/css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -32,18 +27,17 @@ function OtherServices() {
             </div>
           </center>
           <div>
-            <div className="container">
+            <div className="container px-4">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
                       <div className="otherservices_card_head  mt-3">
-                        <h4 className="card_head">Web Devlopment</h4>
+                        <h5 className="card_head">Web Devlopment</h5>
                       </div>
                       <div
                         className="services_card_para"
-                        data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
                         <p>
@@ -63,12 +57,12 @@ function OtherServices() {
                     </div>
                   </div>
                 </div>
-             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
-                      <img src={mobile} className="img-fluid" alt="slider" />
+                      <img src={mobile} className="img-fluid" alt="slider"/>
                       <div className="services_card_head-1 mt-3">
-                        <h4 className="card_head">Mobile Development</h4>
+                        <h5 className="card_head">Mobile Development</h5>
                       </div>
                       <div
                         className="services_card_para-1"
@@ -97,7 +91,7 @@ function OtherServices() {
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
                       <div className="services_card_head-1 mt-3">
-                        <h4 className="card_head"> UI/UX Design</h4>
+                        <h5 className="card_head"> UI/UX Design</h5>
                       </div>
                       <div
                         className="services_card_para-1"
@@ -120,23 +114,23 @@ function OtherServices() {
                     </div>
                   </div>
                 </div>
-           
               </div>
             </div>
-            <br />
-            <div className="container">
+            <br/>
+            <div className="container px-5">
               <div className="row d-flex justify-content-center">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
-                        <h4 className="card_head"> Staking Platform Development</h4>
+                        <h5 className="card_head">
+                          Staking Platform Development
+                        </h5>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
-                        data-aos-duration="1000"
-                      >
+                        data-aos-duration="1000">
                         <p>
                           UI/UX design is the process of creating visually
                           appealing and intuitive interfaces for websites and
@@ -149,7 +143,7 @@ function OtherServices() {
                       <Link to="/nft_staking">More Detail</Link>
                     </div>
                     <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
+                      <img src={Arrow} className="img-fluid" alt="slider"/>
                     </div>
                   </div>
                 </div>
@@ -157,7 +151,7 @@ function OtherServices() {
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
-                        <h4 className="card_head">NFT Marketplace</h4>
+                        <h5 className="card_head">NFT Marketplace</h5>
                       </div>
                       <div
                         className="services_card_para"
@@ -184,7 +178,7 @@ function OtherServices() {
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
-                        <h3 className="card_head"> NFT Game Development</h3>
+                        <h5 className="card_head"> NFT Game Development</h5>
                       </div>
                       <div
                         className="services_card_para"
@@ -210,18 +204,19 @@ function OtherServices() {
               </div>
             </div>
             <br/>
-            <div className="container">
+            <div className="container px-5">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                   <div className="otherservices_card">
                     <div className="services_cards_logo">
                       <div className="services_card_head mt-3">
-                        <h4 className="card_head">NFT Development</h4>
+                        <h5 className="card_head">NFT Development</h5>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000"
+                      >
                         <p>
                           UI/UX design is the process of creating visually
                           appealing and intuitive interfaces for websites and
