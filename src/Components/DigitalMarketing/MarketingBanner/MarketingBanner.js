@@ -5,6 +5,7 @@ import threebars from "../../../images/NftDevelopment/threebars.png";
 import realbanner from "../../../images/DigitalMarketing/mBanner.png";
 
 import { NavHashLink } from "react-router-hash-link";
+import "./MarketingBanner.css";
 
 
 
@@ -88,8 +89,26 @@ function MarketingBanner() {
             We offer digital marketing services that help businesses reach their target audience through social media, email, SEO, PPC advertising, and more. Our data-driven strategies optimize campaigns for maximum ROI, whether you need to increase brand awareness, generate leads, or drive conversions.
             </p>
             <ButtonGroup className="web_banner_btn">
-             <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink>
-            <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink>
+             <NavHashLink to="/#bookappointment"> 
+             <button class="item button-rainbow mx-2">
+                Schedule a Call
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16" >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </span>{" "}
+              </button>
+     </NavHashLink>
+            {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup>
 
           </div>
@@ -105,13 +124,13 @@ function MarketingBanner() {
            </div>
             <Ellipse>
 
-              <Circle
+              {/* <Circle
                 src={threebars}
                 className="img-fluid mt-2"
                 loading="lazy"
                 alt="">
 
-              </Circle>
+              </Circle> */}
 
             </Ellipse>
 

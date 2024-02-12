@@ -24,13 +24,13 @@ export default function Home() {
   };
   return (
     <Layout>
-      <Banner />
-      <Project />
-       <AboutUs />
+      <Banner/>
+      <Project/>
+       <AboutUs/>
       <Services/>
       <Chose/>
-      <OurClient />
-      <Testimonials />
+      <OurClient/>
+      {/* <Testimonials /> */}
        {/* <Life /> */}
       <BookApointment />
       <Faq />

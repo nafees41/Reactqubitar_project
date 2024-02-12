@@ -16,6 +16,8 @@ import FutureScope from "../Components/NFTGaming/FutureScope/FutureScope";
 import GamingServices from "../Components/NFTGaming/GamingServices/GamingServices";
 import GamingFeatures from "../Components/NFTGaming/GamingFeatures/GamingFeatures";
 import GamingProcess from "../Components/NFTGaming/GamingProcess/GamingProcess";
+import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
+import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
 
 
 
@@ -42,7 +44,8 @@ function NFTGaming() {
 
      {/* <Portfolio/> */}
      {/* <Tech/> */}
-     <Testimonials/>
+     <Testimonialspage/>
+     <Servicespage />
 
 
         </Layout>

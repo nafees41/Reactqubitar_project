@@ -5,11 +5,11 @@
   height: 430px;
   border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%;
 }
-NavHashLink:hover {
-  color: var(--primary-color);
+Link:hover {
+  color: white;
 }
 .otherservices_card:hover {
-  background-color: rgba(31, 39, 79, 0.6) !important;
+  background-color: rgba(31, 39, 79, 0.8) !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -35,13 +35,30 @@ NavHashLink:hover {
   }
 }
 .linkstyle {
-  color: inherit; /* Example: change text color to red */
   text-decoration: none;
   display: block;
+  color: inherit;
 }
 .linkstyle:hover {
-  color: inherit; /* Example: change text color to red */
+  /* color: var(--primary-color); */
+  color: inherit;
 }
-.card_head{
+.card_head {
   font-weight: 500;
+}
+@media (min-width: 1888px) {
+  .container.mx-5 {
+    max-width: 1888px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media (min-width: 1888px) {
+  .container.mx-4 {
+    max-width: 1888px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 }

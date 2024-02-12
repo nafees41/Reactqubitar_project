@@ -8,6 +8,8 @@ import MobileBanner from "../Components/MobileDevelopment/MobileBanner/MobileBan
 import OurApps from "../Components/MobileDevelopment/OurApps/OurApps";
 import Testimonials from "../Components/Home/Testimonials/Testimonials";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
+import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
+import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
 
 // import Wrapper from "../Components/Home/Banner/Banner.styled";
 
@@ -18,13 +20,14 @@ function MobileDev() {
   return (
     <Layout>
       <MobileBanner />
-      <CustomApp />
+      {/* <CustomApp /> */}
       <Categories />
       <AppServices />
       <OurApps />
       <BookApointment />
-
-      <Testimonials />
+      <Testimonialspage/>
+      <Servicespage/>
+   {/* <Testimonials /> */}
     </Layout>
   );
 }

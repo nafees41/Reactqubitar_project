@@ -1,19 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import threebars from "../../../images/NftDevelopment/threebars.png";
-
 import gamebanner from "../../../images/NFTGaming/gamebanner.png";
-
 import stak1 from "../../../images/NftDevelopment/stak1.png";
 import launch1 from "../../../images/NftDevelopment/launch1.png";
 import engine1 from "../../../images/NftDevelopment/engine1.png";
 import auction1 from "../../../images/NftDevelopment/auction1.png";
 import market1 from "../../../images/NftDevelopment/market1.png";
 import mint1 from "../../../images/NftDevelopment/mint1.png";
-
 import { NavHashLink } from "react-router-hash-link";
-
 import Wrapper from "./NFTGamingBanner.styled";
+import "./NFTGamingBanner.css";
 function NFTGamingBanner() {
   const BannerItem = styled.div`
     text-align: center;
@@ -93,8 +90,27 @@ function NFTGamingBanner() {
             Our NFT gaming service offers a unique and immersive gaming experience that allows players to collect, trade, and use NFTs (non-fungible tokens) as in-game assets. With our platform, players can enjoy a range of exciting games that are built on blockchain technology, offering unparalleled security and transparency. Whether you're a seasoned gamer or just starting out, our NFT gaming service provides endless hours of entertainment and the opportunity to participate in a thriving and dynamic gaming ecosystem.
             </p>
             <ButtonGroup className="web_banner_btn">
-             <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink>
-            <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink>
+             <NavHashLink to="/#bookappointment">
+             <button class="item button-rainbow mx-2">
+                Schedule a Call
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16" >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </span>{" "}
+              </button>
+             {/* <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton> */}
+             </NavHashLink>
+            {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup>
 
           </div>
@@ -110,13 +126,13 @@ function NFTGamingBanner() {
            </div>
             <Ellipse>
 
-              <Circle
+              {/* <Circle
                 src={threebars}
                 className="img-fluid mt-2"
                 loading="lazy"
                 alt="">
 
-              </Circle>
+              </Circle> */}
 
             </Ellipse>
 

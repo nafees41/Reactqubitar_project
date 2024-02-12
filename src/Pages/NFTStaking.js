@@ -10,6 +10,9 @@ import CreateStaking from "../Components/NFTStaking/CreateStaking/CreateStaking"
 import StakingServices from "../Components/NFTStaking/StakingServices/StakingServices";
 import StakingProcess from "../Components/NFTStaking/StakingProcess/StakingProcess";
 import StakingFeatures from "../Components/NFTStaking/StakingFeatures/StakingFeatures";
+import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
+import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
+
 
 
 
@@ -31,7 +34,9 @@ function Home() {
 {/* 
      <Portfolio/>
      <Tech/> */}
-     <Testimonials/>
+     {/* <Testimonials/> */}
+     <Testimonialspage/>
+      <Servicespage/>
 
 
         </Layout>

@@ -113,7 +113,7 @@ function Banner() {
                 >
              <button class="item button-rainbow">
                 Schedule a Call
-                <span>
+                <span className="p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

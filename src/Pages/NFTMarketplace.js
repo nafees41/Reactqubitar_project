@@ -15,6 +15,9 @@ import BestServices from "../Components/NFTMarketplace/BestServices/BestServices
 import MarketFeatures from "../Components/NFTMarketplace/MarketFeatures/MarketFeatures";
 import MarketProcess from "../Components/NFTMarketplace/MarketProcess/MarketProcess";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
+import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
+import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
+
 
 
 
@@ -37,8 +40,9 @@ function Home() {
 
      {/* <Portfolio/> */}
      <BookApointment/>
-     <Testimonials/>
-
+     <Testimonialspage/>
+      <Servicespage/>
+     {/* <Testimonials/> */}
 
         </Layout>
     );

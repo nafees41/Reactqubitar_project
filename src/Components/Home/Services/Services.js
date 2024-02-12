@@ -19,7 +19,7 @@ function Services() {
   return (
     <section id="services">
       <div className="conatiner-fluid">
-        <div className="container ">
+        <div className="container">
           <center>
             <div className="services_head">
               <h1>Our Services</h1>
@@ -31,7 +31,6 @@ function Services() {
               </p>
             </div>
           </center>
-
           <div className="swipp">
             <Swiper
               slidesPerView={5}
@@ -42,7 +41,7 @@ function Services() {
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
-              className="mySwiper "
+              className="mySwiper"
               style={{
                 paddingBottom: "44px",
                 paddingTop: "25px",
@@ -123,7 +122,7 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="web_development">
+                      <NavHashLink className="NavHashLink" to="web_development">
                         More Detail
                       </NavHashLink>
                     </div>
@@ -154,7 +153,7 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="mobile_dev">More Detail</NavHashLink>
+                      <NavHashLink className="NavHashLink" to="mobile_dev">More Detail</NavHashLink>
                     </div>
                     <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
@@ -184,7 +183,7 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="digital_marketing">
+                      <NavHashLink className="NavHashLink" to="digital_marketing">
                         More Detail
                       </NavHashLink>
                     </div>
@@ -216,7 +215,7 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="ui_ux_design">More Detail</NavHashLink>
+                      <NavHashLink className="NavHashLink" to="ui_ux_design">More Detail</NavHashLink>
                     </div>
                     <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />

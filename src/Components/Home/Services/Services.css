@@ -8,8 +8,9 @@
   height: 430px;
   border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%;
 }
-NavHashLink:hover {
+.NavHashLink:hover {
   color: var(--primary-color);
+  
 }
 .services_card:hover {
   background: rgba(255, 255, 255, 0.2);
@@ -20,7 +21,6 @@ NavHashLink:hover {
   color: white;
   border-radius: 16px;
   border-bottom: 15px solid #fc7e13;
-
   cursor: pointer;
 }
 .services_head {

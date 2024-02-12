@@ -12,6 +12,8 @@ import NftProcess from "../Components/NFT/NftProcess/NftProcess";
 import UseCases from "../Components/NFT/UseCases/UseCases";
 import Portfolio from "../Components/Home/Portfolio/Portfolio";
 import Testimonials from "../Components/Home/Testimonials/Testimonials";
+import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
+import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
 
 
 
@@ -33,7 +35,9 @@ function Home() {
      <NftProcess/>
      {/* <Tech/> */}
      {/* <Portfolio/> */}
-     <Testimonials/>
+     <Testimonialspage/>
+      <Servicespage/>
+     {/* <Testimonials/> */}
 
 
         </Layout>

@@ -13,6 +13,8 @@ import "swiper/css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { NavHashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+
 AOS.init();
 
 function Services() {
@@ -92,11 +94,11 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="nft">More Detail</NavHashLink>
+                      <Link  className="linkstyle" to="/nft">More Detail</Link>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid" alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
                 </Tilt>
               </SwiperSlide>
@@ -122,13 +124,13 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more-page">
-                      <NavHashLink to="web_development">
+                      <Link className="linkstyle" to="/web_developmen">
                         More Detail
-                      </NavHashLink>
+                      </Link>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
                 </Tilt>
               </SwiperSlide>
@@ -153,11 +155,11 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="mobile_dev">More Detail</NavHashLink>
+                      <Link className="linkstyle" to="/mobile_dev">More Detail</Link>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
                 </Tilt>
               </SwiperSlide>
@@ -183,13 +185,13 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="digital_marketing">
+                      <Link  className="linkstyle" to="/digital_marketing">
                         More Detail
-                      </NavHashLink>
+                      </Link>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
                 </Tilt>
               </SwiperSlide>
@@ -215,11 +217,11 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="ui_ux_design">More Detail</NavHashLink>
+                      <Link  className="linkstyle" to="/ui_ux_design">More Detail</Link>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
                 </Tilt>
               </SwiperSlide>

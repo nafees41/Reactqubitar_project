@@ -11,6 +11,8 @@ import auction1 from "../../../images/NftDevelopment/auction1.png";
 import market1 from "../../../images/NftDevelopment/market1.png";
 import mint1 from "../../../images/NftDevelopment/mint1.png";
 import { NavHashLink } from "react-router-hash-link";
+import "./StakingFeatures.css";
+
 
 
 
@@ -94,8 +96,28 @@ function StakingBanner() {
             NFT staking is a process in which users can earn rewards for holding and staking their NFTs (Non-Fungible Tokens) in a staking pool. This innovative approach allows NFT holders to earn passive income on their digital assets while also contributing to the overall health and security of the NFT network. Our NFT staking service provides a user-friendly and secure platform for NFT holders to stake their tokens and earn rewards in a hassle-free way. With our service, you can take advantage of the benefits of NFT staking while enjoying the peace of mind that comes with knowing your digital assets are safe and secure.
             </p>
             <ButtonGroup className="web_banner_btn">
-             <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink>
-            <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink>
+
+             <NavHashLink to="/#bookappointment"> 
+             <button class="item button-rainbow mx-2">
+                Schedule a Call
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16" >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </span>{" "}
+              </button>
+             {/* <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton> */}
+             </NavHashLink>
+            {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup>
 
 

@@ -1,16 +1,15 @@
-/** @format */
 import React, { useEffect } from "react";
 import Layout from "../Components/Home/Layout/Layout";
-
 import Portfolio from "../Components/Home/Portfolio/Portfolio";
 import Testimonials from "../Components/Home/Testimonials/Testimonials";
-
 import MarketingBanner from "../Components/DigitalMarketing/MarketingBanner/MarketingBanner";
 import Onboarding from "../Components/DigitalMarketing/Onboarding/Onboarding";
 import Start from "../Components/DigitalMarketing/Start/Start";
 import Features from "../Components/DigitalMarketing/Features/Features";
 import Process from "../Components/DigitalMarketing/Process/Process";
 import Project from "../Components/Home/Project/Project";
+import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
+import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
 
 
 
@@ -32,7 +31,9 @@ function Home() {
  
 
      <Portfolio/>
-     <Testimonials/>
+     {/* <Testimonials/> */}
+     <Testimonialspage/>
+      <Servicespage/>
 
 
         </Layout>
