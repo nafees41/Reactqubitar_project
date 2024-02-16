@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Wrapper from "./Chose.styled";
 import { ChoseTitleData } from "./ChoseData";
 import { ChoseCommonData } from "./ChoseData";
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./Chose.css";
 AOS.init();
 function Chose() {
   const ChoseContentItem = styled.div``;
@@ -14,6 +15,9 @@ function Chose() {
     @media (max-width: 992px) {
       font-size: 31px;
     }
+    @media (max-width: 575.98px) {
+      padding-left: 15px;
+    }
   `;
   const ChosePera = styled.p`
     color: #715757;
@@ -22,7 +26,10 @@ function Chose() {
     @media (max-width: 992px) {
       font-size: 15px;
       margin: 10px 0px;
-          padding: 16px;
+      padding: 16px;
+    }
+    @media (max-width: 575.98px) {
+      padding-left: 20px;
     }
   `;
   const ChoseImg = styled.img``;
@@ -34,8 +41,7 @@ function Chose() {
     justify-content: space-between;
     @media (max-width: 992px) {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-
+      grid-template-columns: 1fr;
       justify-content: center;
     }
 
@@ -44,6 +50,7 @@ function Chose() {
     }
     @media (max-width: 575.98px) {
       grid-template-columns: 1fr;
+      padding: 20px 20px;
     }
   `;
   const ChoseSingleItem = styled.div`
@@ -52,7 +59,7 @@ function Chose() {
     border-radius: 5px;
     @media (max-width: 992px) {
       margin-bottom: 10px;
-          padding: 25px;
+      padding: 25px;
     }
   `;
   const SingleItemImg = styled.img``;
@@ -68,29 +75,28 @@ function Chose() {
 
   return (
     <Wrapper>
-      <div className="container " style={{ padding: '18px' }}>
+      <div className="container container-contact" style={{ padding: "18px" }}>
         <div className="row">
-          <div className="col-md-5"data-aos="fade-down">
+          <div
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5"
+            data-aos="fade-down"
+          >
             {ChoseTitleData.map((item, index) => (
               <ChoseContentItem>
-                <ChoseTitle > {item.Title} </ChoseTitle>
+                <ChoseTitle> {item.Title} </ChoseTitle>
                 <ChosePera> {item.pera} </ChosePera>
-              
               </ChoseContentItem>
             ))}
           </div>
-
-          <div className="col-md-7" 
-         
-           >
-            <ChoseCommonItem  data-aos="fade-up"
-     data-aos-duration="3000">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 contact-card">
+            <ChoseCommonItem data-aos="fade-up" data-aos-duration="3000">
               {ChoseCommonData.map((item, index) => (
                 <ChoseSingleItem>
                   <SingleItemImg
                     src={item.img}
                     alt={item.alt}
-                    loading="lazy"></SingleItemImg>
+                    loading="lazy"
+                  ></SingleItemImg>
                   <SingleItemTitle> {item.Title} </SingleItemTitle>
                   <SinlgeItemPera> {item.pera} </SinlgeItemPera>
                 </ChoseSingleItem>

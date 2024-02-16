@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { NavHashLink } from "react-router-hash-link";
+import "./Banner.css"
 AOS.init();
 function Banner() {
   const BannerItem = styled.div`
@@ -84,11 +85,11 @@ function Banner() {
      
       <div className="container" id="home_banner">
       
-        <div className="row">
-          <div className="col-md-6">
+        <div className="row justify-content-center">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
             <BannerItem>
               <BannerContent>
-                <h2 className="common_header "  data-aos="zoom-in-right"  data-aos-duration="2000" >We support</h2>
+                <h2 className="common_header"  data-aos="zoom-in-right"  data-aos-duration="2000" >We support</h2>
                 <h3 className="mainPara">
                   gr
                   <span>

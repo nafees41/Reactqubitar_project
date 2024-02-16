@@ -4,6 +4,8 @@ import Wrapper from "./Faq.styled";
 import faq from "../../../images/faq1.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import "./Faq.css";
+
 AOS.init();
 function Faq() {
  

@@ -1,3 +1,12 @@
 .hereheading{
     font-weight: 500;
 }
+.hero-container{
+    margin-top: 10rem;
+}
+@media only screen and (max-width: 575.98px) {
+    .hero-container  {
+        margin-top: 13rem;
+     
+     }
+  }

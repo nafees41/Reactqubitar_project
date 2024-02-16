@@ -1,0 +1,16 @@
+@media (max-width:573px) {
+    .contact-card{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+@media (max-width:1321px) {
+    .container-contact{
+      padding: 55px;
+    }
+    .ChosePera{
+        padding: 10px;
+    }
+  }
+
+

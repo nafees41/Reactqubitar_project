@@ -50,7 +50,7 @@ const Wrapper = styled.div`
   }
   .mainPara span img {
     @media (max-width: 1192px) {
-      width: 27%;
+      width: 13%;
     }
     @media (max-width: 575.98px) {
       width: 18%;

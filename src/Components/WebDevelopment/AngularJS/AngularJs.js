@@ -50,7 +50,7 @@ const CustomArrows = () => {
 
   return (
     <section id="angularjs">
-      <div className="container mt-5 mb-5 px-5">
+      <div className="container mt-5 mb-5 px-2">
         <h1
           className="angular-heading"
           data-aos="fade-up"
@@ -63,13 +63,13 @@ const CustomArrows = () => {
           their problems.
         </p>
       </div>
-      <div className="container">
+      <div className="container px-4 responsive-testmonial">
         <div className="row">
-          <div className="col-lg-11 col-md-12 col-sm-12 col-xs-12 m-auto">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <Slider {...settings}>
               <div className="container px-4">
-                <div className="row">
-                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 px-5 angular_side">
+                <div className="row testmonial-card">
+                  <div className="col-xs-6 col-sm-12 col-md-7 col-lg-7 col-xl-8 px-5 angular_side">
                     <h4 className="underpara mt-3">Jonh Almeda</h4>
                     <div className="container">
                       <div style={{display:"flex"}}>
@@ -90,7 +90,7 @@ const CustomArrows = () => {
                       nulla pharetra diam sit amet nisl.
                     </p>
                   </div>
-                  <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 angular-img">
+                  <div className="col-xs-6 col-sm-12 col-md-5 col-lg-5 col-xl-4  angular-img">
                     <img
                       src={angular_side}
                       className="img-fluid rounded-circle"
@@ -101,8 +101,8 @@ const CustomArrows = () => {
                 </div>
               </div>
               <div className="container mb-5">
-                <div className="row">
-                  <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 px-5 angular_side">
+                <div className="row testmonial-card">
+                  <div className="col-xs-6 col-sm-12 col-md-7 col-lg-7 col-xl-8 px-5 angular_side">
                     <h4 className="underpara mt-3">Abhishek Gupta</h4>
                     <div className="container">
                       <div style={{ display: "flex" }}>
@@ -123,7 +123,7 @@ const CustomArrows = () => {
                       nulla pharetra diam sit amet nisl.
                     </p>
                   </div>
-                  <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 angular-img">
+                  <div className="col-xs-6 col-sm-12 col-md-5 col-lg-5 col-xl-4 angular-img">
                     <img
                       src={angular_side}
                       className="img-fluid rounded-circle"

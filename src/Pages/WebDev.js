@@ -23,7 +23,7 @@ export default function WebDev() {
      <WebBanner/>
      <WordpressDev/>
     <JavaDev/>
-    <CustomWeb/>
+    {/* <CustomWeb/> */}
     <OurApps/>
     <BookApointment/>
     <AngularJs/>

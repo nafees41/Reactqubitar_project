@@ -3,6 +3,7 @@ import service1 from "../../../images/MobileDevelopment/service1.png";
 import service2 from "../../../images/MobileDevelopment/service2.png";
 import service3 from "../../../images/MobileDevelopment/service3.png";
 import service4 from "../../../images/MobileDevelopment/service4.png";
+
 import "./AppServices.css";
 export default function AppServices() {
   return (
@@ -35,10 +36,10 @@ export default function AppServices() {
                     most advanced solutions.
                   </p>
                 </div>
-                <div className="app_service_img app_service_img1 ">
+                <div className="app_service_img app_service_img1">
                   <img
                     src={service1}
-                    className="img-fluid "
+                    className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
@@ -114,7 +115,7 @@ export default function AppServices() {
                     solutions that meet our clients' needs.
                   </p>
                 </div>
-                <div className="app_service_img app_service_img1">
+                <div className="app_service_img app_service_img2">
                   <img
                     src={service4}
                     className="img-fluid "

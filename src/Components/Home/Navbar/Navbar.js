@@ -182,7 +182,8 @@ function Navbar() {
                       <div class="center">
                         <span
                           data-attr="CONTACT"
-                          style={{paddingRight:"30px"}}>
+                          style={{ paddingRight: "30px" }}
+                        >
                           Contact
                         </span>
                         <span data-attr="US">US</span>
@@ -196,8 +197,8 @@ function Navbar() {
               <button
                 onClick={() => {
                   setMobileMenu(!mobileMenu);
-                }}>
-                
+                }}
+              >
                 {mobileMenu ? (
                   <Icon icon="akar-icons:cross" />
                 ) : (
@@ -224,8 +225,8 @@ function Navbar() {
             </a>
             <a
               target="_blank"
-              href="https://join.skype.com/invite/vSZo0hqcXPdn" >
-     
+              href="https://join.skype.com/invite/vSZo0hqcXPdn"
+            >
               <img
                 src={skyp}
                 className="img-fluid"
@@ -246,8 +247,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-
-      <ChatApp />
+      <ChatApp/>
     </Wrapper>
   );
 }

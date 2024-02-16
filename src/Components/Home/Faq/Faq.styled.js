@@ -1,18 +1,16 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-
   margin: 100px 0px;
-  
+
   @media (max-width: 1024px) {
     margin-top: 0;
   }
-  .faq-img{
-    height:100%;
-    width:800px;
+  .faq-img {
+    height: 100%;
+    width: 800px;
   }
   .faq {
-
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 20px 50px;
@@ -22,8 +20,7 @@ const Wrapper = styled.div`
     }
     .left-section {
       margin-top: 40px;
-      
-    
+
       @media (max-width: 1024px) {
         text-align: center;
       }
@@ -39,10 +36,10 @@ const Wrapper = styled.div`
           font-size: 30px;
         }
       }
-  .Faqs{
-    font-size:35px;
-    color:#969697;
-  }
+      .Faqs {
+        font-size: 35px;
+        color: #969697;
+      }
       p {
         strong {
           font-size: 18px;
@@ -58,17 +55,17 @@ const Wrapper = styled.div`
         margin-top: 30px;
         padding-left: 60px;
         padding-right: 60px;
-        text-decoration:none;
-        display:inline-block;
+        text-decoration: none;
+        display: inline-block;
       }
     }
   }
-  
+
   .accordion-container {
-        width: 91%;
+    width: 91%;
     margin-left: 3%;
 
-    background:var(  --secondary-color);
+    background: var(--secondary-color);
     box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     overflow: hidden;
@@ -78,11 +75,12 @@ const Wrapper = styled.div`
     :hover {
       transform: scale(1.05);
     }
+
     @media (max-width: 768px) {
       padding: 0 20px;
     }
     .accordion-item {
-      background:var(  --secondary-color);
+      background: var(--secondary-color);
       color: #fff;
       cursor: pointer;
       width: 100%;
@@ -108,7 +106,7 @@ const Wrapper = styled.div`
         transform: translateY(-50%);
         background: url("https://api.iconify.design/akar-icons/plus.svg?color=orange")
           no-repeat center center / contain;
-           border: 2px solid orange;
+        border: 2px solid orange;
       }
     }
     .active {
@@ -121,7 +119,7 @@ const Wrapper = styled.div`
         transform: translateY(-50%);
         background: url("https://api.iconify.design/akar-icons/minus.svg?color=orange")
           no-repeat center center / contain;
-           border: 2px solid orange;
+        border: 2px solid orange;
       }
     }
     .panel {
@@ -129,7 +127,7 @@ const Wrapper = styled.div`
       overflow: hidden;
       transition: max-height 0.3s ease-out;
       p {
-        background:var(--primary-color);
+        background: var(--primary-color);
         box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.25);
         border-radius: 5px;
         padding: 20px 40px;
@@ -144,36 +142,40 @@ const Wrapper = styled.div`
       }
     }
   }
-   .still-btn{
+  .still-btn {
     width: 152px;
-    color:'white';
+    color: "white";
     height: 52px;
-background: var(--primary-color);
-border-radius: 4px;
+    background: var(--primary-color);
+    border-radius: 4px;
   }
-  .still-heading{
- color:var(--primary-color);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: center;
-
+  .still-heading {
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
   }
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     .faq-line {
-        display:none;
+      display: none;
     }
-    .still{
-      padding:30px
+    .still {
+      padding: 30px;
     }
-    .faq-heading{
-  padding:10px;
-}
-
-}
-
+    .faq-heading {
+      padding: 10px;
+    }
+  }
+  @media (max-width: 280px) {
+  
+    .accordion-container {
+      padding: 0px 10px;
+    }
+    
+  }
 `;
 
 export default Wrapper;

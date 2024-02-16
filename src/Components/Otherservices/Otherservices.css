@@ -5,9 +5,7 @@
   height: 430px;
   border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%;
 }
-Link:hover {
-  color: white;
-}
+
 .otherservices_card:hover {
   background-color: rgba(31, 39, 79, 0.8) !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -17,6 +15,9 @@ Link:hover {
   color: white;
   border-radius: 16px;
   border-bottom: 15px solid #fc7e13;
+  .linkstyle {
+    color: var(--primary-color);
+  }
 }
 .otherservices_head {
   color: #1f274f;
@@ -35,30 +36,34 @@ Link:hover {
   }
 }
 .linkstyle {
-  text-decoration: none;
-  display: block;
-  color: inherit;
+  color:inherit;
 }
-.linkstyle:hover {
-  /* color: var(--primary-color); */
-  color: inherit;
-}
+
 .card_head {
   font-weight: 500;
 }
-@media (min-width: 1888px) {
-  .container.mx-5 {
-    max-width: 1888px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+
+@media only screen and (max-width: 575.98px) {
+  .card_head {
+    font-size: 13px;
+  }
+  .otherservices_para {
+    font-size: 10px;
+  }
+  .otherservices_card {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: 14px;
   }
 }
-@media (min-width: 1888px) {
-  .container.mx-4 {
-    max-width: 1888px;
-    display: flex;
-    margin: auto;
-    justify-content: center;
+@media only screen and (max-width: 983px) {
+  .otherservices_card {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 323px) {
+  .otherservices_card {
+    font-size: 10px;
   }
 }

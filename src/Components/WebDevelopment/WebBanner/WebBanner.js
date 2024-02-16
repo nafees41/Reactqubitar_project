@@ -222,7 +222,7 @@ function WebBanner() {
                     loading="lazy"
                   />
                   
-                  <span className="slider_span_para">Dev Opp Development</span>
+                  <span className="slider_span_para">DevOpp Development</span>
                 </div>
               </li>
               <li className="slider__slide">

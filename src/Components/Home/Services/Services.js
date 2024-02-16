@@ -67,22 +67,22 @@ function Services() {
                   slidesPerView: 4,
                   spaceBetween: 30,
                 },
-              }}
-            >
+              }}>
               <SwiperSlide>
                 <Tilt>
+                <NavHashLink className="NavHashLink" to="nft">
+
                   <div className="services_card">
                     <div className="services_cards_logo">
-                      <img src={nft} className="img-fluid " alt="slider" />
+                      <img src={nft} className="img-fluid" alt="slider"/>
                       <div className="services_card_head mt-3">
-                        <h3>NFT Devlopment</h3>
+                        <h3 className="head-responsive">NFT Devlopment</h3>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
-                        data-aos-duration="1000"
-                      >
-                        <p>
+                        data-aos-duration="1000">
+                        <p className="para-responsive">
                           NFT development is the process of creating unique,
                           non-fungible digital assets using blockchain
                           technology. Our service provides expertise in creating
@@ -92,28 +92,30 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink to="nft">More Detail</NavHashLink>
+                      <NavHashLink className="NavHashLink" to="nft">More Detail</NavHashLink>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
+                  </NavHashLink>
                 </Tilt>
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
+                <NavHashLink className="NavHashLink" to="web_development">
                   <div className="services_card">
                     <div className="services_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
                       <div className="services_card_head mt-3">
-                        <h3>Web Devlopment</h3>
+                        <h3 className="head-responsive">Web Devlopment</h3>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
-                        <p>
+                        <p className="para-responsive">
                           We design, develop, and maintain websites, providing
                           customized solutions to meet your specific needs. From
                           coding and programming to web server configuration, we
@@ -126,26 +128,28 @@ function Services() {
                         More Detail
                       </NavHashLink>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
+                  </NavHashLink>
                 </Tilt>
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
+                <NavHashLink className="NavHashLink" to="mobile_dev">
                   <div className="services_card">
                     <div className="services_cards_logo">
-                      <img src={mobile} className="img-fluid " alt="slider" />
+                      <img src={mobile} className="img-fluid" alt="slider" />
                       <div className="services_card_head mt-3">
-                        <h3>Mobile Development</h3>
+                        <h3 className="head-responsive">Mobile Development</h3>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
-                        <p>
+                        <p className="para-responsive">
                           Our mobile development service creates and maintains
                           applications for iOS and Android devices, with
                           expertise in design, coding, and testing.
@@ -153,60 +157,71 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink className="NavHashLink" to="mobile_dev">More Detail</NavHashLink>
+                      <NavHashLink className="NavHashLink" to="mobile_dev">
+                        More Detail
+                      </NavHashLink>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
+                  </NavHashLink>
                 </Tilt>
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
+                <NavHashLink
+                        className="NavHashLink"
+                        to="digital_marketing"
+                      >
                   <div className="services_card">
                     <div className="services_cards_logo">
                       <img src={digital} className="img-fluid " alt="slider" />
                       <div className="services_card_head mt-3">
-                        <h3>Digital Marketing</h3>
+                        <h3 className="head-responsive" >Digital Marketing</h3>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
-                        <p>
+                        <p className="para-responsive">
                           Our digital marketing service utilizes online channels
                           to promote brands, products or services, including
-                          SEO, social media, and other advertising strategies to
-                          help businesses achieve their marketing goals.
+                          SEO, social media, and other advertising strategies goal.
                         </p>
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink className="NavHashLink" to="digital_marketing">
+                      <NavHashLink
+                        className="NavHashLink"
+                        to="digital_marketing"
+                      >
                         More Detail
                       </NavHashLink>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
+                  </NavHashLink>
                 </Tilt>
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
+                <NavHashLink className="NavHashLink" to="ui_ux_design">
                   <div className="services_card">
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
                       <div className="services_card_head mt-3">
-                        <h3>UI/UX Design</h3>
+                        <h3 className="head-responsive">UI/UX Design</h3>
                       </div>
                       <div
                         className="services_card_para"
                         data-aos="zoom-out-down"
                         data-aos-duration="1000"
                       >
-                        <p>
+                        <p className="para-responsive">
                           UI/UX design is the process of creating visually
                           appealing and intuitive interfaces for websites and
                           apps. It involves research, prototyping, and testing
@@ -215,12 +230,15 @@ function Services() {
                       </div>
                     </div>
                     <div className="services_card_more">
-                      <NavHashLink className="NavHashLink" to="ui_ux_design">More Detail</NavHashLink>
+                      <NavHashLink className="NavHashLink" to="ui_ux_design">
+                        More Detail
+                      </NavHashLink>
                     </div>
-                    <div className="services_card_arrow">
+                    {/* <div className="services_card_arrow">
                       <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div>
+                    </div> */}
                   </div>
+                  </NavHashLink>
                 </Tilt>
               </SwiperSlide>
             </Swiper>

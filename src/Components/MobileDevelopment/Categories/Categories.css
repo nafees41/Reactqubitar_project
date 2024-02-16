@@ -8,7 +8,7 @@
   font-size: 20px;
 }
 .educational_app {
-  padding: 20px;
+  padding: 9px;
 }
 .ios_img {
   background-color: white;
@@ -23,7 +23,7 @@
 }
 .edu_app_outer {
   background-color: var(--primary-color);
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
 }
 .edu_app_para {

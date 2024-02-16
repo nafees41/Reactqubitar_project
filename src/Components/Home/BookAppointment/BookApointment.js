@@ -51,8 +51,7 @@ function BookApointment() {
   };
 
   return (
-    <section className="book-appintment" id="bookappointment">
-      <div className="container-fluid ba">
+    <section className="book-appintment ba" id="bookappointment">
         <div className="container">
           <div className="ba-heading text-center text-white ">
             <div className="ba-h mt-3 ">
@@ -61,15 +60,14 @@ function BookApointment() {
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="row">
+          <div className="container contact-page">
+            <div className="row calendly-card-responsive">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                 <div
                   class="contact-section"
                   data-aos="flip-left"
                   data-aos-easing="ease-out-cubic"
-                  data-aos-duration="2000"
-                >
+                  data-aos-duration="2000">
                   <h1>Contact us</h1>
                   {/* <div class="border"></div> */}
                   <form class="contact-form" ref={form} onSubmit={sendEmail}>
@@ -121,7 +119,7 @@ function BookApointment() {
             </div>
           </div>
         </div>
-      </div>
+
     </section>
   );
 }

@@ -10,6 +10,13 @@ import android from "../../../images/MobileDevelopment/android.png";
 import react from "../../../images/MobileDevelopment/react.png";
 import ecommerce from "../../../images/MobileDevelopment/ecommerce.png";
 import flutter from "../../../images/MobileDevelopment/flutter.png";
+import service5 from "../../../images/MobileDevelopment/mobile-apps-for-education.jpg";
+import service6 from "../../../images/MobileDevelopment/socialmedia.jpg";
+import service7 from "../../../images/MobileDevelopment/realestate.jpg";
+import service8 from "../../../images/MobileDevelopment/fintech.jpg";
+import service9 from "../../../images/MobileDevelopment/ecommerce-1.png";
+import service10 from "../../../images/MobileDevelopment/health.jpg";
+
 
 export default function Categories() {
   return (
@@ -37,7 +44,7 @@ export default function Categories() {
                 aria-labelledby="v-pills-home-tab"
                 tabindex="0"
               >
-                <h1 className="categories_heading">Educational App</h1>
+                <h1 className="categories_heading px-3">Educational App</h1>
                 <p
                   className="wordpress_para"
                   data-aos="flip-right"
@@ -46,6 +53,18 @@ export default function Categories() {
                   We provide blockchain development services from our proficient
                   experts for a wide range of applications.
                 </p>
+                <div
+                  className="wordpress_img px-3"
+                  style={{ borderRadius: "20%" }}
+                >
+                  <img
+                    src={service5}
+                    style={{ borderRadius: "2%" }}
+                    className="img-fluid"
+                    alt="switch"
+                    loading="lazy"
+                  />
+                </div>
               </div>
               <div
                 class="tab-pane fade px-4"
@@ -54,7 +73,7 @@ export default function Categories() {
                 aria-labelledby="v-pills-profile-tab"
                 tabindex="0"
               >
-                <h2 className="categories_heading">Social media apps</h2>
+                <h2 className="categories_heading px-3">Social media apps</h2>
                 <p className="wordpress_para">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
@@ -67,13 +86,13 @@ export default function Categories() {
                   className="wordpress_img px-3"
                   style={{ borderRadius: "20%" }}
                 >
-                  {/* <img
-                  src={crm4}
-                  style={{borderRadius:"2%"}}
-                  className="img-fluid"
-                  alt="switch"
-                  loading="lazy"
-                /> */}
+                  <img
+                    src={service6}
+                    style={{ borderRadius: "2%" }}
+                    className="img-fluid"
+                    alt="switch"
+                    loading="lazy"
+                  />
                 </div>
               </div>
               <div
@@ -83,7 +102,7 @@ export default function Categories() {
                 aria-labelledby="v-pills-Retail-tab"
                 tabindex="0"
               >
-                <h2 className="categories_heading">Real Estate App</h2>
+                <h2 className="categories_heading px-3">Real Estate App</h2>
                 <p className="wordpress_para">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
@@ -91,9 +110,18 @@ export default function Categories() {
                   development. For clients who want better business results, we
                   create high performing and easy to manage webApps.
                 </p>
-                {/* <div className="wordpress_img" style={{borderRadius:"20%"}}>
-          
-              </div> */}
+                <div
+                  className="wordpress_img px-3"
+                  style={{ borderRadius: "20%" }}
+                >
+                  <img
+                    src={service7}
+                    style={{ borderRadius: "2%" }}
+                    className="img-fluid"
+                    alt="switch"
+                    loading="lazy"
+                  />
+                </div>
               </div>
               <div
                 class="tab-pane fade px-4"
@@ -102,7 +130,7 @@ export default function Categories() {
                 aria-labelledby="v-pills-messages-tab"
                 tabindex="0"
               >
-                <h2 className="categories_heading">Health Care</h2>
+                <h2 className="categories_heading px-3">Health Care</h2>
                 <p className="wordpress_para">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
@@ -110,18 +138,26 @@ export default function Categories() {
                   development. For clients who want better business results, we
                   create high performing and easy to manage webApps.
                 </p>
-                {/* <div className="wordpress_img" style={{borderRadius:"20%"}}>
-       
-              </div> */}
+                <div
+                  className="wordpress_img px-3"
+                  style={{ borderRadius: "20%" }}
+                >
+                  <img
+                    src={service8}
+                    style={{ borderRadius: "2%" }}
+                    className="img-fluid"
+                    alt="switch"
+                    loading="lazy"
+                  />
+                </div>
               </div>
               <div
                 class="tab-pane fade px-3"
                 id="v-pills-settings"
                 role="tabpanel"
                 aria-labelledby="v-pills-settings-tab"
-                tabindex="0"
-              >
-                <h2 className="categories_heading">Fintech</h2>
+                tabindex="0" >
+                <h2 className="categories_heading px-3">Fintech</h2>
                 <p className="wordpress_para">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
@@ -129,11 +165,18 @@ export default function Categories() {
                   development. For clients who want better business results, we
                   create high performing and easy to manage webApps.
                 </p>
-                {/* <div
-                className="wordpress_img px-3"
-                style={{borderRadius:"20%"}}>
-               
-              </div> */}
+                <div
+                  className="wordpress_img px-3"
+                  style={{borderRadius:"20%"}}
+                >
+                  <img
+                    src={service9}
+                    style={{borderRadius:"2%"}}
+                    className="img-fluid"
+                    alt="switch"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             </div>
           </div>

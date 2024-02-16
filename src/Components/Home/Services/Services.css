@@ -8,10 +8,7 @@
   height: 430px;
   border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%;
 }
-.NavHashLink:hover {
-  color: var(--primary-color);
-  
-}
+
 .services_card:hover {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -22,6 +19,12 @@
   border-radius: 16px;
   border-bottom: 15px solid #fc7e13;
   cursor: pointer;
+  .NavHashLink {
+    color: var(--primary-color);
+  }
+}
+.NavHashLink {
+  color:inherit;
 }
 .services_head {
   color: white;
@@ -38,4 +41,35 @@
   .services_para {
     padding: 0 20px 0 20px;
   }
+}
+@media (max-width: 1192px) {
+  .head-responsive {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .para-responsive {
+    font-size: 13px;
+  }
+
+}
+@media (max-width: 575.98px) {
+  .head-responsive {
+    font-size: 22px;
+  }
+
+  .para-responsive {
+    font-size: 15px;
+  }
+}
+@media (max-width: 280px) {
+  .head-responsive {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .para-responsive {
+    font-size: 12px;
+  }
+
 }

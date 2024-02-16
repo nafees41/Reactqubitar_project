@@ -7,12 +7,11 @@ import linkedin from "../../../images/WebDevelopment/linkedin.png";
 import fb from "../../../images/WebDevelopment/fb.png";
 import insta from "../../../images/WebDevelopment/insta.png";
 import twiter from "../../../images/WebDevelopment/twiter.png";
-
 import "./Footer1.css";
-
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
+import ChatApp from "../../Chatapp/chatpage";
 
 function Footer1() {
   return (
@@ -60,7 +59,11 @@ function Footer1() {
           </div>
           <div className="col-md-3">
             <div className="footer_logo mt-4">
-              <img src={footerImage} className="image-fluid" alt="switch" />
+              <img
+                src={footerImage}
+                className="image-fluid footer-image"
+                alt="switch"
+              />
             </div>
 
             <div className="footer_desc px-2 mt-4">
@@ -75,7 +78,7 @@ function Footer1() {
           </div>
           <div className="col-md-3">
             <div className="list">
-              <div className="list-head">
+              <div className="list-head services-saction">
                 <h4>Services</h4>
               </div>
 
@@ -100,7 +103,7 @@ function Footer1() {
           </div>
           <div className="col-md-3">
             <div className="list">
-              <div className="list-head">
+              <div className="list-head services-saction">
                 <h4>Quick Links</h4>
               </div>
               <NavHashLink to="/#home_banner">
@@ -126,7 +129,7 @@ function Footer1() {
           </div>
           <div className="col-md-3">
             <div className="list">
-              <div className="list-head">
+              <div className="list-head services-saction">
                 <h4>Contact Info</h4>
               </div>
               <div className="list-items  mt-5 phone  ">
@@ -174,7 +177,7 @@ function Footer1() {
                 >
                   <img
                     src={linkedin}
-                    style={{ borderRadius: "8px" }}
+                    style={{ borderRadius:"8px"}}
                     className="image-fluid "
                     alt="switch"
                   />
@@ -214,6 +217,7 @@ function Footer1() {
           </div>
         </div>
       </div>
+      {/* <ChatApp /> */}
     </div>
   );
 }
