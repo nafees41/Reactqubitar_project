@@ -162,6 +162,7 @@ const Wrapper = styled.div`
       padding: 30px;
     }
     .faq-heading {
+      font-weight:600;
       padding: 10px;
     }
   }

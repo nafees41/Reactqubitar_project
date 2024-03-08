@@ -19,7 +19,7 @@ function OurClient() {
             data-aos="fade-out"
             data-aos-duration="2000"
           >
-            <h1>Our Client Engagement Model</h1>
+            <h1  className="client-hd">Our Client Engagement Model</h1>
           </div>
           <div className="client-desc">
             <p>

@@ -43,12 +43,11 @@ function AIdevelopmentprocess() {
                   className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="1000">
-                  <p>
-                    The first step is to conduct research to understand the
-                    target audience and their needs. This involves gathering
-                    data through interviews, surveys, and other research methods
-                    to identify user preferences, behaviors, and pain points.
-                  </p>
+                  <ol>
+                    <li>Extract Insights From Data.   </li>
+                    <li>Use Machine Learning For Predictive Analytics.</li>
+                    <li>Support Data-Based Decision-Making</li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -74,13 +73,11 @@ function AIdevelopmentprocess() {
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
-                  <p>
-                    After gathering research data, the next step is to create an
-                    information architecture that outlines the site's or app's
-                    structure, user flow, and content hierarchy. This step helps
-                    to ensure that the design is organized, intuitive, and easy
-                    to navigate.
-                  </p>
+                 <ol>
+                  <li>Connect IOT Devices.</li>
+                  <li>Enable Real-Time Data Exchange.</li>
+                  <li>Enhance Automation & Monitoring.</li>
+                 </ol>
                 </div>
               </div>
             </div>
@@ -106,15 +103,12 @@ function AIdevelopmentprocess() {
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >
-                  <p>
-                    {" "}
-                    Once the information architecture is established, the next
-                    step is to create a prototype. This involves creating a
-                    visual representation of the design using wireframes,
-                    mockups, or other design tools. Prototyping helps to test
-                    and refine the design before moving into the development
-                    phase.
-                  </p>
+                 <ol>
+                  <li>Ensure Data Integrity With Blockchain.</li>
+                  <li>Secure & Authenticate Transactions.</li>
+                  <li>Foster Trust & Accountability.</li>
+
+                 </ol>
                 </div>
               </div>
             </div>
@@ -140,14 +134,11 @@ function AIdevelopmentprocess() {
                   data-aos="fade-up"
                   data-aos-duration="4000"
                 >
-                  <p>
-                    {" "}
-                    The final step is to conduct user testing, which involves
-                    getting feedback from users to ensure that the design is
-                    meeting their needs and expectations. This step helps to
-                    identify any issues with the design and make improvements
-                    before launching the final product.
-                  </p>
+                  <ol>
+                    <li>Develop Ar/Vr Experiences.</li>
+                    <li>Enhance Training & Simulations.</li>
+                  <li>Create Engaging User Interfaces.</li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -173,15 +164,11 @@ function AIdevelopmentprocess() {
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >
-                  <p>
-                    {" "}
-                    Once the information architecture is established, the next
-                    step is to create a prototype. This involves creating a
-                    visual representation of the design using wireframes,
-                    mockups, or other design tools. Prototyping helps to test
-                    and refine the design before moving into the development
-                    phase.
-                  </p>
+              <ol>
+                <li>Offer Cloud Infrastructure For AI.</li>
+                <li>Scale Resources As Needed.</li>
+                <li>Ensure High Availability & Performance.</li>
+              </ol>
                 </div>
               </div>
             </div>

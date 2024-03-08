@@ -30,6 +30,9 @@
 .Tab-right{
    margin-top: 8rem;
 }
+.Services-head{
+  font-weight: 500;
+}
 
 @media (max-width: 1192px) {
   .Services-image{

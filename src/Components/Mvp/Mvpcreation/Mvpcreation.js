@@ -6,7 +6,7 @@ import platform_card from "../../../images/Mvpimage.jpg";
 const Mvpcreation = () => {
   return (
     <div>
-       <div className="container px-5">
+       <div className="container m-0 px-5">
         <div className="row ">
           <div className="col-md-6">
               <div className="row mt-5">
@@ -26,7 +26,7 @@ const Mvpcreation = () => {
           </div>
           <div className="col-md-6">
           <div>
-              <h1>Creation of  MVP Builder </h1>
+              <h1 className='fw-bolder'>Creation of  MVP Builder </h1>
             </div>
             <div className="platform_para">
               <p>

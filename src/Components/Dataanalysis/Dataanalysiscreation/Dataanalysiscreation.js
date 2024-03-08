@@ -5,7 +5,7 @@ import tick from "../../../images/NFTStaking/tick.png";
 const Dataanalysiscreation = () => {
   return (
     <div>
-         <div className="container ">
+         <div className="container m-0">
         <div className="row ">
           <div className="col-md-6">
               <div className="row mt-5">
@@ -25,7 +25,7 @@ const Dataanalysiscreation = () => {
           </div>
           <div className="col-md-6">
           <div>
-              <h1>Creation of  Data Analytics  </h1>
+              <h1 className='fw-bolder'>Creation of  Data Analytics  </h1>
             </div>
             <div className="platform_para">
               <p>

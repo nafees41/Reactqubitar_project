@@ -30,7 +30,7 @@ function Faq() {
       <div className="container mt-2">
           <center>  
          <div className="faq-heading">
-        <h2>Frequently Asked Questions</h2>
+        <h2 className="faq-heading">Frequently Asked Questions</h2>
           </div>
         <div className="faq-line mt-3">
           Everything you need to know about the Services and Qubitars.

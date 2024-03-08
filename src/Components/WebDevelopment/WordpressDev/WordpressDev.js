@@ -57,7 +57,7 @@ export default function WordpressDev() {
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
               tabindex="0">
-              <h2 className="wordpress_heading responsive-head">
+              <h2 className="wordpress_heading Services-head responsive-head">
                 Finance and Banking Services
               </h2>
               <p className="wordpress_para">
@@ -86,7 +86,7 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-Retail-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading responsive-head">
+              <h2 className="wordpress_heading  Services-head responsive-head">
                 Retail and E-commerce Services
               </h2>
               <p className="wordpress_para">
@@ -113,7 +113,7 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-messages-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading responsive-head">
+              <h2 className="wordpress_heading Services-head responsive-head">
                 Education and E-learning Services
               </h2>
               <p className="wordpress_para">
@@ -140,7 +140,7 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-settings-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading responsive-head">Real Estate Services</h2>
+              <h2 className="wordpress_heading Services-head responsive-head">Real Estate Services</h2>
               <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
@@ -185,7 +185,7 @@ export default function WordpressDev() {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="heath_care responsive-heading">
+                  <span className="heath_care Services-head responsive-heading">
                     Healthcare and Medical Services
                   </span>
                   <hr className="w_banner_line" />
@@ -208,7 +208,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care responsive-heading">Finance and Banking Services</span>
+                <span className="heath_care Services-head responsive-heading">Finance and Banking Services</span>
                 <hr className="w_banner_line" />
               </div>
             </button>
@@ -230,7 +230,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care responsive-heading">
+                <span className="heath_care Services-head responsive-heading">
                   Retail and E-commerce Services
                 </span>
                 <hr className="w_banner_line" />
@@ -253,7 +253,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care responsive-heading">
+                <span className="heath_care Services-head responsive-heading">
                   Education and E-learning Services
                 </span>
                 <hr className="w_banner_line" />
@@ -276,7 +276,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care responsive-heading">Real Estate Services</span>
+                <span className="heath_care Services-head responsive-heading">Real Estate Services</span>
                 <hr className="w_banner_line" />
               </div>
             </button>

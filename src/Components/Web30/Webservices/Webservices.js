@@ -110,7 +110,7 @@ function Webservices() {
        
         </div>
       </div>
-      <div className="container responsive_card">
+      <div className="container mt-3 responsive_card">
         <div className="row d-flex align-items-center justify-content-center">
         <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
         <Link className="linkstyle" to="/real_estate_development">

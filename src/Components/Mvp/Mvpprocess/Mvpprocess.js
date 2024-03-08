@@ -18,9 +18,10 @@ function Mvpprocess() {
         <div
           className="java_para"
           data-aos="zoom-in-right"
-          data-aos-duration="1000">
+          data-aos-duration="1000"
+        >
           <p>
-            Our  MVP Builder Processs generally involves the following steps:
+            Our MVP Builder Processs generally involves the following steps:
           </p>
         </div>
         <div class="steps">
@@ -36,18 +37,18 @@ function Mvpprocess() {
                   />
                 </div>
                 <div className="java_card_heading">
-                  <h4>Initial Consultation</h4>
+                  <h4>Define MVP Scope</h4>
                 </div>
                 <div
                   className="java_card_desk"
                   data-aos="fade-up"
-                  data-aos-duration="1000">
-                  <p>
-                    The first step is to conduct research to understand the
-                    target audience and their needs. This involves gathering
-                    data through interviews, surveys, and other research methods
-                    to identify user preferences, behaviors, and pain points.
-                  </p>
+                  data-aos-duration="1000"
+                >
+                  <ol>
+                    <li>Define The Scope & Objectives Of MVP.</li>
+                    <li>Determine Key Features & Functionalities.</li>
+                    <li>Ensure Lean & Manageable Development Process..</li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -66,20 +67,23 @@ function Mvpprocess() {
                   />
                 </div>
                 <div className="java_card_heading">
-                  <h4>Planning & Strategy</h4>
+                  <h4>Design and Prototyping</h4>
                 </div>
                 <div
                   className="java_card_desk "
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
-                  <p>
-                    After gathering research data, the next step is to create an
-                    information architecture that outlines the site's or app's
-                    structure, user flow, and content hierarchy. This step helps
-                    to ensure that the design is organized, intuitive, and easy
-                    to navigate.
-                  </p>
+                  <ol>
+                    <li>Visualize User Interface & User Flow.</li>
+                    <li>
+                      Refining Design User Feedback & Usability Considerations.
+                    </li>
+                    <li>
+                      Develop Clickable Prototype Simulating MVP's Core
+                      Functionality.
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -98,22 +102,17 @@ function Mvpprocess() {
                   />
                 </div>
                 <div className="java_card_heading">
-                  <h4>Design & Prototyping</h4>
+                  <h4>Development</h4>
                 </div>
                 <div
                   className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >
-                  <p>
-                    {" "}
-                    Once the information architecture is established, the next
-                    step is to create a prototype. This involves creating a
-                    visual representation of the design using wireframes,
-                    mockups, or other design tools. Prototyping helps to test
-                    and refine the design before moving into the development
-                    phase.
-                  </p>
+                  <ol>
+                    <li>Develop MVP's Back-End And Front-End Components.</li>
+                    <li>Implement Key Features & Functionalities..</li>
+                  </ol>
                 </div>
               </div>
             </div>
@@ -132,92 +131,22 @@ function Mvpprocess() {
                   />
                 </div>
                 <div className="java_card_heading">
-                  <h4>Test Case Design</h4>
+                  <h4>Testing and Go Live</h4>
                 </div>
                 <div
                   className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="4000"
                 >
-                  <p>
-                    {" "}
-                    The final step is to conduct user testing, which involves
-                    getting feedback from users to ensure that the design is
-                    meeting their needs and expectations. This step helps to
-                    identify any issues with the design and make improvements
-                    before launching the final product.
-                  </p>
+                  <ol>
+                    <li>Conduct Testing & Ensure MVP Functions.</li>
+                    <li>Go Live And Gather User Feedback..</li>
+                  </ol>
                 </div>
               </div>
             </div>
             <i class="step-line"></i>
             <div class="date">04</div>
-          </div>
-          <div class="steps-container">
-            <div class="content">
-              <div className="java_card ">
-                <div className="card_logo">
-                  <img
-                    src={qa}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="java_card_heading">
-                  <h4>Deployment & Optimization</h4>
-                </div>
-                <div
-                  className="java_card_desk"
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
-                >
-                  <p>
-                    {" "}
-                    Once the information architecture is established, the next
-                    step is to create a prototype. This involves creating a
-                    visual representation of the design using wireframes,
-                    mockups, or other design tools. Prototyping helps to test
-                    and refine the design before moving into the development
-                    phase.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <i class="step-line"></i>
-            <div class="date">05</div>
-          </div>
-          <div class="steps-container">
-            <div class="content">
-              <div className="java_card ">
-                <div className="card_logo">
-                  <img
-                    src={deploy}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="java_card_heading">
-                  <h4>Ongoing Support & Maintenance</h4>
-                </div>
-                <div
-                  className="java_card_desk"
-                  data-aos="fade-up"
-                  data-aos-duration="4000"
-                >
-                  <p>
-                    The final step is to conduct user testing, which involves
-                    getting feedback from users to ensure that the design is
-                    meeting their needs and expectations. This step helps to
-                    identify any issues with the design and make improvements
-                    before launching the final product.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <i class="step-line"></i>
-            <div class="date">06</div>
           </div>
         </div>
       </div>

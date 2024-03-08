@@ -136,15 +136,12 @@ function OtherServices() {
                       data-aos-duration="1000"
                     >
                       <p>
-                        UI/UX design is the process of creating visually
-                        appealing and intuitive interfaces for websites and
-                        apps. It involves research, prototyping, and testing to
-                        ensure a seamless user experience.
+                      Providing well-tested and bug-free web and mobile apps, ensuring high-quality and the best user experience.
                       </p>
                     </div>
                   </div>
                   <div className="services_card_more">
-                    <Link className="linkstyle" to="/nft_staking">
+                    <Link className="linkstyle" to="/SQApage">
                       More Detail
                     </Link>
                   </div>
@@ -169,15 +166,12 @@ function OtherServices() {
                       data-aos-duration="1000"
                     >
                       <p>
-                        UI/UX design is the process of creating visually
-                        appealing and intuitive interfaces for websites and
-                        apps. It involves research, prototyping, and testing to
-                        ensure a seamless user experience.
+                      Streamlined MVPs of development expedites the product journey and validates market potential while insuring well engineering.
                       </p>
                     </div>
                   </div>
                   <div className="services_card_more">
-                    <Link className="linkstyle" to="/nft_marketplace">
+                    <Link className="linkstyle" to="/Mvppage">
                       More Detail
                     </Link>
                   </div>
@@ -202,7 +196,7 @@ function OtherServices() {
                       data-aos-duration="1000"
                     >
                       <p>
-                        UI/UX design is the process of creating visually
+                      Web 3.0 is the process of creating visually
                         appealing and intuitive interfaces for websites and
                         apps. It involves research, prototyping, and testing to
                         ensure a seamless user experience.
@@ -210,7 +204,7 @@ function OtherServices() {
                     </div>
                   </div>
                   <div className="services_card_more">
-                    <Link className="linkstyle" to="/nft_gaming">
+                    <Link className="linkstyle" to="/Web30page">
                       More Detail
                     </Link>
                   </div>
@@ -240,15 +234,13 @@ function OtherServices() {
                       data-aos="zoom-out-down"
                       data-aos-duration="1000">
                       <p>
-                        UI/UX design is the process of creating visually
-                        appealing and intuitive interfaces for websites and
-                        apps. It involves research, prototyping, and testing to
-                        ensure a seamless user experience.
+                      Exploit within the capability of data extracting valuable insights for informed decisions and
+                      accelerated business growth.
                       </p>
                     </div>
                   </div>
                   <div className="services_card_more">
-                    <Link className="linkstyle" to="/nft">
+                    <Link className="linkstyle" to="/DataAnalysis">
                       More Detail
                     </Link>
                   </div>
@@ -272,21 +264,15 @@ function OtherServices() {
                       data-aos="zoom-out-down"
                       data-aos-duration="1000">
                       <p>
-                        UI/UX design is the process of creating visually
-                        appealing and intuitive interfaces for websites and
-                        apps. It involves research, prototyping, and testing to
-                        ensure a seamless user experience.
+                      Onboard our dedicated designers, developers and skilled engineers on a full-time basis to achieve your business objectives.
                       </p>
                     </div>
                   </div>
                   <div className="services_card_more">
-                    <Link className="linkstyle" to="/nft">
+                    <Link className="linkstyle" to="/Dedicatedpage">
                       More Detail
                     </Link>
                   </div>
-                  {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div> */}
                 </div>
               </Tilt>
             </Link>
@@ -304,21 +290,17 @@ function OtherServices() {
                       data-aos="zoom-out-down"
                       data-aos-duration="1000">
                       <p>
-                        UI/UX design is the process of creating visually
-                        appealing and intuitive interfaces for websites and
-                        apps. It involves research, prototyping, and testing to
-                        ensure a seamless user experience.
+                      Infuse your devices with AI to create smarter, more autonomous, &amp; more efficient
+                      products
                       </p>
                     </div>
                   </div>
                   <div className="services_card_more">
-                    <Link className="linkstyle" to="/nft">
+                    <Link className="linkstyle" to="/AIdevelopment">
                       More Detail
                     </Link>
                   </div>
-                  {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div> */}
+                  
                 </div>
               </Tilt>
             </Link>

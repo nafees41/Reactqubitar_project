@@ -28,7 +28,7 @@ function Footer1() {
             >
               <div className="row text-white p-4 mt-4">
                 <div className="col-md-7">
-                  <h5>NewsLetter</h5>
+                  <h5  className="news-head">NewsLetter</h5>
                   <p>
                     Be the first one to know about discounts, offers and events
                   </p>

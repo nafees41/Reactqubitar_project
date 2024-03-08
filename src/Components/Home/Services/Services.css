@@ -23,11 +23,15 @@
     color: var(--primary-color);
   }
 }
+.head-responsive {
+  font-weight: 500;
+}
 .NavHashLink {
   color:inherit;
 }
 .services_head {
   color: white;
+  font-weight:bolder;
   margin-top: 3%;
   padding-top: 20px;
 }

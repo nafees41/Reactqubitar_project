@@ -1,3 +1,6 @@
+.web_banner_heading{
+	font-weight: 500;
+}
 .button-rainbow {
 	animation: rainbow 1s infinite, heartbeat 3.8s infinite;
 	background: #1f274f;

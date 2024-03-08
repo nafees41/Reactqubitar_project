@@ -1,11 +1,13 @@
 .privacy-heading {
   color: var(--secondary-color);
   font-weight: 600;
+  font-family: "Inter", sans-serif;
   }
 .privacy-para {
   color: var(--secondary-color);
   font-size: 17px;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 
 @media (max-width: 1192px) {

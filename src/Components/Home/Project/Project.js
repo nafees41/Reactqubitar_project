@@ -17,7 +17,7 @@ import "./Project.css";
 export default function Project() {
   return (
     <div className="container mt-5">
-      <hr className="banner_line " />
+      <hr className="banner_line" />
       <div className="flex-container mt-3">
         <div className="slider-container">
           <ul className="slider">

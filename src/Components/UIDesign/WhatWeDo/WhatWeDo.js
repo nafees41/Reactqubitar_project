@@ -30,7 +30,7 @@ function WhatWeDo() {
       <div className="container mt-2">
         <center>
           <div className="what_head">
-            <h1>What We Do</h1>
+            <h1 className="what_head">What We Do</h1>
           </div>
           <div className="what_para">
             <p>

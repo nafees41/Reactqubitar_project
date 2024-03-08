@@ -10,6 +10,9 @@
     display: flex;
     justify-content: center;
 }
+.Our_apps_heading{
+    font-weight: 500;
+}
 
 @media (max-width:768px) {
 .our_apps_card{

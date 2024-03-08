@@ -9,10 +9,9 @@ const Dataanalysisbanner = () => {
           <div className="col-md-12">
             <h2 className="text-center font-weight-bold hereheading"  data-aos="zoom-in-right"  data-aos-duration="2000"> Data Analytics</h2>
             <p className="customWeb_para text-center hero-paragraph" data-aos="zoom-in-left"  data-aos-duration="2000">
-              The final phase where the website is tested thoroughly to ensure
-              it meets project requirements, including user testing, browser
-              testing, and quality assurance testing, before launching the
-              website for public access.
+            In today's data-driven world, businesses need to understand and utilize their data effectively to succeed. Qubitars Technologies provides comprehensive data analytics solutions to empower businesses to harness the full potential of their data.
+
+
             </p>
           </div>
         </div>

@@ -43,12 +43,12 @@ function Qualityprocess() {
                   className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="1000">
-                  <p>
-                    The first step is to conduct research to understand the
-                    target audience and their needs. This involves gathering
-                    data through interviews, surveys, and other research methods
-                    to identify user preferences, behaviors, and pain points.
-                  </p>
+                      <ol>
+              <li>Thoroughly Analyze Software Requirements.</li>
+              <li>Identify Functional & Non-Functional Specifications.</li>
+              <li>Collaborate With Stakeholders To Clarify Expectations & Objectives.</li>
+
+             </ol>
                 </div>
               </div>
             </div>
@@ -74,13 +74,12 @@ function Qualityprocess() {
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
-                  <p>
-                    After gathering research data, the next step is to create an
-                    information architecture that outlines the site's or app's
-                    structure, user flow, and content hierarchy. This step helps
-                    to ensure that the design is organized, intuitive, and easy
-                    to navigate.
-                  </p>
+                       <ol>
+              <li>Define Test Objectives, Scope, & Strategies..</li>
+              <li>Develop A Comprehensive Test Plan & Schedule.</li>
+              <li>Identify Test Deliverables & Resource Requirements.</li>
+
+             </ol>
                 </div>
               </div>
             </div>
@@ -99,22 +98,18 @@ function Qualityprocess() {
                   />
                 </div>
                 <div className="java_card_heading">
-                  <h4>Prototyping</h4>
+                  <h4>Test Case Design</h4>
                 </div>
                 <div
                   className="java_card_desk"
                   data-aos="fade-up"
-                  data-aos-duration="3000"
-                >
-                  <p>
-                    {" "}
-                    Once the information architecture is established, the next
-                    step is to create a prototype. This involves creating a
-                    visual representation of the design using wireframes,
-                    mockups, or other design tools. Prototyping helps to test
-                    and refine the design before moving into the development
-                    phase.
-                  </p>
+                  data-aos-duration="3000">
+                <ol>
+              <li>Thoroughly Analyze Software Requirements.</li>
+              <li>Identify Functional & Non-Functional Specifications.</li>
+              <li>Collaborate With Stakeholders To Clarify Expectations & Objectives.</li>
+
+             </ol>
                 </div>
               </div>
             </div>
@@ -133,21 +128,19 @@ function Qualityprocess() {
                   />
                 </div>
                 <div className="java_card_heading">
-                  <h4>Test Case Design</h4>
+                  <h4>Test Execution</h4>
                 </div>
                 <div
                   className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="4000"
                 >
-                  <p>
-                    {" "}
-                    The final step is to conduct user testing, which involves
-                    getting feedback from users to ensure that the design is
-                    meeting their needs and expectations. This step helps to
-                    identify any issues with the design and make improvements
-                    before launching the final product.
-                  </p>
+                <ol>
+              <li>Execute Test Cases According To Test Plan.</li>
+              <li>Verify Results Against Expected Results</li>
+              <li>Record & Report Defects Found.</li>
+
+             </ol>
                 </div>
               </div>
             </div>

@@ -55,7 +55,7 @@ function BookApointment() {
           <div className="ba-heading text-center text-white">
             <div className="ba-h mt-3">
               <div className="hh">
-                <h1>Book Appointment</h1>
+                <h1 className="hh">Book Appointment</h1>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ function BookApointment() {
                   data-aos="flip-left"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="2000">
-                  <h1>Contact us</h1>
+                  <h1  class="contact-section">Contact us</h1>
                   <form class="contact-form" ref={form} onSubmit={sendEmail}>
                     <input
                       name="name"

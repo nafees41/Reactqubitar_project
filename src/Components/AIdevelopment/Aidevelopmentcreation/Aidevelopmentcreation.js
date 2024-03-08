@@ -5,7 +5,7 @@ import platform_card from "../../../images/Ai-development.png";
 const Aidevelopmentcreation = () => {
   return (
     <div>
-             <div className="container ">
+        <div className="container m-0">
         <div className="row ">
           <div className="col-md-6">
               <div className="row mt-5">
@@ -25,7 +25,7 @@ const Aidevelopmentcreation = () => {
           </div>
           <div className="col-md-6">
           <div>
-              <h1>Creation of AI Development  </h1>
+              <h1 className='fw-bolder'>Creation of AI Development  </h1>
             </div>
             <div className="platform_para">
               <p>

@@ -1,6 +1,9 @@
 .dd_desk {
   color: var(--primary-color);
 }
+.news-head{
+  font-weight: 600;
+}
 .ff {
   background-image: url("../../../../src/images/footer.png");
 }

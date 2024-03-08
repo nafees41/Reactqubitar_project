@@ -83,7 +83,6 @@ function RealBanner() {
   `;
   return (
     <Wrapper>
-     
       <div className="container">
           <div className="row">
           <div className="col-md-8  col-sm-8 col-8 ">

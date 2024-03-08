@@ -24,7 +24,7 @@ function Services() {
         <div className="container">
           <center>
             <div className="services_head-page">
-              <h1>Other Services</h1>
+              <h1 className="services_head-page">Other Services</h1>
             </div>
             <div className="services_para-page">
               <p>
