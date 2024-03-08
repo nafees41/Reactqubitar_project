@@ -24,8 +24,7 @@ function Home() {
        
       },[]);
     return (
-        <Layout>
-            
+    <Layout>
      <NftDevelopment/>
      <NFTCompany/>
      <InvestNFT/>

@@ -27,29 +27,46 @@
   width: 7%;
   height: 10%;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .wordpress_right {
-    font-size: 10px; /* Adjust font size for extra small devices */
-  }
+.Tab-right{
+   margin-top: 8rem;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .wordpress_right {
-    font-size: 10px; /* Adjust font size for small devices */
+@media (max-width: 1192px) {
+  .Services-image{
+    width: 100%;
   }
 }
+/* @media only screen and (min-width: 769px) {
 
-/* Medium devices (landscape tablets, 769px and up) */
-@media only screen and (min-width: 769px) {
-  .wordpress_right {
-    font-size: 10px; /* Adjust font size for medium devices */
+
+} */
+@media (max-width: 1192px) {
+  .Services-head {
+    text-align: center;
   }
+}
+@media (max-width: 575.98px) {
+  .responsive-heading {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .responsive-head{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+
+  }
+
+  .Tab-right{
+    padding-top: 2rem;
+     width: 92%;
+    margin: auto;
+ }
+
 }
 .nav-pills .nav-link {
   color: var(--secondary-color);
-  /* Add any other styles you want to customize */
 }
 .nav-pills .nav-link.active {
   background-color: transparent;

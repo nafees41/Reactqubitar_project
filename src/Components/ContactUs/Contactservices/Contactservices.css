@@ -1,0 +1,74 @@
+
+  .Contact_card {
+    padding: 30px;
+    background-color: aliceblue;
+    border-top: 15px solid #fc7e13;
+    height: 430px;
+    border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%;
+  }
+  
+  .Contact_card:hover {
+    background-color: rgba(31, 39, 79, 0.8) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 16px;
+    border-bottom: 15px solid #fc7e13;
+    cursor: pointer;
+    .NavHashLink {
+      color: var(--primary-color);
+    }
+  }
+  .NavHashLink {
+    color:inherit;
+  }
+  .Contact_head {
+    color: var(--secondary-color);
+    margin-top: 3%;
+    padding-top: 20px;
+  }
+  .Contact_para {
+    color:var(--secondary-color);
+  }
+  @media screen and (max-width: 768px) {
+    .swipp {
+      padding: 30px !important;
+    }
+    .Contact_para {
+      padding: 0 20px 0 20px;
+    }
+  }
+  @media (max-width: 1192px) {
+    .head-responsive {
+      font-size: 17px;
+      font-weight: 400;
+    }
+  
+    .para-responsive {
+      font-size: 13px;
+    }
+  
+  }
+  @media (max-width: 575.98px) {
+    .head-responsive {
+      font-size: 22px;
+    }
+  
+    .para-responsive {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 280px) {
+    .head-responsive {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  
+    .para-responsive {
+      font-size: 12px;
+    }
+  
+  }
+  

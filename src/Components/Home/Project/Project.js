@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 // import juliana from "../../../images/WebDevelopment/juliana.png";
 // import lonewolf from "../../../images/WebDevelopment/lonewolf.png";
 // import yesbear from "../../../images/WebDevelopment/yesbear.png";
@@ -13,21 +13,17 @@ import digital from "../../../images/digital.png";
 
 import { NavHashLink } from "react-router-hash-link";
 
-import "./Project.css"
+import "./Project.css";
 export default function Project() {
   return (
-   <div className="container mt-5">
+    <div className="container mt-5">
       <hr className="banner_line " />
-        <div className="flex-container mt-3">
-          <div className="slider-container">
-            <ul className="slider">
-
-              <li className="slider__slide">
-              
-              
-
-                <div className="slider__content">
-            <NavHashLink to="nft">
+      <div className="flex-container mt-3">
+        <div className="slider-container">
+          <ul className="slider">
+            <li className="slider__slide">
+              <div className="slider__content">
+                <NavHashLink to="nft">
                   <img
                     src={nft}
                     className="img-fluid "
@@ -35,12 +31,12 @@ export default function Project() {
                     loading="lazy"
                   />
                   <span className="slider_span_para">NFT Development</span>
-              </NavHashLink>
-                </div>
-              </li>
-              <li className="slider__slide">
-                <div className="slider__content">
-              <NavHashLink to="web_development">
+                </NavHashLink>
+              </div>
+            </li>
+            <li className="slider__slide">
+              <div className="slider__content">
+                <NavHashLink to="web_development">
                   <img
                     src={web}
                     className="img-fluid "
@@ -48,12 +44,12 @@ export default function Project() {
                     loading="lazy"
                   />
                   <span className="slider_span_para">Web Development</span>
-              </NavHashLink>
-                </div>
-              </li>
-              <li className="slider__slide">
-                <div className="slider__content">
-              <NavHashLink to="mobile_dev">
+                </NavHashLink>
+              </div>
+            </li>
+            <li className="slider__slide">
+              <div className="slider__content">
+                <NavHashLink to="mobile_dev">
                   <img
                     src={mobile}
                     className="img-fluid "
@@ -61,12 +57,12 @@ export default function Project() {
                     loading="lazy"
                   />
                   <span className="slider_span_para">Mobile Development</span>
-              </NavHashLink>
-                </div>
-              </li>
-              <li className="slider__slide">
-                <div className="slider__content">
-              <NavHashLink to="ui_ux_design">
+                </NavHashLink>
+              </div>
+            </li>
+            <li className="slider__slide">
+              <div className="slider__content">
+                <NavHashLink to="ui_ux_design">
                   <img
                     src={uiux}
                     className="img-fluid "
@@ -74,12 +70,12 @@ export default function Project() {
                     loading="lazy"
                   />
                   <span className="slider_span_para">UI/UX Design</span>
-              </NavHashLink>
-                </div>
-              </li>
-              <li className="slider__slide">
-                <div className="slider__content">
-              <NavHashLink to="digital_marketing">
+                </NavHashLink>
+              </div>
+            </li>
+            <li className="slider__slide">
+              <div className="slider__content">
+                <NavHashLink to="digital_marketing">
                   <img
                     src={digital}
                     className="img-fluid "
@@ -87,88 +83,77 @@ export default function Project() {
                     loading="lazy"
                   />
                   <span className="slider_span_para">Digital Marketing</span>
-              </NavHashLink>
-                </div>
-              </li>
-              <li className="slider__slide">
-              
-              
-
-              <div className="slider__content">
-          <NavHashLink to="nft">
-                <img
-                  src={nft}
-                  className="img-fluid "
-                  alt="switch"
-                  loading="lazy"
-                />
-                <span className="slider_span_para">NFT Development</span>
-            </NavHashLink>
+                </NavHashLink>
               </div>
             </li>
             <li className="slider__slide">
               <div className="slider__content">
-            <NavHashLink to="web_development">
-                <img
-                  src={web}
-                  className="img-fluid "
-                  alt="switch"
-                  loading="lazy"
-                />
-                <span className="slider_span_para">Web Development</span>
-            </NavHashLink>
+                <NavHashLink to="nft">
+                  <img
+                    src={nft}
+                    className="img-fluid "
+                    alt="switch"
+                    loading="lazy"
+                  />
+                  <span className="slider_span_para">NFT Development</span>
+                </NavHashLink>
               </div>
             </li>
             <li className="slider__slide">
               <div className="slider__content">
-            <NavHashLink to="mobile_dev">
-                <img
-                  src={mobile}
-                  className="img-fluid "
-                  alt="switch"
-                  loading="lazy"
-                />
-                <span className="slider_span_para">Mobile Development</span>
-            </NavHashLink>
+                <NavHashLink to="web_development">
+                  <img
+                    src={web}
+                    className="img-fluid "
+                    alt="switch"
+                    loading="lazy"
+                  />
+                  <span className="slider_span_para">Web Development</span>
+                </NavHashLink>
               </div>
             </li>
             <li className="slider__slide">
               <div className="slider__content">
-            <NavHashLink to="ui_ux_design">
-                <img
-                  src={uiux}
-                  className="img-fluid "
-                  alt="switch"
-                  loading="lazy"
-                />
-                <span className="slider_span_para">UI/UX Design</span>
-            </NavHashLink>
+                <NavHashLink to="mobile_dev">
+                  <img
+                    src={mobile}
+                    className="img-fluid "
+                    alt="switch"
+                    loading="lazy"
+                  />
+                  <span className="slider_span_para">Mobile Development</span>
+                </NavHashLink>
               </div>
             </li>
             <li className="slider__slide">
               <div className="slider__content">
-            <NavHashLink to="digital_marketing">
-                <img
-                  src={digital}
-                  className="img-fluid "
-                  alt="switch"
-                  loading="lazy"
-                />
-                <span className="slider_span_para">Digital Marketing</span>
-            </NavHashLink>
+                <NavHashLink to="ui_ux_design">
+                  <img
+                    src={uiux}
+                    className="img-fluid "
+                    alt="switch"
+                    loading="lazy"
+                  />
+                  <span className="slider_span_para">UI/UX Design</span>
+                </NavHashLink>
               </div>
             </li>
-            
-              
-        
-        
-  
-              
-             
-            </ul>
-          </div>
+            <li className="slider__slide">
+              <div className="slider__content">
+                <NavHashLink to="digital_marketing">
+                  <img
+                    src={digital}
+                    className="img-fluid "
+                    alt="switch"
+                    loading="lazy"
+                  />
+                  <span className="slider_span_para">Digital Marketing</span>
+                </NavHashLink>
+              </div>
+            </li>
+          </ul>
         </div>
-   </div>
-    
-  )
+      </div>
+    </div>
+  );
 }

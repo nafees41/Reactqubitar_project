@@ -30,25 +30,17 @@ function NFTGaming() {
       },[]);
     return (
         <Layout>
-            
-   <NFTGamingBanner/>
+     <NFTGamingBanner/>
     <GameDevelopment/>
     <FutureScope/>
     <GamingServices/>
     <GamingFeatures/>
     <GamingProcess/>
-
-
-    
-    
-
-     {/* <Portfolio/> */}
+  {/* <Portfolio/> */}
      {/* <Tech/> */}
      <Testimonialspage/>
      <Servicespage />
-
-
-        </Layout>
+ </Layout>
     );
 }
 

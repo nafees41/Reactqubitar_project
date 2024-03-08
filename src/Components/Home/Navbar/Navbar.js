@@ -133,6 +133,23 @@ function Navbar() {
                 </li>
                 <li className="navLink">
                   <NavHashLink
+                    to="/Packagepage"
+                    scroll={(el) => scrollWithOffset(el)}
+                    onClick={() => {
+                      setMobileMenu(false);
+                    }}
+                  >
+                    <ul class="menu">
+                      <li class="dropdown dropdown-5">
+                        <div className="iconDrop">
+                          <div className="dropText">Our Packages</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </NavHashLink>
+                </li>
+                <li className="navLink">
+                  <NavHashLink
                     to="/portfolio"
                     scroll={(el) => scrollWithOffset(el)}
                     onClick={() => {
@@ -171,7 +188,7 @@ function Navbar() {
                 <li className="nav-button">
                   <li>
                     <NavHashLink
-                      to="/#bookappointment"
+                      to="/Contactpage"
                       smooth
                       scroll={(el) => scrollWithOffset(el)}
                       onClick={() => {

@@ -18,29 +18,90 @@
   .linkstyle {
     color: var(--primary-color);
   }
+  .otherservices_head {
+    color: white;
+  }
+  .otherservices_para {
+    color: white;
+  }
 }
 .otherservices_head {
   color: #1f274f;
   margin-top: 3%;
   padding-top: 20px;
 }
+.otherservices_head {
+  color: white;
+}
 .otherservices_para {
   color: #1f274f;
+}
+.Nft-development {
+  font-size: 15px;
+  padding: 0 20px 0 0px;
+}
+@media (max-width: 820px) {
+  .Nft-development {
+    margin-left: 7%;
+  }
 }
 @media screen and (max-width: 768px) {
   .swipp {
     padding: 30px !important;
   }
   .otherservices_para {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 0px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .card_head {
+    font-size: 20px;
+  }
+  .Nft-development {
+    margin-left: 13%;
   }
 }
-.linkstyle {
-  color:inherit;
+@media (max-width: 992px) {
+  .otherservices_para {
+    padding: 0 20px 0 0px;
+  }
+}
+@media (max-width: 1192px) {
+  .card_head {
+    font-size: 18px;
+  }
+  .otherservices_para {
+    padding: 0 50px 0 0px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  /* .Nft-development {
+    margin-left: 12%;
+  } */
 }
 
+.linkstyle {
+  color: inherit;
+}
 .card_head {
   font-weight: 500;
+}
+@media only screen and (max-width: 540px) {
+  .Nft-development {
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .card_head {
+    font-size: 10px;
+  }
+  .otherservices_para {
+    font-size: 8px;
+    font-weight: 400;
+  }
+  .otherservices_card {
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -48,13 +109,24 @@
     font-size: 13px;
   }
   .otherservices_para {
+    padding: 0 30px 0 0px;
     font-size: 10px;
+    font-weight: 400;
   }
   .otherservices_card {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 30px;
-    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .card_head {
+    font-size: 10px;
+  }
+  .otherservices_para {
+    padding: 0 0px 0 0px;
+    font-size: 9px;
+    font-weight: 500;
   }
 }
 @media only screen and (max-width: 983px) {
@@ -67,3 +139,4 @@
     font-size: 10px;
   }
 }
+

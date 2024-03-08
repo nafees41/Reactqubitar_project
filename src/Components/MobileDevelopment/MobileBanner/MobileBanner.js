@@ -9,9 +9,8 @@ import react from "../../../images/MobileDevelopment/react.png";
 import line from "../../../images/WebDevelopment/line.png";
 import { NavHashLink } from "react-router-hash-link";
 import Firebase from "../../../images/WebDevelopment/mangicon.png";
-
-
 import Wrapper from "./MobileBanner.styled";
+import "./MobileBanner.css"
 
 function MobileBanner() {
   const BannerItem = styled.div`
@@ -82,18 +81,14 @@ function MobileBanner() {
   `;
   return (
     <Wrapper>
-
-      <div className="container">
-
-        <div className="row">
-          <div className="col-md-8  col-sm-8 col-8 ">
-            <h1 className="web_banner_heading">Mobile Development</h1>
-            <p className="web_banner_para ">We offer professional mobile development services, specializing in creating high-quality mobile applications for various platforms such as iOS and Android. Our team of skilled developers utilizes the latest tools and technologies to design, develop, and deploy custom mobile applications that cater to our clients' unique business needs. Whether it's a simple app or a complex enterprise-level solution, we deliver robust and scalable mobile applications that exceed our clients' expectations. 
-
-            </p>
-            <ButtonGroup className="web_banner_btn">
+     <div className="container">
+       <div className="row mobile-responsive">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+            <h1 className="web_banner_heading mobile-heading">Mobile Development</h1>
+            <p className="web_banner_para mobile_para">We offer professional mobile development services, specializing in creating high-quality mobile applications for various platforms such as iOS and Android. Our team of skilled developers utilizes the latest tools and technologies to design, develop, and deploy custom mobile applications that cater to our clients' unique business needs. Whether it's a simple app or a complex enterprise-level solution, we deliver robust and scalable mobile applications that exceed our clients' expectations   </p>
+            <ButtonGroup className="web_banner_btn mobile_button">
              <NavHashLink to="/#bookappointment"> 
-             <button class="item button-rainbow mx-2">
+             <button class="item button-rainbow  mx-2">
                 Schedule a Call
                 <span className="p-2">
                   <svg
@@ -108,35 +103,21 @@ function MobileBanner() {
                       d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                     />
                   </svg>
-                </span>{" "}
+                </span>
               </button>
              {/* <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton> */}
              </NavHashLink>
             {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup>
-
-          </div>
-          <div className="col-md-4 col-sm-4 col-4">
+             </div>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
             <div className="cube">
               <img
                 src={mobileBanner}
-                className="img-fluid "
+                className="img-fluid mobile-image"
                 alt="switch"
-                loading="lazy"
-              />
+                loading="lazy"/>
             </div>
-            <Ellipse>
-
-              {/* <Circle
-                src={threebars}
-                className="img-fluid mt-2"
-                loading="lazy"
-                alt="">
-
-              </Circle> */}
-
-            </Ellipse>
-
           </div>
         </div>
         <hr className="banner_line mt-5" />

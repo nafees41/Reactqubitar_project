@@ -3,7 +3,6 @@ import service1 from "../../../images/MobileDevelopment/service1.png";
 import service2 from "../../../images/MobileDevelopment/service2.png";
 import service3 from "../../../images/MobileDevelopment/service3.png";
 import service4 from "../../../images/MobileDevelopment/service4.png";
-
 import "./AppServices.css";
 export default function AppServices() {
   return (
@@ -20,11 +19,11 @@ export default function AppServices() {
             development.
           </p>
         </div>
-        <div className="row">
+        <div className="row App_row">
           <div className="col-md-6">
             <div className="app_service_card_1">
               <div className="app_service_car_head">
-                <h3>Innovative Solutions:</h3>
+                <h3 className="Expert_heading">Innovative Solutions:</h3>
               </div>
               <div className="app_service_para_img">
                 <div className="app_service_card_para">
@@ -39,7 +38,7 @@ export default function AppServices() {
                 <div className="app_service_img app_service_img1">
                   <img
                     src={service1}
-                    className="img-fluid"
+                    className="img-fluid Expert_images"
                     alt="switch"
                     loading="lazy"
                   />
@@ -50,11 +49,11 @@ export default function AppServices() {
           <div className="col-md-6">
             <div className="app_service_card_2">
               <div className="app_service_car_head">
-                <h3>Customized Approach</h3>
+                <h3 className="Expert_heading">Customized Approach</h3>
               </div>
               <div className="app_service_para_img">
                 <div className="app_service_card_para">
-                  <p>
+                  <p className="Customized_paragraph">
                     We take a customized approach to app development, working
                     closely with our clients to understand their unique needs
                     and develop solutions that meet their specific requirements.
@@ -65,7 +64,7 @@ export default function AppServices() {
                 <div className="app_service_img app_service_img2">
                   <img
                     src={service2}
-                    className="img-fluid "
+                    className="img-fluid Expert_images"
                     alt="switch"
                     loading="lazy"
                   />
@@ -76,11 +75,11 @@ export default function AppServices() {
           <div className="col-md-6 mt-4">
             <div className="app_service_card_1">
               <div className="app_service_car_head">
-                <h3>User-Centered Design</h3>
+                <h3 className="Expert_heading">User-Centered Design</h3>
               </div>
               <div className="app_service_para_img">
                 <div className="app_service_card_para">
-                  <p>
+                  <p > 
                     We prioritize user-centered design in all of our app
                     development services. Our team of experienced designers
                     works to create intuitive and engaging interfaces that are
@@ -91,7 +90,7 @@ export default function AppServices() {
                 <div className="app_service_img app_service_img1">
                   <img
                     src={service3}
-                    className="img-fluid "
+                    className="img-fluid Expert_images"
                     alt="switch"
                     loading="lazy"
                   />
@@ -102,11 +101,11 @@ export default function AppServices() {
           <div className="col-md-6 mt-4">
             <div className="app_service_card_2">
               <div className="app_service_car_head">
-                <h3>Comprehensive Services</h3>
+                <h3 className="Expert_heading">Comprehensive Services</h3>
               </div>
               <div className="app_service_para_img">
                 <div className="app_service_card_para">
-                  <p>
+                  <p className="Expert_paragraph">
                     We offer a comprehensive range of app development services,
                     including iOS app development, Android app development,
                     cross-platform app development, and web app development. Our
@@ -118,7 +117,7 @@ export default function AppServices() {
                 <div className="app_service_img app_service_img2">
                   <img
                     src={service4}
-                    className="img-fluid "
+                    className="img-fluid Expert_images"
                     alt="switch"
                     loading="lazy"
                   />

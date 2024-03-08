@@ -11,6 +11,8 @@ import Faq from "../Components/Home/Faq/Faq";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
 import AboutUs from "../Components/Home/AboutUs/AboutUs";
 import AngularJs from "../Components/WebDevelopment/AngularJS/AngularJs";
+import OurApps from "../Components/MobileDevelopment/OurApps/OurApps";
+
 
 export default function Home() {
   useEffect(() => {
@@ -26,15 +28,16 @@ export default function Home() {
     <Layout>
       <Banner/>
       <Project/>
-       <AboutUs/>
-      <Services/>
       <Chose/>
+       {/* <AboutUs/> */}
+      <Services/>
       <OurClient/>
       {/* <Testimonials /> */}
        {/* <Life /> */}
-      <BookApointment />
-      <Faq />
-      <AngularJs />
+      <BookApointment/>
+      <OurApps/>
+      <Faq/>
+      <AngularJs/>
     </Layout>
   );
 }

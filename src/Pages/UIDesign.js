@@ -17,18 +17,16 @@ function Home() {
   }, []);
   return (
     <Layout>
-      <UIDesignBanner />
-      <WhatWeDo />
-      {/* <UIServices /> */}
-      <Process />
+      <UIDesignBanner/>
+      <WhatWeDo/>
+      {/* <UIServices/> */}
+      <Process/>
       <OurApps/>
       {/* <Portfolio/> */}
-      <BookApointment />
+      <BookApointment/>
       <Testimonialspage/>
       <Servicespage/>
-
-  
-      {/* <Testimonials /> */}
+      {/*<Testimonials/>*/}
     </Layout>
   );
 }

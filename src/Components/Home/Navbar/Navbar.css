@@ -29,3 +29,13 @@
     padding-left: 2%;
   }
 }
+@media (max-width: 575.98px) {
+  #home {
+    padding-left: 4%;
+  }
+}
+@media (max-width: 280px) {
+  #home {
+    padding-left: 7%;
+  }
+}

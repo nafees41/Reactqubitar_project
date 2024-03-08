@@ -1,4 +1,3 @@
-/** @format */
 
 import styled from "styled-components";
 const Wrapper = styled.div`
@@ -56,21 +55,12 @@ const Wrapper = styled.div`
       width: 18%;
     }
   }
-
-    // @media (max-width: 768px) {
+  // @media (max-width: 768px) {
     //   .angular{
 
     //   }
     // }
-  
-
-  
-  
-  
- 
- 
- 
-  .growthe{
+    .growthe{
   animation: rotation 8s infinite linear;
 }
 

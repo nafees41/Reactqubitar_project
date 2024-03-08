@@ -7,6 +7,7 @@ import Project from "../Components/Home/Project/Project";
 import NftPortfolio from "../Components/Portfolio/NftPortfolio/NftPortfolio";
 import WebPortfolio from "../Components/Portfolio/WebPortfolio/WebPortfolio";
 import AngularJs from "../Components/WebDevelopment/AngularJS/AngularJs";
+import Services from "../Components/Home/Services/Services";
 
 
 
@@ -19,12 +20,13 @@ function Home() {
       },[]);
     return (
         <Layout>
-          <PortfolioBanner/>  
-          <Project/>
-          <NftPortfolio/>
+          {/* <PortfolioBanner/>   */}
+          {/* <Project/> */}
           <WebPortfolio/>
           <NftPortfolio/>
-          <WebPortfolio/>
+         <WebPortfolio/>
+          <NftPortfolio/>
+          {/* <Services/> */}
           <AngularJs/>
       {/* <Testimonials/> */}
         </Layout>

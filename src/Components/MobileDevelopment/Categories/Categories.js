@@ -32,24 +32,21 @@ export default function Categories() {
           </p>
         </div>
       </center>
-
-      <div className="container mt-5 mb-5">
-        <div className="row d-flex align-items-start">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4">
+       <div className="container mt-5 mb-5">
+        <div className="row  d-flex align-items-start">
+          <div className="col-xs-12 col-sm-12 col-md-12  col-lg-12 col-xl-6 px-4">
             <div class="tab-content" id="v-pills-tabContent">
               <div
                 class="tab-pane fade show active"
                 id="v-pills-home"
                 role="tabpanel"
                 aria-labelledby="v-pills-home-tab"
-                tabindex="0"
-              >
+                tabindex="0">
                 <h1 className="categories_heading px-3">Educational App</h1>
                 <p
-                  className="wordpress_para"
+                  className="wordpress_para categories_paragraph"
                   data-aos="flip-right"
-                  data-aos-duration="1000"
-                >
+                  data-aos-duration="1000">
                   We provide blockchain development services from our proficient
                   experts for a wide range of applications.
                 </p>
@@ -59,11 +56,10 @@ export default function Categories() {
                 >
                   <img
                     src={service5}
-                    style={{ borderRadius: "2%" }}
-                    className="img-fluid"
+                    style={{ borderRadius:"2%"}}
+                    className="img-fluid tab-pane-image"
                     alt="switch"
-                    loading="lazy"
-                  />
+                    loading="lazy"/>
                 </div>
               </div>
               <div
@@ -74,7 +70,7 @@ export default function Categories() {
                 tabindex="0"
               >
                 <h2 className="categories_heading px-3">Social media apps</h2>
-                <p className="wordpress_para">
+                <p className="wordpress_para categories_paragraph">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
                   deployment, data migration, API integrations, and plugin
@@ -88,8 +84,8 @@ export default function Categories() {
                 >
                   <img
                     src={service6}
-                    style={{ borderRadius: "2%" }}
-                    className="img-fluid"
+                    style={{ borderRadius:"2%"}}
+                    className="img-fluid tab-pane-image"
                     alt="switch"
                     loading="lazy"
                   />
@@ -103,7 +99,7 @@ export default function Categories() {
                 tabindex="0"
               >
                 <h2 className="categories_heading px-3">Real Estate App</h2>
-                <p className="wordpress_para">
+                <p className="wordpress_para categories_paragraph">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
                   deployment, data migration, API integrations, and plugin
@@ -117,7 +113,7 @@ export default function Categories() {
                   <img
                     src={service7}
                     style={{ borderRadius: "2%" }}
-                    className="img-fluid"
+                    className="img-fluid tab-pane-image"
                     alt="switch"
                     loading="lazy"
                   />
@@ -131,7 +127,7 @@ export default function Categories() {
                 tabindex="0"
               >
                 <h2 className="categories_heading px-3">Health Care</h2>
-                <p className="wordpress_para">
+                <p className="wordpress_para categories_paragraph">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
                   deployment, data migration, API integrations, and plugin
@@ -145,7 +141,7 @@ export default function Categories() {
                   <img
                     src={service8}
                     style={{ borderRadius: "2%" }}
-                    className="img-fluid"
+                    className="img-fluid tab-pane-image"
                     alt="switch"
                     loading="lazy"
                   />
@@ -158,7 +154,7 @@ export default function Categories() {
                 aria-labelledby="v-pills-settings-tab"
                 tabindex="0" >
                 <h2 className="categories_heading px-3">Fintech</h2>
-                <p className="wordpress_para">
+                <p className="wordpress_para categories_paragraph">
                   We are a leading web development company that crafts digital
                   solutions with dexterity, from conceptualization to
                   deployment, data migration, API integrations, and plugin
@@ -167,12 +163,11 @@ export default function Categories() {
                 </p>
                 <div
                   className="wordpress_img px-3"
-                  style={{borderRadius:"20%"}}
-                >
+                  style={{borderRadius:"20%"}}>
                   <img
                     src={service9}
                     style={{borderRadius:"2%"}}
-                    className="img-fluid"
+                    className="img-fluid tab-pane-image"
                     alt="switch"
                     loading="lazy"
                   />
@@ -180,7 +175,7 @@ export default function Categories() {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 category_card px-4">
             <div
               class="nav flex-column nav-pills"
               id="v-pills-tab"
@@ -201,11 +196,11 @@ export default function Categories() {
                   <div className="educational_app">
                     <img
                       src={eApp}
-                      className="img-fluid edu_app_outer"
+                      className="img-fluid edu_app_outer "
                       alt="switch"
                       loading="lazy"
                     />
-                    <span className="edu_app_para">Educational apps</span>
+                    <span className="edu_app_para Apps_heading">Educational apps</span>
                   </div>
                 </div>
                 <hr className="w_banner_line" />
@@ -228,7 +223,7 @@ export default function Categories() {
                       alt="switch"
                       loading="lazy"
                     />
-                    <span className="edu_app_para">Social media apps</span>
+                    <span className="edu_app_para Apps_heading">Social media apps</span>
                   </div>
                 </div>
                 <hr className="w_banner_line" />
@@ -252,7 +247,7 @@ export default function Categories() {
                       alt="switch"
                       loading="lazy"
                     />
-                    <span className="edu_app_para">Real Estate App</span>
+                    <span className="edu_app_para Apps_heading">Real Estate App</span>
                   </div>
                 </div>
                 <hr className="w_banner_line" />
@@ -275,7 +270,7 @@ export default function Categories() {
                       alt="switch"
                       loading="lazy"
                     />
-                    <span className="edu_app_para">Health Care</span>
+                    <span className="edu_app_para Apps_heading">Health Care</span>
                   </div>
                 </div>
                 <hr className="w_banner_line" />
@@ -298,7 +293,7 @@ export default function Categories() {
                       alt="switch"
                       loading="lazy"
                     />
-                    <span className="edu_app_para">Fintech</span>
+                    <span className="edu_app_para Apps_heading">Fintech</span>
                   </div>
                 </div>
                 <hr className="w_banner_line" />
@@ -321,7 +316,7 @@ export default function Categories() {
                       alt="switch"
                       loading="lazy"
                     />
-                    <span className="edu_app_para">E-Commerce</span>
+                    <span className="edu_app_para Apps_heading">E-Commerce</span>
                   </div>
                 </div>
                 <hr className="w_banner_line" />

@@ -14,8 +14,8 @@ function NFTCompany() {
             </div>
               </center>
             <div className="row custom_web_cards">
-                <div className="col-md-4 custom_box ">
-                      <h3 className='third_party mt-4 '>  Focus on Client Goals </h3>
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                      <h3 className='third_party mt-4'>  Focus on Client Goals </h3>
                       <div className="dot-line">
                           <img
                               src={dotLine}
@@ -30,7 +30,7 @@ function NFTCompany() {
                       </p>
                     
                 </div>
-                  <div className="col-md-4 custom_box">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                       <h3 className='third_party mt-4 '> High-Quality NFTs </h3>
                       <div className="dot-line">
                           <img
@@ -45,7 +45,7 @@ function NFTCompany() {
                       </p>
 
                   </div>
-                  <div className="col-md-4 custom_box">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
                       <h3 className='third_party mt-4'> Measurable Results</h3>
                       <div className="dot-line">
                           <img

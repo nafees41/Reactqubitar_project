@@ -7,6 +7,10 @@ import healthcare from "../../../images/WebDevelopment/healthcare.png";
 import ecommerce from "../../../images/WebDevelopment/ecommerce.png";
 import estate from "../../../images/WebDevelopment/estate.png";
 import education from "../../../images/WebDevelopment/education.png";
+import Finance from "../../../images/WebDevelopment/Finanace.jpg";
+import Ecommerce from "../../../images/WebDevelopment/E-learning.jpg";
+import Realestate from "../../../images/WebDevelopment/Realestate.jpg";
+import Healthimage from "../../../images/WebDevelopment/healthimage.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -15,19 +19,19 @@ export default function WordpressDev() {
     // data-aos="flip-down"
     <div className="container mt-5 mb-5">
       <div className="row d-flex align-items-start">
-        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 px-4">
           <div class="tab-content" id="v-pills-tabContent">
             <div
               class="tab-pane fade show active"
               id="v-pills-home"
-              role="tabpanel"
-              aria-labelledby="v-pills-home-tab"
-              tabindex="0" >
-              <h1 className="wordpress_heading p-0">
-                Services we provide for Website Development
+               role="tabpanel"
+             aria-labelledby="v-pills-home-tab" 
+              tabindex="0">
+              <h1 className="wordpress_heading p-0 Services-head">
+                 Services we provide for Website Development
               </h1>
               <p
-                className="wordpress_para"
+                className="wordpress_para responsive-heading"
                 data-aos="flip-right"
                 data-aos-duration="1000">
                 We are a leading web development company that crafts digital
@@ -38,15 +42,13 @@ export default function WordpressDev() {
               </p>
               <div
                 className="wordpress_img px-3"
-                style={{borderRadius:"20%"}}
-              >
+                style={{borderRadius:"20%"}}>
                 <img
-                  src={crm4}
+                  src={Healthimage}
                   style={{borderRadius:"2%"}}
-                  className="img-fluid"
+                  className="img-fluid Services-image"
                   alt="switch"
-                  loading="lazy"
-                />
+                  loading="lazy"/>
               </div>
             </div>
             <div
@@ -54,9 +56,8 @@ export default function WordpressDev() {
               id="v-pills-profile"
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
-              tabindex="0"
-            >
-              <h2 className="wordpress_heading">
+              tabindex="0">
+              <h2 className="wordpress_heading responsive-head">
                 Finance and Banking Services
               </h2>
               <p className="wordpress_para">
@@ -68,11 +69,11 @@ export default function WordpressDev() {
               </p>
               <div
                 className="wordpress_img px-3"
-                style={{borderRadius: "20%"}}>
+                style={{borderRadius:"20%"}}>
                 <img
-                  src={crm4}
+                  src={Finance}
                   style={{borderRadius:"2%",height:"100%"}}
-                  className="img-fluid"
+                  className="img-fluid Services-image"
                   alt="switch"
                   loading="lazy"
                 />
@@ -83,8 +84,9 @@ export default function WordpressDev() {
               id="v-pills-Retail"
               role="tabpanel"
               aria-labelledby="v-pills-Retail-tab"
-              tabindex="0">
-              <h2 className="wordpress_heading">
+              tabindex="0"
+            >
+              <h2 className="wordpress_heading responsive-head">
                 Retail and E-commerce Services
               </h2>
               <p className="wordpress_para">
@@ -94,11 +96,11 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius:"20%"}}>
+              <div className="wordpress_img" style={{ borderRadius: "20%" }}>
                 <img
-                  src={crm4}
-                  style={{borderRadius:"2%"}}
-                  className="img-fluid "
+                  src={Ecommerce}
+                  style={{ borderRadius:"2%"}}
+                  className="img-fluid Services-image"
                   alt="switch"
                   loading="lazy"
                 />
@@ -111,7 +113,7 @@ export default function WordpressDev() {
               aria-labelledby="v-pills-messages-tab"
               tabindex="0"
             >
-              <h2 className="wordpress_heading">
+              <h2 className="wordpress_heading responsive-head">
                 Education and E-learning Services
               </h2>
               <p className="wordpress_para">
@@ -121,10 +123,10 @@ export default function WordpressDev() {
                 clients who want better business results, we create high
                 performing and easy to manage webApps.
               </p>
-              <div className="wordpress_img" style={{borderRadius:"20%"}}>
+              <div className="wordpress_img" style={{ borderRadius: "20%" }}>
                 <img
                   src={crm4}
-                  style={{borderRadius:"2%"}}
+                  style={{ borderRadius:"2%"}}
                   className="img-fluid"
                   alt="switch"
                   loading="lazy"
@@ -136,8 +138,9 @@ export default function WordpressDev() {
               id="v-pills-settings"
               role="tabpanel"
               aria-labelledby="v-pills-settings-tab"
-              tabindex="0">
-              <h2 className="wordpress_heading">Real Estate Services</h2>
+              tabindex="0"
+            >
+              <h2 className="wordpress_heading responsive-head">Real Estate Services</h2>
               <p className="wordpress_para">
                 We are a leading web development company that crafts digital
                 solutions with dexterity, from conceptualization to deployment,
@@ -150,19 +153,16 @@ export default function WordpressDev() {
                 style={{borderRadius:"20%"}}
               >
                 <img
-                  src={crm4}
+                  src={Realestate}
                   style={{borderRadius:"2%"}}
-                  className="img-fluid"
+                  className="img-fluid Services-image"
                   alt="switch"
-                  loading="lazy"
-                />
+                  loading="lazy"/>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="col-xs-12 col-sm-12 col-md-12 col-lg-6 px-4"
-          style={{marginTop:"8rem"}}>
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12  col-xl-6 px-4 Tab-right">
           <div
             class="nav flex-column nav-pills"
             id="v-pills-tab"
@@ -176,16 +176,16 @@ export default function WordpressDev() {
               type="button"
               role="tab"
               aria-controls="v-pills-home"
-              aria-selected="true" >
+              aria-selected="true">
               <div className="main_wordpress_right">
                 <div className="wordpress_right">
                   <img
                     src={healthcare}
-                    className="img-fluid"
+                    className="img-fluid Services-image"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="heath_care">
+                  <span className="heath_care responsive-heading">
                     Healthcare and Medical Services
                   </span>
                   <hr className="w_banner_line" />
@@ -200,8 +200,7 @@ export default function WordpressDev() {
               type="button"
               role="tab"
               aria-controls="v-pills-profile"
-              aria-selected="false"
-            >
+              aria-selected="false">
               <div className="wordpress_right">
                 <img
                   src={bank}
@@ -209,7 +208,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care">Finance and Banking Services</span>
+                <span className="heath_care responsive-heading">Finance and Banking Services</span>
                 <hr className="w_banner_line" />
               </div>
             </button>
@@ -231,7 +230,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care">
+                <span className="heath_care responsive-heading">
                   Retail and E-commerce Services
                 </span>
                 <hr className="w_banner_line" />
@@ -254,7 +253,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care">
+                <span className="heath_care responsive-heading">
                   Education and E-learning Services
                 </span>
                 <hr className="w_banner_line" />
@@ -277,7 +276,7 @@ export default function WordpressDev() {
                   alt="switch"
                   loading="lazy"
                 />
-                <span className="heath_care">Real Estate Services</span>
+                <span className="heath_care responsive-heading">Real Estate Services</span>
                 <hr className="w_banner_line" />
               </div>
             </button>

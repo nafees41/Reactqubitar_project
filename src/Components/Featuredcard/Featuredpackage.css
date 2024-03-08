@@ -1,0 +1,305 @@
+.featured_card-page {
+  padding: 30px;
+  background-color: aliceblue;
+  border-top: 15px solid #fc7e13;
+  height: 670px;
+  /* border-radius: 69% 31% 97% 10% / 0% 100% 0% 100%; */
+  border-radius: 16px;
+}
+.featured_card-page:hover {
+  background-color: rgba(31, 39, 79, 0.8) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 16px;
+  border-bottom: 15px solid #fc7e13;
+  cursor: pointer;
+  .mobilelink {
+    color: var(--primary-color);
+  }
+  .featured_para {
+    color: white;
+  }
+  .Featured_card_more {
+    animation: rainbow 1s infinite, heartbeat 3.8s infinite;
+    background: var(--primary-color);
+    color: white;
+    padding: 1em;
+    border: 0;
+    border-radius: 12px;
+    .rainbow {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: -40px;
+      transition: 0.1s ease-in;
+      opacity: 0;
+      transform: rotate(0);
+    }
+
+    + .name {
+      color: #444;
+    }
+  }
+}
+.featured_childhead{
+  font-weight: 500;
+}
+.featured_head {
+  font-weight: 600;
+}
+.featured_subhead {
+  font-weight: 500;
+}
+.featured_head-page {
+  color: #1f274f;
+  margin-top: 3%;
+  padding-top: 20px;
+}
+.featured_para {
+  color: #1f274f;
+  font-weight: 500;
+}
+
+@media (max-width: 1192px) {
+  .featured_card-page {
+    margin-bottom: 30px;
+  }
+  .featured_card ul li {
+    font-size: 15px;
+  }
+  .Featured_card_more {
+    font-weight: 400;
+    border: 0;
+    background-color: #1f274f;
+    color: white;
+    padding: 1em;
+    border: 0;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .swipp-page {
+    padding: 30px !important;
+  }
+  .services_para-page {
+    padding: 0 20px 0 20px;
+  }
+  .featured_card-page {
+    margin-bottom: 30px;
+  }
+  li:not(:last-of-type) {
+    padding-left: 0rem;
+    font-size: 25px;
+  }
+  .featured_head {
+    font-weight: 600;
+    font-size: 22px;
+    color: #1f274f;
+  }
+  .featured_subhead {
+    font-weight: 500;
+    font-size: 20px;
+    color: #1f274f;
+  }
+}
+.linkstyle {
+  text-decoration: none;
+  display: block;
+}
+.linkstyle:hover {
+  color: var(--primary-color);
+}
+@media only screen and (max-width: 280px) {
+  .featured_card-page {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 30px;
+  }
+ 
+  .featured_card ul li {
+    font-weight: 600;
+    font-size: 12px !important;
+  }
+  .Featured_card_more {
+    font-weight: 400;
+    border: 0;
+    background-color: #1f274f;
+    color: white;
+    padding: 1em;
+    border: 0;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 0 !important;
+  }
+  .featured_childhead{
+    padding: 0;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+  
+  }
+    .featured_head {
+      font-weight: 700 !important;
+      font-size: 15px !important;
+    }
+    .featured_subhead {
+      font-weight: 700;
+      font-size: 13px !important;
+    }
+}
+
+.featured_para ul {
+  list-style: none;
+  padding-left: 0;
+}
+.featured_para li {
+  position: relative;
+  padding-left: 1.5em; /* space to preserve indentation on wrap */
+}
+.featured_para li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 1792 1792'><path fill='orange' d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>")
+    no-repeat;
+}
+
+.featured_para li {
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+.mobilelink {
+  color: inherit;
+}
+.Featured_card_more {
+  font-weight: 400;
+  border: 0;
+  background-color: #1f274f;
+  color: white;
+  padding: 1em;
+  border: 0;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 20px;
+}
+@keyframes rotate-nonstop {
+  50% {
+    transform: rotate(92deg);
+  }
+}
+
+@keyframes omg-yes {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: -50px;
+  }
+}
+.button-jittery button {
+  animation: jittery 4s infinite;
+  &:hover {
+    animation: heartbeat 0.2s infinite;
+  }
+}
+
+@keyframes jittery {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+
+@keyframes heartbeat {
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+
+@media only screen and (max-width: 575.98px) {
+  .featured_card-page {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .featured_para ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .featured_para li {
+    position: relative;
+    padding-left: 10px; /* space to preserve indentation on wrap */
+  }
+  .Featured_card_more {
+    font-weight: 400;
+    border: 0;
+    background-color: #1f274f;
+    color: white;
+    padding: 1em;
+    border: 0;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 10px;
+  }
+  .featured_para li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0em;
+    height: 0em;
+    background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 1792 1792'><path fill='orange' d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>")
+      no-repeat;
+  }
+
+.featured_para li{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+.featured_childhead{
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+  .featured_head {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .featured_subhead {
+    font-weight: 500;
+    font-size: 19px;
+  }
+}

@@ -50,7 +50,7 @@ const CustomArrows = () => {
 
   return (
     <section id="angularjs">
-      <div className="container mt-5 mb-5 px-2">
+      <div className="container angular-alignment mt-5 mb-5 px-2">
         <h1
           className="angular-heading"
           data-aos="fade-up"

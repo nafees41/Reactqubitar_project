@@ -11,36 +11,29 @@ import StakingServices from "../Components/NFTStaking/StakingServices/StakingSer
 import StakingProcess from "../Components/NFTStaking/StakingProcess/StakingProcess";
 import StakingFeatures from "../Components/NFTStaking/StakingFeatures/StakingFeatures";
 import Servicespage from "../Components/Otherservicestwo/Otherservicestwo";
-import Testimonialspage from '../Components/WebDevelopment/AngularJS/AngularJs'
-
-
-
-
+import Testimonialspage from "../Components/WebDevelopment/AngularJS/AngularJs";
+import AngularJs from "../Components/WebDevelopment/AngularJS/AngularJs";
 
 function Home() {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-       
-      },[]);
-    return (
-        <Layout>
-            
-     <StakingBanner/>
-     <StakingPlatform/>
-     <CreateStaking/>
-     <StakingServices/>
-     <StakingFeatures/>
-     <StakingProcess/>
-{/* 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <Layout>
+      <StakingBanner />
+      <StakingPlatform />
+      <CreateStaking />
+      <StakingServices />
+      <StakingFeatures />
+      <StakingProcess />
+      {/* 
      <Portfolio/>
      <Tech/> */}
-     {/* <Testimonials/> */}
-     <Testimonialspage/>
-      <Servicespage/>
-
-
-        </Layout>
-    );
+      {/* <Testimonials/> */}
+      <AngularJs />
+      <Servicespage />
+    </Layout>
+  );
 }
 
 export default Home;

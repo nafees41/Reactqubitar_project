@@ -11,11 +11,10 @@ AOS.init();
 
 export default function WebPortfolio() {
   return (
-   <div className="container-fluid  web_portfolio">
-    <div className="container">
+   <div className="container-fluid  web_portfolio mt-5">
+    <div className="container spacing-top">
         <div className="row">
-          
-            <div className="col-md-6" data-aos="fade-up"  data-aos-duration="2000">
+           <div className="col-md-6" data-aos="fade-up"  data-aos-duration="2000">
                 <div className="web_p_head mt-5">
                     <h1> Web Applications</h1>
                 </div>

@@ -1,0 +1,11 @@
+.ba {
+  background-color: var(--secondary-color);
+}
+
+
+.calendary-package .calendly-inline-widget{
+  position: relative;
+  overflow: hidden;
+
+ }
+

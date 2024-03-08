@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   margin: 100px 0px;
-
   @media (max-width: 1024px) {
     margin-top: 0;
   }
@@ -20,7 +19,6 @@ const Wrapper = styled.div`
     }
     .left-section {
       margin-top: 40px;
-
       @media (max-width: 1024px) {
         text-align: center;
       }
@@ -60,11 +58,9 @@ const Wrapper = styled.div`
       }
     }
   }
-
   .accordion-container {
     width: 91%;
     margin-left: 3%;
-
     background: var(--secondary-color);
     box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -170,11 +166,10 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 280px) {
-  
     .accordion-container {
       padding: 0px 10px;
     }
-    
+
   }
 `;
 

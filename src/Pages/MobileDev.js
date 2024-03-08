@@ -19,12 +19,12 @@ function MobileDev() {
   }, []);
   return (
     <Layout>
-      <MobileBanner />
+      <MobileBanner/>
       {/* <CustomApp /> */}
-      <Categories />
-      <AppServices />
-      <OurApps />
-      <BookApointment />
+      <Categories/>
+      <AppServices/>
+      <OurApps/>
+      <BookApointment/>
       <Testimonialspage/>
       <Servicespage/>
    {/* <Testimonials /> */}

@@ -132,19 +132,7 @@ function StakingBanner() {
                   />
        
            </div>
-            <Ellipse>
-
-              <Circle
-                src={threebars}
-                className="img-fluid mt-2"
-                loading="lazy"
-                alt="">
-
-              </Circle>
-
-            </Ellipse>
-
-          </div>
+   </div>
         </div>
         <hr className="banner_line mt-5" />
         <div className="flex-container">

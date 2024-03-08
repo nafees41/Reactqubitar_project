@@ -26,7 +26,7 @@ export default function OurApps() {
             <center><div className="Our_apps_heading mt-5 ">
              <h1>Successful Mobile Apps</h1>
         </div>
-        <div className="our_app_para mt-4">
+        <div className="our_app_para our_apps_paragraph mt-4">
             <p>Our successful apps are a testament to our innovative solutions, customized approach, user-centered design, and comprehensive app development services.</p>
         </div></center>
           <div className='swipp  justify-content-cneter mt-5'>  

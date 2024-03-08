@@ -91,13 +91,16 @@ textarea.contact-form-text {
 @media (max-width: 992px) {
   .calendly-inline-widget {
     display: flex;
+
   }
+
 }
 
 @media (max-width: 768px) {
   .calendly-inline-widget {
     margin-top: 0px !important;
   }
+  
 }
 .calendly-inline-widget {
   position: relative;
@@ -134,42 +137,19 @@ textarea.contact-form-text {
 }
 @media (max-width: 575.98px) {
   .contact-form {
-    max-width: 250px;
+    max-width: 280px;
   }
   .calendly-inline-widget {
     height: 200px;
-    width: 328px;
+    width: 310px;
   }
 
 }
 @media (max-width: 280px) {
 
-  .calendly-inline-widget {
+.calendly-inline-widget {
     display: none;
   }
 
 }
-/* @media (max-width: 540px) {
-  .contact-form {
-    max-width: 400px;
-    overflow: hidden;
-  }
-  .calendly-inline-widget {
-    height: 200px;
-    width: 428px;
-  }
-}
-@media (max-width: 280px) {
-  .calendly-inline-widget {
-    display: none;
-  }
-}
-@media (max-width: 412px) {
-  .contact-form {
-    max-width: 190px;
-  }
-  .calendly-inline-widget {
-    height: 200px;
-    width: 328px;
-  }
-} */
+

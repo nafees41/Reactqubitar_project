@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import threebars from "../../../images/NftDevelopment/threebars.png";
 import realbanner from "../../../images/NFTRealEstate/realbanner.png";
-
 import nft_staking from "../../../images/NFTStaking/nft_staking.png";
-
 import stak1 from "../../../images/NftDevelopment/stak1.png";
 import launch1 from "../../../images/NftDevelopment/launch1.png";
 import engine1 from "../../../images/NftDevelopment/engine1.png";
@@ -87,20 +85,34 @@ function RealBanner() {
     <Wrapper>
      
       <div className="container">
-
-        <div className="row">
+          <div className="row">
           <div className="col-md-8  col-sm-8 col-8 ">
             <h1 className="web_banner_heading">NFT Real Estate</h1>
-            <p className="web_banner_para ">
+            <p className="web_banner_para">
             Jump into the billion-dollar industry with the leading real estate tokenization company offering accessibility to fractional property ownership. We employ a user-centric approach to provide users with perks like high liquidity, regular cash flow, low maintenance cost, and frequent rent. Our goal is to democratize the real estate sector investments while keeping in mind people's affordability. Reach out to us if you want to be part of this revolution.
             </p>
             <ButtonGroup className="web_banner_btn">
-             <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink>
-            <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink>
+            <button class="item button-rainbow">
+                Schedule a Call
+                <span className="p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16" >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </span>
+              </button>
+             {/* <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink> */}
+            {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup>
-
-
-          </div>
+ </div>
           <div className="col-md-4 col-sm-4 col-4">
            <div className="cube">
            <img
@@ -111,7 +123,7 @@ function RealBanner() {
                   />
        
            </div>
-            <Ellipse>
+            {/* <Ellipse>
 
               <Circle
                 src={threebars}
@@ -120,8 +132,7 @@ function RealBanner() {
                 alt="">
 
               </Circle>
-
-            </Ellipse>
+         </Ellipse> */}
 
           </div>
         </div>

@@ -327,6 +327,14 @@
   color: var(--primary-color);
   transition: all 0.5s ease-in-out 0s;
 }
+.privacyspan{
+  color: white;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.privacyspan:hover{
+  color: white;
+}
 @media screen and (max-width: 317px) {
   .footer-image {
     width: 70%;
@@ -359,4 +367,9 @@
      margin-top: 12rem;
     }
 
+  }
+  @media (max-width: 575.98px) {
+    .services-saction {
+      margin-top: 0rem;
+     }
   }

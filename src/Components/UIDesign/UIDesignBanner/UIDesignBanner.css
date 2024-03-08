@@ -90,4 +90,84 @@
 .fas .fa-database{
 	font-size: 30px;
 }
+ @media (max-width: 1192px) {
+	.UX-design {
+	  display: flex;
+	  flex-direction: column-reverse;
+	}
+	.image-responsive{
+		display: none;
+	}
+	.web_banner_heading{
+		text-align: center;
+	}
+	.web_banner_paragraph{
+		text-align: center;
+
+	}
+	.web_banner_button{
+		display: flex;
+		justify-content: center;
+	}
+  }
+  @media (max-width: 992px) {
+	.UX-design {
+		display: flex;
+		flex-direction: column-reverse;
+	  }
+	  .image-responsive{
+		display: none;
+	  }
+	  .web_banner_heading{
+		text-align: center;
+	}
+	.web_banner_paragraph{
+		text-align: center;
+
+	}
+	.web_banner_button{
+		display: flex;
+		justify-content: center;
+	}
+  }
+  @media (max-width: 992px) {
+    .UX-design {
+		display: flex;
+		flex-direction: column-reverse;
+	  }
+	  .image-responsive{
+		display: none;
+	  }
+	  .web_banner_heading{
+		text-align: center;
+	}
+	.web_banner_paragraph{
+		text-align: center;
+
+	}
+	.web_banner_button{
+		display: flex;
+		justify-content: center;
+	}
+  }
+  @media (max-width: 575.98px) {
+	.UX-design {
+		display: flex;
+		flex-direction: column-reverse;
+	  }
+	  .image-responsive{
+		display: none;
+	  }
+	  .web_banner_heading{
+		text-align: center;
+	}
+	.web_banner_paragraph{
+		text-align: center;
+
+	}
+	.web_banner_button {
+		display: flex;
+		justify-content: center;
+	}
+  }
 

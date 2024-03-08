@@ -90,7 +90,7 @@ function PortfolioBanner() {
           <div className="col-md-6">
             <BannerItem>
               <BannerContent>
-                <h1 className="common_header "  data-aos="zoom-in-right"  data-aos-duration="2000" >Our Portfolio</h1>
+                <h1 className="common_header"  data-aos="zoom-in-right"  data-aos-duration="2000" >Our Portfolio</h1>
                
                 <p className="commonHeaderPera mb-5"  data-aos="zoom-in-left"  data-aos-duration="2000">
                 We can help you create, market, and sell your rare collectibles in the easiest way possible. With prior experience in 35+ NFT projects, our competent team knows what to do for your pr

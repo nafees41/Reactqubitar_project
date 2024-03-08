@@ -4,7 +4,7 @@ import Wrapper from "./Faq.styled";
 import faq from "../../../images/faq1.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import "./Faq.css";
+import "./Faq.css"
 
 AOS.init();
 function Faq() {
@@ -28,7 +28,8 @@ function Faq() {
   return (
     <Wrapper>
       <div className="container mt-2">
-          <center>   <div className="faq-heading">
+          <center>  
+         <div className="faq-heading">
         <h2>Frequently Asked Questions</h2>
           </div>
         <div className="faq-line mt-3">
@@ -38,14 +39,14 @@ function Faq() {
       </div>
       <div className="faq">
         <div className="left-section">
-          <img src={faq} className="img-fluid faq-img " alt="slider" />
+          <img src={faq} className="img-fluid faq-img" alt="slider"/>
         </div>
         <div className="faqs-container" id="faq">
           <div className="container-row">
             <div className="row-col">
               <div className="accordion-container" data-aos="fade-up"  data-aos-duration="1000">
                 <button className="accordion-item" onClick={handleAccordion}>
-                What services do you offer?
+                   What services do you offer?
                 </button>
                 <div className="panel">
                   <p>At our software agency, we offer a wide range of services including custom software development, web application development, mobile app development, software consulting, and Blockchain development services. We work with our clients to understand their unique needs and create tailored solutions that meet their specific requirements.</p>
@@ -64,7 +65,7 @@ function Faq() {
               <div className="accordion-container" data-aos="fade-up"  data-aos-duration="3000"
                onClick={handleAccordion}>
                 <button className="accordion-item">
-                What is your process for developing software?{" "}
+                What is your process for developing software?
                 </button>
                 <div className="panel">
                   <p>
@@ -94,14 +95,10 @@ function Faq() {
                   </p>
                 </div>
               </div>
-
-           
-
-            </div>
+               </div>
           </div>
         </div>
-       
-      </div>
+        </div>
       
     </Wrapper>
   );

@@ -35,7 +35,7 @@
   gap: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1192px) {
   .categories_heading {
     padding: 0 10px 20px 30px;
     display: flex;
@@ -61,6 +61,32 @@
   }
   .educational_app_4th {
     padding-left: 70px !important;
+  }
+  .category_card{
+    width: 97%;
+    margin: auto;
+  }
+  .tab-pane-image{
+    width: 100%;
+  }
+}
+@media (max-width: 575.98px) {
+  .categories_heading {
+    /* font-size: 12px; */
+    padding: 0 10px 20px 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+  }
+  .categories_para {
+    padding: 0 10px 0 20px;
+  }
+  .categories_paragraph{
+    text-align: center;
+  }
+  .Apps_heading{
+    font-size: 18px;
+
   }
 }
 

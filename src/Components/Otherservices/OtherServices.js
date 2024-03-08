@@ -14,11 +14,11 @@ AOS.init();
 
 function OtherServices() {
   return (
-    <div>
+    <div >
       <div className="container responsive_card">
-        <div className="row d-flex align-items-center  justify-content-center">
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3">
-            <Tilt>
+        <div className="row d-flex align-items-center justify-content-center">
+        <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
+        <Tilt>
               <Link className="linkstyle" to="/ui_ux_design">
                 <div className="otherservices_card">
                   <div className="services_cards_logo">
@@ -27,7 +27,7 @@ function OtherServices() {
                       <h5 className="card_head"> UI/UX Design</h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos="zoom-out-down"
                       data-aos-duration="1000"
                     >
@@ -49,10 +49,10 @@ function OtherServices() {
                     </div> */}
                 </div>
               </Link>
-            </Tilt>
+            </Tilt>  
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3">
-            <Tilt>
+          <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
+          <Tilt>
               <Link className="linkstyle" to="/web_development">
                 <div className="otherservices_card">
                   <div className="services_cards_logo">
@@ -61,7 +61,7 @@ function OtherServices() {
                       <h5 className="card_head">Web Devlopment</h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos-duration="1000">
                       <p>
                         NFT development is the process of creating unique,
@@ -80,8 +80,8 @@ function OtherServices() {
               </Link>
             </Tilt>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3">
-            <Link className="linkstyle" to="/mobile_dev">
+          <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
+          <Link className="linkstyle" to="/mobile_dev">
               <Tilt>
                 <div className="otherservices_card">
                   <div className="services_cards_logo">
@@ -90,7 +90,7 @@ function OtherServices() {
                       <h5 className="card_head">Mobile Development</h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos="zoom-out-down"
                       data-aos-duration="1000"
                     >
@@ -114,24 +114,24 @@ function OtherServices() {
               </Tilt>
             </Link>
           </div>
+          
         </div>
       </div>
-      <br />
-
-      <div className="container responsive_card">
+      <br/>
+   <div className="container responsive_card">
         <div className="row d-flex align-items-center justify-content-center">
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3">
-            <Link className="linkstyle" to="/nft_staking">
+        <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
+        <Link className="linkstyle" to="/SQApage">
               <Tilt>
                 <div className="otherservices_card">
                   <div className="services_cards_logo">
                     <div className="services_card_head mt-3">
                       <h5 className="card_head">
-                        Staking Platform Development
+                      Quality Assurance
                       </h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos="zoom-out-down"
                       data-aos-duration="1000"
                     >
@@ -155,16 +155,16 @@ function OtherServices() {
               </Tilt>
             </Link>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3">
-            <Link className="linkstyle" to="/nft_marketplace">
+          <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
+          <Link className="linkstyle" to="/Mvppage">
               <Tilt>
                 <div className="otherservices_card ">
                   <div className="services_cards_logo">
                     <div className="services_card_head mt-3">
-                      <h5 className="card_head">NFT Marketplace</h5>
+                      <h5 className="card_head">MVP Builder</h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos="zoom-out-down"
                       data-aos-duration="1000"
                     >
@@ -188,16 +188,16 @@ function OtherServices() {
               </Tilt>
             </Link>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3">
-            <Link className="linkstyle" to="/nft_gaming">
+          <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3">
+          <Link className="linkstyle" to="/Web30page">
               <Tilt>
                 <div className="otherservices_card">
                   <div className="services_cards_logo">
                     <div className="services_card_head mt-3">
-                      <h5 className="card_head"> NFT Game Development</h5>
+                      <h5 className="card_head"> Web 3.0</h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos="zoom-out-down"
                       data-aos-duration="1000"
                     >
@@ -221,24 +221,24 @@ function OtherServices() {
               </Tilt>
             </Link>
           </div>
+       
         </div>
       </div>
    <br/>
       <div className="container m-0 responsive_card pb-4">
-        <div className="row p-0">
-          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-4 col-xl-3  p-0 offset-xl-2 Nft-saction  offset-lg-2 offset-md-1 offset-sm-0 offset-xs-0">
-            <Link className="linkstyle" to="/nft">
+        <div className="row">
+        <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3 Nft-development  offset-xl-2  offset-lg-1  offset-md-3">
+        <Link className="linkstyle" to="/DataAnalysis">
               <Tilt>
                 <div className="otherservices_card">
                   <div className="services_cards_logo">
                     <div className="services_card_head mt-3">
-                      <h5 className="card_head">NFT Development</h5>
+                      <h5 className="card_head">Data Analysis</h5>
                     </div>
                     <div
-                      className="services_card_para"
+                      className="otherservices_para"
                       data-aos="zoom-out-down"
-                      data-aos-duration="1000"
-                    >
+                      data-aos-duration="1000">
                       <p>
                         UI/UX design is the process of creating visually
                         appealing and intuitive interfaces for websites and
@@ -259,7 +259,72 @@ function OtherServices() {
               </Tilt>
             </Link>
           </div>
-        </div>
+          <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3 ">
+        <Link className="linkstyle" to="/Dedicatedpage">
+              <Tilt>
+                <div className="otherservices_card">
+                  <div className="services_cards_logo">
+                    <div className="services_card_head mt-3">
+                      <h5 className="card_head">Dedicated Teams</h5>
+                    </div>
+                    <div
+                      className="otherservices_para"
+                      data-aos="zoom-out-down"
+                      data-aos-duration="1000">
+                      <p>
+                        UI/UX design is the process of creating visually
+                        appealing and intuitive interfaces for websites and
+                        apps. It involves research, prototyping, and testing to
+                        ensure a seamless user experience.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="services_card_more">
+                    <Link className="linkstyle" to="/nft">
+                      More Detail
+                    </Link>
+                  </div>
+                  {/* <div className="services_card_arrow">
+                      <img src={Arrow} className="img-fluid " alt="slider" />
+                    </div> */}
+                </div>
+              </Tilt>
+            </Link>
+          </div>
+          <div className="col-xs-12 col-sm-10 col-md-10 col-lg-4 col-xl-3 ">
+        <Link className="linkstyle" to="/AIdevelopment">
+              <Tilt>
+                <div className="otherservices_card">
+                  <div className="services_cards_logo">
+                    <div className="services_card_head mt-3">
+                      <h5 className="card_head">AI Development</h5>
+                    </div>
+                    <div
+                      className="otherservices_para"
+                      data-aos="zoom-out-down"
+                      data-aos-duration="1000">
+                      <p>
+                        UI/UX design is the process of creating visually
+                        appealing and intuitive interfaces for websites and
+                        apps. It involves research, prototyping, and testing to
+                        ensure a seamless user experience.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="services_card_more">
+                    <Link className="linkstyle" to="/nft">
+                      More Detail
+                    </Link>
+                  </div>
+                  {/* <div className="services_card_arrow">
+                      <img src={Arrow} className="img-fluid " alt="slider" />
+                    </div> */}
+                </div>
+              </Tilt>
+            </Link>
+          </div>
+          </div>
+
       </div>
     </div>
   );

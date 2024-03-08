@@ -3,7 +3,6 @@ import styled from "styled-components";
 import threebars from "../../../images/NftDevelopment/threebars.png";
 import realbanner from "../../../images/NFTRealEstate/realbanner.png";
 
-
 import stak1 from "../../../images/NftDevelopment/stak1.png";
 import launch1 from "../../../images/NftDevelopment/launch1.png";
 import engine1 from "../../../images/NftDevelopment/engine1.png";
@@ -12,9 +11,6 @@ import market1 from "../../../images/NftDevelopment/market1.png";
 import mint1 from "../../../images/NftDevelopment/mint1.png";
 import { NavHashLink } from "react-router-hash-link";
 import icoBanner from "../../../images/ICODevelopment/icoBanner.png";
-
-
-
 
 import Wrapper from "./ICOBanner.styled";
 function ICOBanner() {
@@ -86,33 +82,51 @@ function ICOBanner() {
   `;
   return (
     <Wrapper>
-     
       <div className="container">
-
         <div className="row">
           <div className="col-md-8  col-sm-8 col-8 ">
             <h1 className="web_banner_heading">ICO Development</h1>
             <p className="web_banner_para ">
-            Our experienced team at Qubitats can provide you with optimized and reliable ICO development services that will match your expectations. We ensure your ICO is fully developed and ready before your launch announcement. Collaborate with the top ICO development Company for custom ICO development services for your projects and startups to stand out in the market.
+              Our experienced team at Qubitats can provide you with optimized
+              and reliable ICO development services that will match your
+              expectations. We ensure your ICO is fully developed and ready
+              before your launch announcement. Collaborate with the top ICO
+              development Company for custom ICO development services for your
+              projects and startups to stand out in the market.
             </p>
             <ButtonGroup className="web_banner_btn">
-             <NavHashLink to="/#bookappointment"> <LinkButton   style={{ color: 'white', backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink>
-            <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink>
+              <NavHashLink to="/#bookappointment">
+              <button class="item button-rainbow">
+                Schedule a Call
+                <span className="p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16" >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </span>
+              </button>
+              </NavHashLink>
+              {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
             </ButtonGroup>
-
-
           </div>
           <div className="col-md-4 col-sm-4 col-4">
-           <div className="cube">
-           <img
-                    src={icoBanner}
-                    className="img-fluid "
-                    alt="switch"
-                    loading="lazy"
-                  />
-       
-           </div>
-            <Ellipse>
+            <div className="cube">
+              <img
+                src={icoBanner}
+                className="img-fluid"
+                alt="switch"
+                loading="lazy"
+              />
+            </div>
+            {/* <Ellipse>
 
               <Circle
                 src={threebars}
@@ -122,14 +136,13 @@ function ICOBanner() {
 
               </Circle>
 
-            </Ellipse>
-
+            </Ellipse> */}
           </div>
         </div>
         <hr className="banner_line mt-5" />
         <div className="flex-container">
           <div className="slider-container">
-          <ul className="slider">
+            <ul className="slider">
               <li className="slider__slide">
                 <div className="slider__content">
                   <img
@@ -262,20 +275,10 @@ function ICOBanner() {
                   <span className="slider_span_para">NFT Minting Website</span>
                 </div>
               </li>
- 
-
-              
-             
             </ul>
           </div>
         </div>
-      
-        
-
       </div>
-
-
-    
     </Wrapper>
   );
 }

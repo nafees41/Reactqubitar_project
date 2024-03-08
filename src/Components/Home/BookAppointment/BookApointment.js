@@ -7,7 +7,6 @@ import star from "../../../images/Star.png";
 import swal from "sweetalert";
 import AOS from "aos";
 import { InlineWidget } from "react-calendly";
-
 import "aos/dist/aos.css";
 AOS.init();
 
@@ -53,8 +52,8 @@ function BookApointment() {
   return (
     <section className="book-appintment ba" id="bookappointment">
         <div className="container">
-          <div className="ba-heading text-center text-white ">
-            <div className="ba-h mt-3 ">
+          <div className="ba-heading text-center text-white">
+            <div className="ba-h mt-3">
               <div className="hh">
                 <h1>Book Appointment</h1>
               </div>
@@ -69,40 +68,34 @@ function BookApointment() {
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="2000">
                   <h1>Contact us</h1>
-                  {/* <div class="border"></div> */}
                   <form class="contact-form" ref={form} onSubmit={sendEmail}>
                     <input
                       name="name"
                       type="text"
                       className="contact-form-text"
                       placeholder="Enter name"
-                      required
-                    />
+                      required />
                     <input
                       type="email"
                       name="email"
                       className="contact-form-text"
                       placeholder="Enter Email"
-                      required
-                    />
+                      required/>
                     <input
                       type="phone"
                       name="phone"
                       className="contact-form-text"
                       placeholder="Your Phone"
-                      required
-                    />
+                      required/>
                     {/* <PhoneInput name='phone' type='phone' className=" set_phone" placeholder="Your phone" value={value} onChange={setValue} /> */}
                     <textarea
                       name="message"
                       className="contact-form-text"
-                      placeholder="Your message"
-                    ></textarea>
+                      placeholder="Your message"></textarea>
                     <input
                       type="submit"
                       class="contact-form-btn"
-                      value="Send"
-                    />
+                      value="Send"/>
                   </form>
                 </div>
               </div>
@@ -111,9 +104,8 @@ function BookApointment() {
                   className="new_calendly"
                   data-aos="flip-up"
                   data-aos-easing="ease-out-cubic"
-                  data-aos-duration="2000"
-                >
-                  <InlineWidget url="https://calendly.com/qubitars" />
+                  data-aos-duration="2000" >
+                  <InlineWidget url="https://calendly.com/qubitars"/>
                 </div>
               </div>
             </div>

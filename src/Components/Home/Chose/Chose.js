@@ -14,9 +14,22 @@ function Chose() {
     font-weight: 500;
     @media (max-width: 992px) {
       font-size: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
     }
     @media (max-width: 575.98px) {
-      padding-left: 15px;
+      // padding-left: 15px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+
     }
   `;
   const ChosePera = styled.p`
@@ -29,7 +42,11 @@ function Chose() {
       padding: 16px;
     }
     @media (max-width: 575.98px) {
-      padding-left: 20px;
+      // padding-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align:center;
     }
   `;
   const ChoseImg = styled.img``;
@@ -78,7 +95,7 @@ function Chose() {
       <div className="container container-contact" style={{ padding: "18px" }}>
         <div className="row">
           <div
-            className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5"
+            className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 choose-responsive"
             data-aos="fade-down"
           >
             {ChoseTitleData.map((item, index) => (

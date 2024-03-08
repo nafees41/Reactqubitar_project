@@ -15,6 +15,9 @@
   border-radius: 16px;
   border-bottom: 15px solid #fc7e13;
   cursor: pointer;
+  .mobilelink{
+    color: var(--primary-color);
+  }
 
 }
 .services_head-page {
@@ -39,4 +42,31 @@
 }
 .linkstyle:hover {
   color: var(--primary-color);
+}
+@media only screen and (max-width: 280px) {
+  .head-responsive {
+    font-size: 13px;
+  }
+  .para-responsive {
+    padding: 0 0px 0 0px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  
+}
+.mobilelink{
+  color: inherit;
+}
+@media only screen and (max-width: 280px) {
+  .web_head {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .web_para {
+    font-size: 9px;
+    font-weight: 400;
+  }
+  .web_card {
+    margin-bottom: 30px;
+  }
 }

@@ -2,11 +2,17 @@
     font-weight: 500;
 }
 .hero-container{
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 @media only screen and (max-width: 575.98px) {
     .hero-container  {
         margin-top: 13rem;
-     
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .hero-container  {
+        margin-top: 14rem;
      }
   }
+
+  

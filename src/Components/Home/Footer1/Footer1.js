@@ -166,19 +166,19 @@ function Footer1() {
           <div className="col-md-6 mt-3">
             <div className="copy-right dd_desk">
               Copyright © 2024 Qubitars. All rights reserved
+           <span><Link to="/privacypage"  className="privacyspan" > Terms & Conditions</Link> </span>
             </div>
           </div>
-          <div className="col-md-6  ">
+          <div className="col-md-6">
             <div className="footer_icons">
               <div className="footer_icon_space">
                 <a
                   href="https://www.linkedin.com/company/qubitars/"
-                  target="_blank"
-                >
+                  target="_blank">
                   <img
                     src={linkedin}
                     style={{ borderRadius:"8px"}}
-                    className="image-fluid "
+                    className="image-fluid"
                     alt="switch"
                   />
                 </a>

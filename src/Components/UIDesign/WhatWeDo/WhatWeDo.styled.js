@@ -1,18 +1,16 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-
   margin: 100px 0px;
-  
-  @media (max-width: 1024px) {
+   @media (max-width: 1024px) {
     margin-top: 0;
   }
   .faq-img{
     height:100%;
     width:800px;
   }
+ 
   .faq {
-
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 20px 50px;
@@ -23,8 +21,7 @@ const Wrapper = styled.div`
     .left-section {
       margin-top: 40px;
       
-    
-      @media (max-width: 1024px) {
+    @media (max-width: 1024px) {
         text-align: center;
       }
       h3 {
@@ -39,9 +36,10 @@ const Wrapper = styled.div`
           font-size: 30px;
         }
       }
-  .Faqs{
+   .Faqs{
     font-size:35px;
     color:#969697;
+
   }
       p {
         strong {
@@ -65,10 +63,9 @@ const Wrapper = styled.div`
   }
   
   .accordion-container {
-        width: 91%;
-    margin-left: 3%;
-
-    background:var(  --secondary-color);
+    width: 91%;
+    margin-left:3%;
+   background:var( --secondary-color);
     box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     overflow: hidden;
@@ -82,7 +79,7 @@ const Wrapper = styled.div`
       padding: 0 20px;
     }
     .accordion-item {
-      background:var(  --secondary-color);
+      background:var(--secondary-color);
       color: #fff;
       cursor: pointer;
       width: 100%;
@@ -96,7 +93,7 @@ const Wrapper = styled.div`
       padding-right: 40px;
       position: relative;
       @media (max-width: 600px) {
-        font-size: 16px;
+        font-size: 14px;
       }
       :after {
         content: "";
@@ -146,17 +143,17 @@ const Wrapper = styled.div`
     width: 152px;
     color:'white';
     height: 52px;
-background: var(--primary-color);
-border-radius: 4px;
+    background: var(--primary-color);
+    border-radius: 4px;
   }
   .still-heading{
- color:var(--primary-color);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: center;
+    color:var(--primary-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
 
   }
   @media (max-width:768px) {
@@ -169,9 +166,17 @@ text-align: center;
     .faq-heading{
   padding:10px;
 }
-
 }
-
-`;
+@media (max-width:280px) {
+  .accordion-heading {
+    font-size:8px;
+  }
+ }
+ @media (max-width: 575.98px) {
+  .Research-row{
+  margin-left: 1px;
+  }
+ 
+}`;
 
 export default Wrapper;
