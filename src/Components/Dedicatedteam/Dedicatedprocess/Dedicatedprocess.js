@@ -5,18 +5,20 @@ import qa from "../../../images/WebDevelopment/qa.png";
 import deploy from "../../../images/WebDevelopment/deploy.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./Dedicatedprocess.css"
+
 AOS.init();
 function Dedicatedprocess() {
   return (
-    <div className="caontainer-fluid java-bg mt-5">
+    <div className="caontainer-fluid Dedicated-bg mt-5">
       <div class="container">
         <div class="section-header">
-          <div className="java_heading">
+          <div className="Dedicated_heading">
             <h1>Dedicated Teams Process</h1>
           </div>
         </div>
         <div
-          className="java_para"
+          className="Dedicated_para"
           data-aos="zoom-in-right"
           data-aos-duration="1000">
           <p>
@@ -26,7 +28,7 @@ function Dedicatedprocess() {
         <div class="steps">
           <div class="steps-container">
             <div class="content">
-              <div className="java_card ">
+              <div className="Dedicated _card ">
                 <div className="card_logo">
                   <img
                     src={planning}
@@ -35,11 +37,11 @@ function Dedicatedprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="java_card_heading">
+                <div className="Dedicated _card_heading">
                   <h4>A Quick Meeting</h4>
                 </div>
                 <div
-                  className="java_card_desk"
+                  className="Dedicated _card_desk"
                   data-aos="fade-up"
                   data-aos-duration="1000">
                   <p>
@@ -56,7 +58,7 @@ function Dedicatedprocess() {
           </div>
           <div class="steps-container">
             <div class="content">
-              <div className="java_card ">
+              <div className="Dedicated _card ">
                 <div className="card_logo">
                   <img
                     src={design}
@@ -65,11 +67,11 @@ function Dedicatedprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="java_card_heading">
+                <div className="Dedicated _card_heading">
                   <h4>Talent Selection</h4>
                 </div>
                 <div
-                  className="java_card_desk "
+                  className="Dedicated _card_desk "
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -88,7 +90,7 @@ function Dedicatedprocess() {
           </div>
           <div class="steps-container">
             <div class="content">
-              <div className="java_card ">
+              <div className="Dedicated _card ">
                 <div className="card_logo">
                   <img
                     src={qa}
@@ -97,11 +99,11 @@ function Dedicatedprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="java_card_heading">
+                <div className="Dedicated _card_heading">
                   <h4>Onboarding and Collaboration</h4>
                 </div>
                 <div
-                  className="java_card_desk"
+                  className="Dedicated _card_desk"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >

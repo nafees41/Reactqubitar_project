@@ -20,7 +20,7 @@ const DataAnalysis = () => {
     <Dataanalysisprocess/>
     <OurApps/>
     <BookApointment/>
-        <Otherservicestwo/>
+  <Otherservicestwo/>
  </Layout>
   )
 }

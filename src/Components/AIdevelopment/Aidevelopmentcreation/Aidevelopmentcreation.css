@@ -1,0 +1,61 @@
+  
+.Ai_development_heading {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    align-items: center;
+  }
+  
+
+  @media (max-width: 768px) {
+    .Ai_development_heading {
+      padding: 25px;
+    }
+    .Ai_development_left {
+      padding-left: 60px;
+    }
+    .Ai_development_bottom {
+      padding-left: 30px;
+    }
+    .Ai_development_coin {
+      display: none !important;
+    }
+  
+    .Ai_development_para {
+      padding: 30px;
+    }
+    .Ai_development_Agile {
+      margin-top: 40px !important;
+    }
+    .Ai_development_lines_row {
+      padding: 0 30px 0 30px;
+    }
+  }
+  .Ai_development_left {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Ai_development_coin {
+    display: flex;
+    justify-content: end !important;
+  }
+  .Ai_development_coin img{
+    width: 78%;
+  }
+  .Ai_development_lines {
+    background-color: #f4f3f1;
+    margin-top: 20px;
+  
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 7px 5px 11px -1px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 7px 5px 11px -1px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 7px 5px 11px -1px rgba(0, 0, 0, 0.31);
+  }
+  .Ai_development_lines_para {
+    margin-top: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  

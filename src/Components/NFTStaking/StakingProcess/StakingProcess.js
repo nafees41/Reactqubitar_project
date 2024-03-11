@@ -1,6 +1,5 @@
 import React from "react";
 import "./StakingProcess.css";
-
 import wallet from "../../../images/NFTStaking/wallet.png";
 import plan from "../../../images/NFTStaking/plan.png";
 import build from "../../../images/NFTStaking/build.png";

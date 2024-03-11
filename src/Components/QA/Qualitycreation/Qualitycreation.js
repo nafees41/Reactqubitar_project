@@ -1,6 +1,7 @@
 import React from "react";
-import platform_card from "../../../images/quality-assurance.png";
+import platform_card from "../../../images/quality-assuranc.jpg";
 import tick from "../../../images/NFTStaking/tick.png";
+import "./Qualitycreation.css"
 
 const Qualitycreation = () => {
   return (
@@ -11,11 +12,11 @@ const Qualitycreation = () => {
               <div className="row mt-5">
               <div className="col-md-12">
                 <div
-                  className="staking_platform_coin"
+                  className="Quality_coin"
                   style={{marginRight:"-50px"}}>
                   <img
                     src={platform_card}
-                    className="img-fluid m-auto staking_platform_coin"
+                    className="img-fluid m-auto Quality_coin"
                     alt="switch"
                     loading="lazy"
                   />
@@ -27,7 +28,7 @@ const Qualitycreation = () => {
           <div>
               <h1 className="fw-bolder">Creation of  Quality Assurance  </h1>
             </div>
-            <div className="platform_para">
+            <div className="Quality_para">
               <p>
                 Qubitars is an Quality Creation process  with a
                Quality Assurance developers who can maintain
@@ -39,55 +40,55 @@ const Qualitycreation = () => {
                 users to stake various Quality Assurance and earn a passive income.
               </p>
             </div>
-            <div className="row  platform_lines_row">
+            <div className="row  Quality_lines_row">
               <div className="col-md-6">
-                <div className="platform_lines">
+                <div className="Quality_lines">
                   <img
                     src={tick}
                     className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para">
+                  <span className="Quality_para">
                     Highly Experienced Team
                   </span>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="platform_lines">
+                <div className="Quality_lines">
                   <img
                     src={tick}
-                    className="img-fluid "
+                    className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para Unique_Agile">
+                  <span className="Quality_para Unique_Agile">
                     Unique Agile Development
                   </span>
                 </div>
               </div>
               <div className="col-md-6 mt-3">
-                <div className="platform_lines">
+                <div className="Quality_lines">
                   <img
                     src={tick}
                     className="img-fluid "
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para">
+                  <span className="Quality_lines_para">
                     100% Quality Guarantee
                   </span>
                 </div>
               </div>
               <div className="col-md-6 mt-3">
-                <div className="platform_lines">
+                <div className="Quality_lines">
                   <img
                     src={tick}
                     className="img-fluid "
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para">Secure Code base</span>
+                  <span className="Quality_lines_para">Secure Code base</span>
                 </div>
               </div>
             </div>

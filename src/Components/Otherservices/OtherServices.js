@@ -145,9 +145,6 @@ function OtherServices() {
                       More Detail
                     </Link>
                   </div>
-                  {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid" alt="slider"/>
-                    </div> */}
                 </div>
               </Tilt>
             </Link>
@@ -175,9 +172,6 @@ function OtherServices() {
                       More Detail
                     </Link>
                   </div>
-                  {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div> */}
                 </div>
               </Tilt>
             </Link>
@@ -208,9 +202,6 @@ function OtherServices() {
                       More Detail
                     </Link>
                   </div>
-                  {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div> */}
                 </div>
               </Tilt>
             </Link>
@@ -244,9 +235,6 @@ function OtherServices() {
                       More Detail
                     </Link>
                   </div>
-                  {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div> */}
                 </div>
               </Tilt>
             </Link>

@@ -29,11 +29,8 @@ export default function Home() {
       <Banner/>
       <Project/>
       <Chose/>
-       {/* <AboutUs/> */}
       <Services/>
       <OurClient/>
-      {/* <Testimonials /> */}
-       {/* <Life /> */}
       <BookApointment/>
       <OurApps/>
       <Faq/>

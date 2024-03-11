@@ -1,6 +1,7 @@
 import React from 'react'
 import platform_card from "../../../images/dataanalysis.jpg";
 import tick from "../../../images/NFTStaking/tick.png";
+import "./Dataanalysiscreation.css"
 
 const Dataanalysiscreation = () => {
   return (
@@ -11,11 +12,11 @@ const Dataanalysiscreation = () => {
               <div className="row mt-5">
               <div className="col-md-12">
                 <div
-                  className="staking_platform_coin"
+                  className="Datacreation_coin"
                   style={{marginRight:"-50px"}}>
                   <img
                     src={platform_card}
-                    className="img-fluid m-auto staking_platform_coin"
+                    className="img-fluid m-auto Datacreation_coin"
                     alt="switch"
                     loading="lazy"
                   />
@@ -27,7 +28,7 @@ const Dataanalysiscreation = () => {
           <div>
               <h1 className='fw-bolder'>Creation of  Data Analytics  </h1>
             </div>
-            <div className="platform_para">
+            <div className="Datacreation_para">
               <p>
                 Qubitars is an Data Analytics  with a
                 Data Analytics developers who can maintain
@@ -39,55 +40,55 @@ const Dataanalysiscreation = () => {
                 users to stake various Data Analytics and earn a passive income.
               </p>
             </div>
-            <div className="row  platform_lines_row">
+            <div className="row  Datacreation_lines_row">
               <div className="col-md-6">
-                <div className="platform_lines">
+                <div className="Datacreation_lines">
                   <img
                     src={tick}
                     className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para">
+                  <span className="Datacreation_lines_para">
                     Highly Experienced Team
                   </span>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="platform_lines">
+                <div className="Datacreation_lines">
                   <img
                     src={tick}
-                    className="img-fluid "
+                    className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para Unique_Agile">
+                  <span className="Datacreation_lines_para Unique_Agile">
                     Unique Agile Development
                   </span>
                 </div>
               </div>
               <div className="col-md-6 mt-3">
-                <div className="platform_lines">
+                <div className="Datacreation_lines">
                   <img
                     src={tick}
-                    className="img-fluid "
+                    className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para">
+                  <span className="Datacreation_lines_para">
                     100% Quality Guarantee
                   </span>
                 </div>
               </div>
               <div className="col-md-6 mt-3">
-                <div className="platform_lines">
+                <div className="Datacreation_lines">
                   <img
                     src={tick}
-                    className="img-fluid "
+                    className="img-fluid"
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="platform_lines_para">Secure Code base</span>
+                  <span className="Datacreation_lines_para">Secure Code base</span>
                 </div>
               </div>
             </div>

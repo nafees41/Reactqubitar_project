@@ -20,7 +20,6 @@ const Dedicatedteam = () => {
         <OurApps/>
     <BookApointment/>
         <Otherservicestwo/>
-    
     </Layout>
   )
 }
