@@ -2,8 +2,9 @@
 import styled from "styled-components";
 const Wrapper = styled.div`
 
-  padding-top: 13rem;
-  padding-bottom: 70px;
+
+  padding: 13rem 40px 70px 20px;
+
   position: relative;
   .col-md-6 {
     margin-left: 25%;

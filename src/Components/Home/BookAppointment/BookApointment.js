@@ -1,9 +1,7 @@
 import "./BookAppointment.css";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
 import { React, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import star from "../../../images/Star.png";
 import swal from "sweetalert";
 import AOS from "aos";
 import { InlineWidget } from "react-calendly";
@@ -99,12 +97,10 @@ function BookApointment() {
                   </form>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  mt-5 mb-3">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5  mt-5 mb-3">
                 <div
                   className="new_calendly"
-                  data-aos="flip-up"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="2000" >
+                   >
                   <InlineWidget url="https://calendly.com/qubitars"/>
                 </div>
               </div>

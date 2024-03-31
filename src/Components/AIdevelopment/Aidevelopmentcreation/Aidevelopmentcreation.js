@@ -6,13 +6,13 @@ import "./Aidevelopmentcreation.css"
 const Aidevelopmentcreation = () => {
   return (
     <div>
-        <div className="container m-0">
+        <div className="container AI-main">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
               <div className="row mt-5">
               <div className="col-md-12">
                 <div
-                  className="Ai_development_coin"
+                  className="Ai_development_coin AI_coin"
                   style={{marginRight:"-50px"}}>
                   <img
                     src={platform_card}
@@ -24,9 +24,9 @@ const Aidevelopmentcreation = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
           <div>
-              <h1 className='fw-bolder'>Creation of AI Development  </h1>
+              <h1 className='fw-bolder AI-title'>Creation of AI Development  </h1>
             </div>
             <div className="Ai_development_para">
               <p>
@@ -49,7 +49,7 @@ const Aidevelopmentcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Ai_development_lines_para">
+                  <span className=" Ai_development_lines_para Ai-experienced">
                     Highly Experienced Team
                   </span>
                 </div>
@@ -62,7 +62,7 @@ const Aidevelopmentcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Ai_development_lines_para Unique_Agile">
+                  <span className="Ai_development_lines_para Ai-experienced Unique_Agile">
                     Unique Agile Development
                   </span>
                 </div>
@@ -75,7 +75,7 @@ const Aidevelopmentcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Ai_development_lines_para">
+                  <span className="Ai_development_lines_para Ai-experienced">
                     100% Quality Guarantee
                   </span>
                 </div>
@@ -88,7 +88,7 @@ const Aidevelopmentcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Ai_development_lines_para">Secure Code base</span>
+                  <span className="Ai_development_lines_para Ai-experienced">Secure Code base</span>
                 </div>
               </div>
             </div>

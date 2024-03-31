@@ -6,7 +6,7 @@ import "./Featuredpackage.css";
 
 const Featuredpackage = () => {
   return (
-    <div className="container featured_card pb-5">
+    <div className="container featured_card pb-5" id="featuedcard">
       <div className="row m-0  d-flex align-items-center justify-content-center">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
           <Tilt className="mt-5">

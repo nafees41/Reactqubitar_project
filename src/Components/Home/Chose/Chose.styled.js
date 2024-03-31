@@ -3,7 +3,8 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  padding: 60px 0px;
+  padding: 0px 40px 0px 40px;
+
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;

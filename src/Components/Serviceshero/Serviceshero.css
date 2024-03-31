@@ -1,12 +1,21 @@
 .hereheading{
     font-weight: 500;
 }
+#para_space{
+    padding: 15px 60px 15px 60px;
+
+}
+
 .hero-container{
     margin-top: 12rem;
 }
 @media only screen and (max-width: 575.98px) {
     .hero-container  {
         margin-top: 13rem;
+    }
+    #para_space{
+        padding:0px;
+    
     }
   }
   @media screen and (max-width: 768px) {

@@ -6,8 +6,6 @@ import travel from "../../../images/MobileDevelopment/travel.png";
 import trading from "../../../images/MobileDevelopment/trading.png";
 import fitness from "../../../images/MobileDevelopment/fitness.png";
 import edu from "../../../images/MobileDevelopment/edu.png";
-import mb1 from "../../../images/MobileDevelopment/mb1.jpg";
-import mb2 from "../../../images/MobileDevelopment/mb2.jpg";
 import './OurApps.css';
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -21,14 +19,14 @@ import { Icon } from "@iconify/react";
 
 export default function OurApps() {
   return (
-    <div className="container mt-3 " style={{paddingBottom:'30px'}}>
+    <div className="container mt-3  " style={{paddingBottom:'30px'}}>
             <center><div className="Our_apps_heading mt-5 ">
              <h1 className="Our_apps_heading">Successful Mobile Apps</h1>
         </div>
         <div className="our_app_para our_apps_paragraph mt-4">
             <p>Our successful apps are a testament to our innovative solutions, customized approach, user-centered design, and comprehensive app development services.</p>
         </div></center>
-          <div className='swipp  justify-content-cneter mt-5'>  
+          <div className='swipp our_app_main  justify-content-cneter mt-5'>  
               <Swiper
                   autoplay={{ delay: 2000, disableOnInteraction: false }}
                   pagination={{

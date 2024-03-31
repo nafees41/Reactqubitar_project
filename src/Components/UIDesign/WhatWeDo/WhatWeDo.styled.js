@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   margin: 100px 0px;
+  padding: 0px 40px 0px 40px;
+
    @media (max-width: 1024px) {
     margin-top: 0;
   }
@@ -86,7 +88,7 @@ const Wrapper = styled.div`
       border: none;
       text-align: left;
       outline: none;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
       transition: 0.4s;
       padding: 35px 0;

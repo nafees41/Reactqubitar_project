@@ -9,25 +9,25 @@ import "./Dataanalysisprocess.css"
 AOS.init();
 function Dataanalysisprocess() {
   return (
-    <div className="caontainer-fluid Data-bg mt-5">
+    <div className="caontainer-fluid java-bg mt-5">
       <div class="container">
-        <div class="Data-header">
-          <div className="Data_heading">
+        <div class="section-header">
+          <div className="java_heading">
             <h1>Data Analytics Process</h1>
           </div>
         </div>
         <div
-          className="Data_para"
+             className="java_para"
           data-aos="zoom-in-right"
           data-aos-duration="1000">
           <p>
             Our  Data Analytics Processs generally involves the following steps:
           </p>
         </div>
-        <div class="Data_steps">
-          <div class="Data-steps-container">
-            <div class="Data_content">
-              <div className="Data_card">
+        <div  class="steps">
+          <div class="steps-container">
+            <div class="content">
+              <div className="java_card">
                 <div className="card_logo">
                   <img
                     src={planning}
@@ -36,11 +36,11 @@ function Dataanalysisprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="Data_card_heading">
+                <div className="java_card_heading">
                   <h4>Data-Driven Strategy</h4>
                 </div>
                 <div
-                  className="Data_card_desk"
+                  className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="1000">
                 <ol>
@@ -53,12 +53,12 @@ function Dataanalysisprocess() {
                 </div>
               </div>
             </div>
-            <i class="Data-step-line"></i>
-            <div class="Data_date">01</div>
+            <i class="step-line"></i>
+            <div class="date">01</div>
           </div>
-          <div class="Data-steps-container">
-            <div class="Data_content">
-              <div className="Data_card">
+          <div class="steps-container">
+            <div class="content">
+              <div className="java_card">
                 <div className="card_logo">
                   <img
                     src={design}
@@ -67,11 +67,11 @@ function Dataanalysisprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="Data_card_heading">
+                <div className="java_card_heading">
                   <h4>Data Collection & Integration</h4>
                 </div>
                 <div
-                  className="Data_card_desk"
+                  className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -85,12 +85,12 @@ function Dataanalysisprocess() {
                 </div>
               </div>
             </div>
-            <i class="Data-step-line"></i>
-            <div class="Data_date">02</div>
+            <i class="step-line"></i>
+            <div class="date">02</div>
           </div>
-          <div class="Data-steps-container">
-            <div class="Data_content">
-              <div className="Data_card">
+          <div class="steps-container">
+            <div class="content">
+              <div className="java_card">
                 <div className="Data_logo">
                   <img
                     src={qa}
@@ -99,11 +99,11 @@ function Dataanalysisprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="Data_card_heading">
+                <div className="java_card_heading">
                   <h4>Insight Unveiling</h4>
                 </div>
                 <div
-                  className="Data_card_desk"
+                  className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >
@@ -118,12 +118,12 @@ function Dataanalysisprocess() {
                 </div>
               </div>
             </div>
-            <i class="Data-step-line"></i>
-            <div class="Data_date">03</div>
+            <i class="step-line"></i>
+            <div class="date">03</div>
           </div>
-          <div class="Data-steps-container">
-            <div class="Data_content">
-              <div className="Data_card ">
+          <div class="steps-container">
+            <div class="content">
+              <div className="java_card ">
                 <div className="card_logo">
                   <img
                     src={deploy}
@@ -132,11 +132,11 @@ function Dataanalysisprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="Data_card_heading">
+                <div className="java_card_heading">
                   <h4>Visualized Data Impact</h4>
                 </div>
                 <div
-                  className="Data_card_desk"
+                  className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="4000"
                 >
@@ -150,12 +150,12 @@ function Dataanalysisprocess() {
                 </div>
               </div>
             </div>
-            <i class="Data-step-line"></i>
-            <div class="Data_date">04</div>
+            <i class="step-line"></i>
+            <div class="date">04</div>
           </div>
-          <div class="Data-steps-container">
-            <div class="Data_content">
-              <div className="Data_card">
+          <div class="steps-container">
+            <div class="content">
+              <div className="java_card">
                 <div className="card_logo">
                   <img
                     src={qa}
@@ -164,11 +164,11 @@ function Dataanalysisprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="Data_card_heading">
+                <div className="java_card_heading">
                   <h4>Continuous Optimization</h4>
                 </div>
                 <div
-                  className="Data_card_desk"
+                  className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >
@@ -182,12 +182,12 @@ function Dataanalysisprocess() {
                 </div>
               </div>
             </div>
-            <i class="Data-step-line"></i>
-            <div class="Data_date">05</div>
+            <i class="step-line"></i>
+            <div class="date">05</div>
           </div>
-          <div class="Data-steps-container">
-            <div class="Data_content">
-              <div className="Data_card ">
+          <div class="steps-container">
+            <div class="content">
+              <div className="java_card ">
                 <div className="card_logo">
                   <img
                     src={deploy}
@@ -196,11 +196,11 @@ function Dataanalysisprocess() {
                     loading="lazy"
                   />
                 </div>
-                <div className="Data_card_heading">
+                <div className="java_card_heading">
                   <h4>Analytics-Infused Success</h4>
                 </div>
                 <div
-                  className="Data_card_desk"
+                  className="java_card_desk"
                   data-aos="fade-up"
                   data-aos-duration="4000"
                 >
@@ -215,7 +215,7 @@ function Dataanalysisprocess() {
               </div>
             </div>
                   className="_card_desk"
-            <i class="Data-step-line"></i>
+            <i class="step-line"></i>
             <div class="date">06</div>
           </div>
         </div>

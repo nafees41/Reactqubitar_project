@@ -5,9 +5,20 @@
     color: var(--secondary-color);
     align-items: center;
   }
+  .AI-main{
+    margin: 0;
+  }
   
 
   @media (max-width: 768px) {
+    .AI-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .Ai-experienced{
+      font-size: 12px;
+      padding: 5px !important;
+    }
     .Ai_development_heading {
       padding: 25px;
     }
@@ -22,12 +33,120 @@
     }
   
     .Ai_development_para {
+      color: var(--secondary-color);
+      text-align:center ;
       padding: 30px;
     }
     .Ai_development_Agile {
       margin-top: 40px !important;
     }
     .Ai_development_lines_row {
+      padding: 0 30px 0 30px;
+    }
+  }
+  @media (max-width: 1192px) {
+
+    .AI_coin {
+      width: 100%;
+      margin: 0;
+    }
+    .AI-main{
+      margin: auto;
+    }
+    .AI-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .Analysis-title{
+      font-size: 13px;
+      padding: 5px !important;
+    }
+  
+  
+    .Datacreation_para {
+      padding: 30px;
+      text-align: center;
+      color: var(--secondary-color);
+
+    }
+  
+  
+  }
+  
+
+  
+  @media (max-width: 575.98px) {
+    .AI-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .Ai-experienced{
+      font-size: 12px;
+      padding: 5px !important;
+    }
+    .Ai_development_heading {
+      padding: 25px;
+    }
+    .Ai_development_left {
+      padding-left: 60px;
+    }
+    .Ai_development_bottom {
+      padding-left: 30px;
+    }
+    .Ai_development_coin {
+      display: none !important;
+    }
+  
+    .Ai_development_para {
+      color: var(--secondary-color);
+      text-align:center ;
+      padding: 30px;
+    }
+    .Ai_development_Agile {
+      margin-top: 40px !important;
+    }
+    .Ai_development_lines_row {
+      padding: 0 30px 0 30px;
+    }
+  
+
+   
+
+   
+  
+  }
+  @media (max-width: 768px) {
+    .builder-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .Analysis-experienced{
+      font-size: 12px;
+      padding: 5px !important;
+    }
+    .Datacreation_heading {
+      padding: 25px;
+  
+    }
+    .Datacreation_left {
+      padding-left: 60px;
+    }
+    .Datacreation_bottom {
+      padding-left: 30px;
+    }
+    .Datacreation_coin {
+      display: none !important;
+    }
+  
+    .Datacreation_para {
+      padding: 10px;
+      color: var(--secondary-color);
+      text-align:center ;
+    }
+    .Datacreation_Agile {
+      margin-top: 40px !important;
+    }
+    .Datacreation_lines_row {
       padding: 0 30px 0 30px;
     }
   }

@@ -1,3 +1,8 @@
+#categories{
+  padding: 0px 40px 0px 40px;
+
+
+}
 .gategory_row {
   background-color: var(--secondary-color);
   border-radius: 20px;
@@ -69,6 +74,11 @@
   .tab-pane-image{
     width: 100%;
   }
+  #categories{
+    padding: 0px ;
+  
+  
+  }
 }
 @media (max-width: 575.98px) {
   .categories_heading {
@@ -87,6 +97,11 @@
   .Apps_heading{
     font-size: 18px;
 
+  }
+  #categories{
+    padding: 0px ;
+  
+  
   }
 }
 

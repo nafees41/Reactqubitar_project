@@ -18,7 +18,7 @@ AOS.init();
 function Contactservices() {
   return (
     <section>
-      <div className="conatiner-fluid">
+      <div className="conatiner-fluid" id="contactservice">
         <div className="container">
           <center>
             <div className="Contact_head">
@@ -76,7 +76,7 @@ function Contactservices() {
                     <div className="Contact_cards_logo">
                       <img src={nft} className="img-fluid" alt="slider"/>
                       <div className="Contact_card_head mt-3">
-                        <h3 className="head-responsive">NFT Devlopment</h3>
+                        <h4 className="head-responsive">NFT Devlopment</h4>
                       </div>
                       <div
                         className="Contact_card_para"
@@ -105,7 +105,7 @@ function Contactservices() {
                     <div className="Contact_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
                       <div className="Contact_card_head mt-3">
-                        <h3 className="head-responsive">Web Devlopment</h3>
+                        <h4 className="head-responsive">Web Devlopment</h4>
                       </div>
                       <div
                         className="Contact_card_para"
@@ -136,7 +136,7 @@ function Contactservices() {
                     <div className="Contact_cards_logo">
                       <img src={mobile} className="img-fluid" alt="slider" />
                       <div className="Contact_card_head mt-3">
-                        <h3 className="head-responsive">Mobile Development</h3>
+                        <h4 className="head-responsive">Mobile Development</h4>
                       </div>
                       <div
                         className="Contact_card_para"
@@ -172,7 +172,7 @@ function Contactservices() {
                     <div className="Contact_cards_logo">
                       <img src={digital} className="img-fluid " alt="slider" />
                       <div className="Contact_card_head mt-3">
-                        <h3 className="head-responsive" >Digital Marketing</h3>
+                        <h4 className="head-responsive" >Digital Marketing</h4>
                       </div>
                       <div
                         className="Contact_card_para"
@@ -208,7 +208,7 @@ function Contactservices() {
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
                       <div className="Contact_card_head mt-3">
-                        <h3 className="head-responsive">UI/UX Design</h3>
+                        <h4 className="head-responsive">UI/UX Design</h4>
                       </div>
                       <div
                         className="Contact_card_para"

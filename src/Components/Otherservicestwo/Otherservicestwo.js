@@ -20,7 +20,7 @@ AOS.init();
 function Services() {
   return (
     <section>
-      <div className="conatiner-fluid">
+      <div className="conatiner-fluid" id="otherservice">
         <div className="container">
           <center>
             <div className="services_head-page">
@@ -79,7 +79,7 @@ function Services() {
                     <div className="services_cards_logo">
                       <img src={nft} className="img-fluid" alt="slider"/>
                       <div className="services_card_head-page mt-3">
-                        <h3 className="web_head">NFT Devlopment</h3>
+                        <h4 className="web_head">NFT Devlopment</h4>
                       </div>
                       <div
                         className="services_card_para-page"
@@ -111,7 +111,7 @@ function Services() {
                     <div className="services_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
                       <div className="services_card_head-page mt-3">
-                        <h3 className="web_head">Web Devlopment</h3>
+                        <h4 className="web_head">Web Devlopment</h4>
                       </div>
                       <div
                         className="services_card_para-page"
@@ -145,7 +145,7 @@ function Services() {
                     <div className="services_cards_logo">
                       <img src={mobile} className="img-fluid" alt="slider" />
                       <div className="services_card_head-page mt-3">
-                        <h3 className="web_head">Mobile Development</h3>
+                        <h4 className="web_head">Mobile Development</h4>
                       </div>
                       <div
                         className="services_card_para-page"
@@ -176,7 +176,7 @@ function Services() {
                     <div className="services_cards_logo">
                       <img src={digital} className="img-fluid " alt="slider" />
                       <div className="services_card_head-page mt-3">
-                        <h3 className="web_head">Digital Marketing</h3>
+                        <h4 className="web_head">Digital Marketing</h4>
                       </div>
                       <div
                         className="services_card_para-page"
@@ -211,7 +211,7 @@ function Services() {
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
                       <div className="services_card_head-page mt-3">
-                        <h3  className="web_head">UI/UX Design</h3>
+                        <h4  className="web_head">UI/UX Design</h4>
                       </div>
                       <div
                         className="services_card_para-page"

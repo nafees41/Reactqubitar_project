@@ -1,8 +1,5 @@
 import React from 'react'
-import p1 from "../../../images/Portfolio/p1.png";
 import p2 from "../../../images/Portfolio/p2.png";
-import btn1 from "../../../images/Portfolio/btn1.png";
-import btn2 from "../../../images/Portfolio/btn2.png";
 import btn3 from "../../../images/Portfolio/btn3.png";
 import './WebPortfolio.css'
 import AOS from 'aos';
@@ -11,8 +8,8 @@ AOS.init();
 
 export default function WebPortfolio() {
   return (
-   <div className="container-fluid  web_portfolio mt-5">
-    <div className="container spacing-top">
+   <div className="container-fluid  web_portfolio mt-5" >
+    <div className="container spacing-top" id='porfiliocontent'>
         <div className="row">
            <div className="col-md-6" data-aos="fade-up"  data-aos-duration="2000">
                 <div className="web_p_head mt-5">

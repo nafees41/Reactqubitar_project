@@ -1,3 +1,7 @@
+#creationspace{
+  padding: 0px 40px 0px 40px;
+
+}
 .Mvp_heading {
     display: flex;
     justify-content: center;
@@ -5,8 +9,62 @@
     align-items: center;
   }
 
+
+  .Quality_coin{
+    margin: auto;
+  
+  }
+  .builder-main{
+    margin: 0;
+  }
+  @media (max-width: 1192px) {
+    
+    .Mvp_coin {
+      width: 100%;
+      margin: 0;
+    }
+    .builder-main{
+      margin: auto;
+    }
+    .builder-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .experienced-title{
+      font-size: 13px;
+      padding: 5px !important;
+    }
+  
+  
+    .Mvp_para {
+      padding: 30px;
+      text-align: center;
+      color: var(--secondary-color);
+
+    }
+  
+  
+  }
+  
   @media (max-width: 768px) {
+    #creationspace{
+      padding: 0px ;
+    
+    }
+    .builder-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .builder-experienced{
+      font-size: 13px;
+      padding: 5px !important;
+    }
+    .Mvp_para {
+      padding: 30px;
+    }
+
     .Mvp_heading {
+
       padding: 25px;
     }
     .Mvp_left {
@@ -22,6 +80,8 @@
   
     .Mvp_para {
       padding: 30px;
+      color: var(--secondary-color);
+
     }
     .Mvp_Agile {
       margin-top: 40px !important;
@@ -29,7 +89,53 @@
     .Mvp_lines_row {
       padding: 0 30px 0 30px;
     }
+   
   }
+  
+  @media (max-width: 575.98px) {
+    #creationspace{
+      padding: 0px ;
+    
+    }
+   
+
+    .builder-title{
+      text-align: center;
+      padding: 10px;
+    }
+    .builder-experienced{
+      font-size: 12px;
+      padding: 5px !important;
+    }
+    .Mvp_para {
+      padding: 10px;
+      color: var(--secondary-color);
+      text-align:center ;
+
+    }
+
+    .Mvp_heading {
+      padding: 25px;
+    }
+    .Mvp_left {
+      padding-left: 60px;
+    }
+    .Mvp_bottom {
+      padding-left: 30px;
+    }
+    .Mvp_coin {
+      display: none !important;
+    }
+  
+
+    .Mvp_Agile {
+      margin-top: 40px !important;
+    }
+    .Mvp_lines_row {
+      padding: 0 30px 0 30px;
+    }
+  }
+
   .Mvp_platform_left {
     display: flex;
     flex-direction: row;

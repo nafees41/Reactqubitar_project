@@ -84,10 +84,10 @@ function Services() {
                           data-aos-duration="1000"
                         >
                           <p className="para-responsive">
-                            NFT development is the process of creating unique,
+                          Ai development is the process of creating unique,
                             non-fungible digital assets using blockchain
                             technology. Our service provides expertise in
-                            creating and deploying NFTs for various industries
+                            creating and deploying Ai for various industries
                             and applications.
                           </p>
                         </div>
@@ -97,9 +97,7 @@ function Services() {
                           More Detail
                         </NavHashLink>
                       </div>
-                      {/* <div className="services_card_arrow">
-                      <img src={Arrow} className="img-fluid " alt="slider" />
-                    </div> */}
+                      
                     </div>
                   </NavHashLink>
                 </Tilt>

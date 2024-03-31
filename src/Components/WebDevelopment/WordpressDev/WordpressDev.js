@@ -1,7 +1,6 @@
 import React from "react";
 import "./WordpressDev.css";
 import crm4 from "../../../images/crm4.png";
-import Financeandbank from "../../../images/finance.jpg";
 import bank from "../../../images/WebDevelopment/bank.png";
 import healthcare from "../../../images/WebDevelopment/healthcare.png";
 import ecommerce from "../../../images/WebDevelopment/ecommerce.png";
@@ -17,7 +16,7 @@ AOS.init();
 export default function WordpressDev() {
   return (
     // data-aos="flip-down"
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5" id="wordpress">
       <div className="row d-flex align-items-start">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 px-4">
           <div class="tab-content" id="v-pills-tabContent">

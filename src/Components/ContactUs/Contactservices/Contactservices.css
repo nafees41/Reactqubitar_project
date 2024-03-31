@@ -1,4 +1,7 @@
+#contactservice{
+  padding: 0px 40px 0px 40px;
 
+}
   .Contact_card {
     padding: 30px;
     background-color: aliceblue;
@@ -33,6 +36,10 @@
     color:var(--secondary-color);
   }
   @media screen and (max-width: 768px) {
+    #contactservice{
+      padding: 0px ;
+    
+    }
     .swipp {
       padding: 30px !important;
     }
@@ -52,6 +59,10 @@
   
   }
   @media (max-width: 575.98px) {
+    #contactservice{
+      padding: 0px ;
+    
+    }
     .head-responsive {
       font-size: 22px;
     }

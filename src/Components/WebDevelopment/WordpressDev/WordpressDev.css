@@ -1,3 +1,8 @@
+#wordpress{
+  padding: 0px 40px 0px 40px;
+
+}
+
 .wordpress_heading {
   color: var(--secondary-color);
 }
@@ -47,6 +52,10 @@
   .Services-head {
     text-align: center;
   }
+  #wordpress{
+    padding: 0px;
+  
+  }
 }
 @media (max-width: 575.98px) {
   .responsive-heading {
@@ -66,6 +75,10 @@
      width: 92%;
     margin: auto;
  }
+ #wordpress{
+  padding: 0px;
+
+}
 
 }
 .nav-pills .nav-link {

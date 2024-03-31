@@ -16,16 +16,23 @@ function NftProcess() {
      <div class="container">
         <div class="row">
             <div class="col-md-12">
-              <div className="nft_process_heading">
+                <div className="Assurance-header">
+              <div className="Assurance_heading">
                 <h1>Our NFT Development Process</h1>
               </div>
-              <div className="nft_process_para">
+              </div>
+              <div 
+               className="Assurance_para"
+               data-aos="zoom-in-right"
+               data-aos-duration="1000"
+             >
                 <p>Our NFT development process involves ideation, design, development, testing, and deployment, ensuring high-quality and reliable NFTs</p>
               </div>
-                <div class="Yearly-timeline ">
-                    <div class="timeline">
-                        <a to="" class="timeline-content">
-                            <div class="timeline-icon">
+                <div class="Assurance_steps">
+                    <div class="Assurance-steps-container">
+                        <div  class="Assurance_content">
+                           <div className="Assurance_card">
+                            <div class="card_logo">
                                 <img
                           src={brain}
                           className="img-fluid "
@@ -33,15 +40,20 @@ function NftProcess() {
                           loading="lazy"
                       />
                       </div>
+                      <div className="Assurance_card_heading">
                             <h3 class="title">Brainstorming</h3>
                             <p class="description">
                             Our team will have a brainstorming session with you to analyze your vision and target audience. This session will also help us assess your business expectations and end-product requirements.
                             </p>
-                        </a>
+                        </div>
+                        </div>
                     </div>
-                    <div class="timeline">
-                        <a to="" class="timeline-content">
-                            <div class="timeline-icon"><img
+                    </div>
+                    <div class="Assurance_steps">
+                        <div class="Assurance-steps-container">
+                            <div className="Assurance_card">
+                                <div className="card_logo">
+                                <img
                           src={req}
                           className="img-fluid "
                           alt="switch"
@@ -51,7 +63,8 @@ function NftProcess() {
                             <p class="description">
                             Once the target audience and your expectations are known, we focus on the remaining requirements necessary for top-notch NFT development.
                             </p>
-                        </a>
+                        </div>
+                    </div>
                     </div>
                     <div class="timeline">
                         <a to="" class="timeline-content">

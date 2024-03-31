@@ -1,13 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import threebars from "../../../images/NftDevelopment/threebars.png";
-import cube from "../../../images/NftDevelopment/cube.png";
-import node from "../../../images/WebDevelopment/node.png";
 import java from "../../../images/WebDevelopment/java.png";
 import angular from "../../../images/WebDevelopment/angular.png";
 import customWeb from "../../../images/WebDevelopment/customWeb.png";
 import Nextjs from "../../../images/WebDevelopment/next-js.svg";
-import mangodb from "../../../images/WebDevelopment/mangicon.png";
 import Devoppicon from "../../../images/WebDevelopment/Devicon.png";
 // import Sql from "../../../images/WebDevelopment/mango.svg";
 import Firebase from "../../../images/WebDevelopment/mangicon.png";
@@ -20,72 +16,17 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "mdbreact/dist/css/mdb.css";
 
 function WebBanner() {
-  const BannerItem = styled.div`
-    text-align: center;
-  `;
+ 
   const BannerContent = styled.div``;
   const ButtonGroup = styled.div`
     margin-top: 20px;
   `;
-  const LinkButton = styled.a`
-    border: 1px solid #fc7e13;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-right: 30px;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-     &:hover {
-      background-color: #fc7e13;
-      border: 1px solid #fc7e13;
-      color: white;
-    }
-    @media (max-width: 575.98px) {
-      padding: 10px 10px;
-     margin-right: 10px;
-    }
-  `;
-   const PolygonWrap = styled.div`
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -30%);
-    @media (max-width: 575.98px) {
-      transform: translate(0, 20%);
-    }
-  `;
-  const PolygonImg = styled.img`
-    width: 70%;
-    @media (max-width: 1192px) {
-      width: 54%;
-    }
-    @media (max-width: 992px) {
-      width: 40%;
-    }
-    @media (max-width: 992px) {
-      width: 28%;
-    }
-    @media (max-width: 575.98px) {
-      width: 15%;
-    }
-  `;
-  const Ellipse = styled.div``;
-  const Circle = styled.img`
-    width: 8%;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -30%);
-    left: auto;
-    right: 0;
-    @media (max-width: 1192px) {
-      width: 15%;
-    }
-    @media (max-width: 575.98px) {
-      transform: translate(0, -10%);
-      top: 22%;
-    }
-  `;
+
+
+
   return (
     <Wrapper>
-      <div className="container px-4">
+      <div className="container px-4" id="websitedev">
         <div className="row style-responsive">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
             <h1 className="web_banner_heading responsive-heading">Custom Development</h1>
@@ -117,8 +58,7 @@ function WebBanner() {
                   </span>
                 </button>
               </NavHashLink>
-              {/* <LinkButton   style={{ color: 'white',backgroundColor: '#fc7e13' }}>Book an Appoinment</LinkButton></NavHashLink> */}
-              {/* <NavHashLink to="/#bookappointment">  <LinkButton className="gr_button" >Let’s Talk</LinkButton></NavHashLink> */}
+             
             </ButtonGroup>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
@@ -130,14 +70,6 @@ function WebBanner() {
                 loading="lazy"
               />
             </div>
-            <Ellipse>
-              {/* <Circle
-                src={threebars}
-                className="img-fluid mt-2"
-                loading="lazy"
-                alt=""
-              ></Circle> */}
-            </Ellipse>
           </div>
         </div>
         <hr className="banner_line mt-5" />

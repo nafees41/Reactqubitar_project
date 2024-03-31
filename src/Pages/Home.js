@@ -5,11 +5,8 @@ import Project from "../Components/Home/Project/Project";
 import Services from "../Components/Home/Services/Services";
 import Chose from "../Components/Home/Chose/Chose";
 import OurClient from "../Components/Home/OurClient/OurClient";
-import Testimonials from "../Components/Home/Testimonials/Testimonials";
-import Life from "../Components/Home/Life/Life";
 import Faq from "../Components/Home/Faq/Faq";
 import BookApointment from "../Components/Home/BookAppointment/BookApointment";
-import AboutUs from "../Components/Home/AboutUs/AboutUs";
 import AngularJs from "../Components/WebDevelopment/AngularJS/AngularJs";
 import OurApps from "../Components/MobileDevelopment/OurApps/OurApps";
 

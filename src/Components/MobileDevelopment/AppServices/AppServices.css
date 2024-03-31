@@ -1,3 +1,7 @@
+#app_services{
+  padding: 0px 40px 0px 40px;
+
+}
 .app_services_heading {
   color: var(--secondary-color);
 }
@@ -145,6 +149,10 @@
       font-size: 15px;
 
     }
+    #app_services{
+      padding: 0px;
+    
+    }
 }
 @media (max-width: 575.98px) {
   .App_row {
@@ -157,6 +165,10 @@
   .app_services_para {
     padding: 0 0 0 10px;
     text-align: center;
+  }
+  #app_services{
+    padding: 0px;
+  
   }
 
 }

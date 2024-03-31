@@ -7,7 +7,6 @@ import Logo from "../../../images/Logo.png";
 import whatsapp from "../../../images/whatsapp.png";
 import skyp from "../../../images/skyp.png";
 import linkedin from "../../../images/linkedin.png";
-import navarrow from "../../../images/navarrow.png";
 import ChatApp from "../../Chatapp/chatpage";
 import "./Navbar.css";
 

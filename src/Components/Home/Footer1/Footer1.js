@@ -8,10 +8,8 @@ import fb from "../../../images/WebDevelopment/fb.png";
 import insta from "../../../images/WebDevelopment/insta.png";
 import twiter from "../../../images/WebDevelopment/twiter.png";
 import "./Footer1.css";
-import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
-import ChatApp from "../../Chatapp/chatpage";
 
 function Footer1() {
   return (

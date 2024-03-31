@@ -8,9 +8,9 @@ import "./Mvpcreation.css"
 const Mvpcreation = () => {
   return (
     <div>
-       <div className="container m-0 px-5">
+       <div className="container builder-main px-5" id='creationspace'>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
               <div className="row mt-5">
               <div className="col-md-12">
                 <div
@@ -26,9 +26,9 @@ const Mvpcreation = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
           <div>
-              <h1 className='fw-bolder'>Creation of  MVP Builder </h1>
+              <h1 className='fw-bolder builder-title'>Creation of  MVP Builder </h1>
             </div>
             <div className="Mvp_para">
               <p>
@@ -51,7 +51,7 @@ const Mvpcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Mvp_lines_para">
+                  <span className="Mvp_lines_para builder-experienced">
                     Highly Experienced Team
                   </span>
                 </div>
@@ -64,7 +64,7 @@ const Mvpcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Mvp_lines_para Unique_Agile">
+                  <span className="Mvp_lines_para builder-experienced Unique_Agile">
                     Unique Agile Development
                   </span>
                 </div>
@@ -77,7 +77,7 @@ const Mvpcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Mvp_lines_para">
+                  <span className="Mvp_lines_para builder-experienced">
                     100% Quality Guarantee
                   </span>
                 </div>
@@ -90,7 +90,7 @@ const Mvpcreation = () => {
                     alt="switch"
                     loading="lazy"
                   />
-                  <span className="Mvp_lines_para">Secure Code base</span>
+                  <span className="Mvp_lines_para builder-experienced">Secure Code base</span>
                 </div>
               </div>
             </div>

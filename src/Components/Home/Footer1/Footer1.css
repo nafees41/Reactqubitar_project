@@ -6,6 +6,9 @@
 }
 .ff {
   background-image: url("../../../../src/images/footer.png");
+  padding: 0px 40px 0px 40px;
+
+
 }
 .footer_desc {
   color: white;

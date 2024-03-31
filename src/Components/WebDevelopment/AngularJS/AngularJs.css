@@ -1,3 +1,7 @@
+#angularjs{
+  padding: 0px 40px 0px 40px;
+}
+
 .angular_side {
   background: var(--secondary-color);
   color: white;
@@ -106,6 +110,7 @@
     padding: 10px;
     text-align: center;
   }
+
 }
 .angular-heading{
   font-weight: 500;

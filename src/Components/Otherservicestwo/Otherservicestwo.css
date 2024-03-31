@@ -1,3 +1,8 @@
+
+#otherservice{
+  padding: 0px 40px 0px 40px;
+
+}
 .services_card-page {
   padding: 30px;
   background-color: aliceblue;
@@ -53,6 +58,10 @@
     font-size: 11px;
     font-weight: 500;
   }
+  #otherservice{
+    padding: 0px;
+  
+  }
   
 }
 .mobilelink{
@@ -61,6 +70,29 @@
 .web_head{
   font-weight: 500;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  #otherservice{
+    padding: 0px;
+  
+  }
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #otherservice{
+    padding: 0px;
+  
+  }
+}
+
+
+
+
 @media only screen and (max-width: 280px) {
   .web_head {
     font-size: 11px;
@@ -72,5 +104,9 @@
   }
   .web_card {
     margin-bottom: 30px;
+  }
+  #otherservice{
+    padding: 0px;
+  
   }
 }

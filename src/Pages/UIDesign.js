@@ -19,14 +19,11 @@ function Home() {
     <Layout>
       <UIDesignBanner/>
       <WhatWeDo/>
-      {/* <UIServices/> */}
       <Process/>
       <OurApps/>
-      {/* <Portfolio/> */}
       <BookApointment/>
       <Testimonialspage/>
       <Servicespage/>
-      {/*<Testimonials/>*/}
     </Layout>
   );
 }

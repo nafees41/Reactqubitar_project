@@ -8,7 +8,8 @@ const Serviceshero = () => {
         <div className="row">
           <div className="col-md-12">
             <h2 className="text-center font-weight-bold hereheading"  data-aos="zoom-in-right"  data-aos-duration="2000"> MVP Builder</h2>
-            <p className="customWeb_para text-center hero-paragraph" data-aos="zoom-in-left"  data-aos-duration="2000">
+            <p className="customWeb_para text-center hero-paragraph" style={{ padding: "15px 60px 15px 60px"}}>
+
               The final phase where the website is tested thoroughly to ensure
               it meets project requirements, including user testing, browser
               testing, and quality assurance testing, before launching the

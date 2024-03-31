@@ -1,3 +1,9 @@
+
+#featuedcard{
+  padding: 0px 40px 0px 40px;
+
+
+}
 .featured_card-page {
   padding: 30px;
   background-color: aliceblue;
@@ -87,6 +93,11 @@
   }
 }
 @media screen and (max-width: 768px) {
+  #featuedcard{
+    padding: 0px;
+  
+  
+  }
   .swipp-page {
     padding: 30px !important;
   }
@@ -249,6 +260,11 @@
 
 
 @media only screen and (max-width: 575.98px) {
+  #featuedcard{
+    padding: 0px;
+  
+  
+  }
   .featured_card-page {
     margin-left: 15px;
     margin-right: 15px;
