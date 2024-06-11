@@ -70,7 +70,7 @@ function Contactservices() {
               }}>
               <SwiperSlide>
                 <Tilt>
-                <NavHashLink className="NavHashLink" to="nft">
+                <NavHashLink className="NavHashLink" to="/nft">
 
                   <div className="Contact_card">
                     <div className="Contact_cards_logo">
@@ -92,7 +92,7 @@ function Contactservices() {
                       </div>
                     </div>
                     <div className="Contact_card_more">
-                      <NavHashLink className="NavHashLink" to="nft">More Detail</NavHashLink>
+                      <NavHashLink className="NavHashLink" to="/nft">More Detail</NavHashLink>
                     </div>
                   </div>
                   </NavHashLink>
@@ -100,7 +100,7 @@ function Contactservices() {
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                <NavHashLink className="NavHashLink" to="web_development">
+                <NavHashLink className="NavHashLink" to="/web_development">
                   <div className="Contact_card">
                     <div className="Contact_cards_logo">
                       <img src={web} className="img-fluid " alt="slider" />
@@ -121,7 +121,7 @@ function Contactservices() {
                       </div>
                     </div>
                     <div className="Contact_card_more">
-                      <NavHashLink className="NavHashLink" to="web_development">
+                      <NavHashLink className="NavHashLink" to="/web_development">
                         More Detail
                       </NavHashLink>
                     </div>
@@ -131,7 +131,7 @@ function Contactservices() {
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                <NavHashLink className="NavHashLink" to="mobile_dev">
+                <NavHashLink className="NavHashLink" to="/mobile_dev">
                   <div className="Contact_card">
                     <div className="Contact_cards_logo">
                       <img src={mobile} className="img-fluid" alt="slider" />
@@ -151,7 +151,7 @@ function Contactservices() {
                       </div>
                     </div>
                     <div className="Contact_card_more">
-                      <NavHashLink className="NavHashLink" to="mobile_dev">
+                      <NavHashLink className="NavHashLink" to="/mobile_dev">
                         More Detail
                       </NavHashLink>
                     </div>
@@ -166,7 +166,7 @@ function Contactservices() {
                 <Tilt>
                 <NavHashLink
                         className="NavHashLink"
-                        to="digital_marketing"
+                        to="/digital_marketing"
                       >
                   <div className="Contact_card">
                     <div className="Contact_cards_logo">
@@ -189,7 +189,7 @@ function Contactservices() {
                     <div className="Contact_card_more">
                       <NavHashLink
                         className="NavHashLink"
-                        to="digital_marketing"
+                        to="/digital_marketing"
                       >
                         More Detail
                       </NavHashLink>
@@ -203,7 +203,7 @@ function Contactservices() {
               </SwiperSlide>
               <SwiperSlide>
                 <Tilt>
-                <NavHashLink className="NavHashLink" to="ui_ux_design">
+                <NavHashLink className="NavHashLink" to="/ui_ux_design">
                   <div className="Contact_card">
                     <div className="services_cards_logo">
                       <img src={uiux} className="img-fluid " alt="slider" />
@@ -224,7 +224,7 @@ function Contactservices() {
                       </div>
                     </div>
                     <div className="Contact_card_more">
-                      <NavHashLink className="NavHashLink" to="ui_ux_design">
+                      <NavHashLink className="NavHashLink" to="/ui_ux_design">
                         More Detail
                       </NavHashLink>
                     </div>

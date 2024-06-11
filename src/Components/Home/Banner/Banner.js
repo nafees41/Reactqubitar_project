@@ -81,10 +81,8 @@ function Banner() {
   }, []);
   return (
     <Wrapper>
-     
       <div className="container" id="home_banner">
-      
-        <div className="row justify-content-center">
+       <div className="row justify-content-center">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
             <BannerItem>
               <BannerContent>
@@ -96,8 +94,7 @@ function Banner() {
                       src={Switch}
                       className="img-fluid growthe"
                       alt="switch"
-                      loading="lazy"
-                    /><span className="wth">wth</span>
+                      loading="lazy" /><span className="wth">wth</span>
                     
                   </span>
                   
